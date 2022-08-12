@@ -15,8 +15,10 @@ TODO: Insert an image from the paper
 #### Reasoning Domain
 
 - Discrete (Entities only)
+    - predict qualifiers
 - Discrete Temporal (Entities + Dates)
 - Discrete + Continuous (Entities + string/numerical Literals)
+
 
 #### Logical Expressiveness
 
@@ -29,6 +31,8 @@ TODO: Insert an image from the paper
 - Transductive
 - Inductive (limited)
 - Inductive
+    - Only target inductive
+    - Any node on the reasoning path inductive
 
 #### Modeling
 
@@ -41,6 +45,9 @@ TODO: Insert an image from the paper
 
 - Fixed patterns from specific datasets
 - Arbitrary query DAGs
+- Extended query DAGs (e.g., mpqe/StarQE extensions)
+- Allowing cycles
+- Arbitrary query shapes
 
 ### Query Operators
 
@@ -95,6 +102,11 @@ TODO: Insert an image from the paper
 
 ### Very Large Datasets
 
+### Dataset tools
+
+- [Graph Query Sampler](https://github.com/miselico/graph_query_sampler): Not a method, rather a dataset generator
+
+
 ## :wrench: Implementations
 
 - [KGReasoning](https://github.com/snap-stanford/KGReasoning): GQE, Query2Box, BetaE
@@ -103,6 +115,5 @@ TODO: Insert an image from the paper
 - [SMORE](https://github.com/google-research/smore): GQE, Query2Box, BetaE + Very Large Datasets
 - [GNN-QE](https://github.com/DeepGraphLearning/GNN-QE): GNN-QE
 - [TAR](https://github.com/lilv98/TAR): Former ABIN
-- 
 
 
