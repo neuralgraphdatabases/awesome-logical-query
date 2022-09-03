@@ -12,11 +12,34 @@ TODO: Insert an image from the paper
   - <details>
       <summary>Expand the list</summary>
 
-      - some text
       - [GQE](https://proceedings.neurips.cc/paper/2018/file/ef50c335cca9f340bde656363ebd02fd-Paper.pdf), NeurIPS 2018  
       - [GQE+hashing](https://ieeexplore.ieee.org/abstract/document/8970688/?casa_token=gLHFmr7V2ekAAAAA:wwDbUufdkwHTQo68pansuhJsJ2XQAF0P21_mQSu75KVRUkgqARmXBs_VEmFOkFgz_Lq-FXP8OA), ICDM 2019  
       - [Query2Box](https://openreview.net/pdf?id=BJgr4kSFDS), ICLR 2020  
-      - [BetaE](https://proceedings.neurips.cc/paper/2020/file/e43739bba7cdb577e9e3e4e42447f5a5-Paper.pdf)  
+      - [BetaE](https://proceedings.neurips.cc/paper/2020/file/e43739bba7cdb577e9e3e4e42447f5a5-Paper.pdf), NeurIPS 2020
+      - [EmQL](https://proceedings.neurips.cc/paper/2020/hash/fe74074593f21197b7b7be3c08678616-Abstract.html), NeurIPS 2020
+      - [MPQE](https://grlplus.github.io/papers/26.pdf), ICML 2020 Workshop
+      - [Regex Queries over Incomplete Knowledge Bases](https://arxiv.org/abs/2005.00480), AKBC 2021
+      - [BiQE](https://ojs.aaai.org/index.php/AAAI/article/view/16630)
+      - [Knowledge Sheaves: A Sheaf-Theoretic Framework for Knowledge Graph Embedding](https://arxiv.org/pdf/2110.03789.pdf), arxiv 2021
+      - [CQD](https://openreview.net/forum?id=Mos9F9kDwkz), ICLR 2021
+      - [HypE](https://dl.acm.org/doi/abs/10.1145/3442381.3449974?casa_token=tQx20rBUtMwAAAAA:GRqp4JBze6ybzZzeSdCc9cNGlqN0wkAP0BVBPctAgtUVviVSoNiUQcNxBbEuGVGZxnCzJyLqfMmiYg), WWW 2021
+      - [NewLook](http://tonghanghang.org/pdfs/kdd21_newlook.pdf), KDD 2021
+      - [ConE](https://proceedings.neurips.cc/paper/2021/hash/a0160709701140704575d499c997b6ca-Abstract.html), NeurIPS 2021
+      - [PERM](https://proceedings.neurips.cc/paper/2021/hash/c4d2ce3f3ebb5393a77c33c0cd95dc93-Abstract.html), NeurIPS 2021
+      - [Neural-symbolic Approach for Ontology-mediated Query Answering](https://arxiv.org/pdf/2106.14052.pdf), arxiv 2021
+      - [LogicE](https://arxiv.org/pdf/2103.00418.pdf), arxiv 2021
+      - [MLPMix](https://openreview.net/forum?id=tgcAoUVHRIB), ICLR 2022
+      - [FuzzQE](https://ojs.aaai.org/index.php/AAAI/article/view/20310), AAAI 2022
+      - [GNN-QE](https://arxiv.org/abs/2205.10128), ICML 2022
+      - [CBR-SUBG](https://proceedings.mlr.press/v162/das22a.html), ICML 2022
+      - [SMORE](https://arxiv.org/abs/2110.14890), KDD 2022
+      - [kgTransformer](https://keg.cs.tsinghua.edu.cn/jietang/publications/KDD22-Liu-et-al-KG-Transformer.pdf), KDD 2022
+      - [LinE](https://dl.acm.org/doi/pdf/10.1145/3534678.3539338?casa_token=_jPlNJj2TlYAAAAA:pKAA42_lrZ2JIHc1YZV0fchIlRiIcqCy8oCBL2UU3Gm84MOeTSYLfQn31DKtXBbU2yqzC7LUsYvREBw), KDD 2022
+      - [Query2Particles](https://arxiv.org/abs/2204.12847), NAACL 2022
+      - [Joint Abductive and Inductive Neural Logical Reasoning](https://arxiv.org/abs/2205.14591), arxiv 2022
+      - [Type-aware embeddings for multi-hop reasoning over knowledge graphs](https://arxiv.org/abs/2205.00782), arxiv 2022
+      - [FLEX: Feature-Logic Embedding Framework for CompleX Knowledge Graph Reasoning](https://arxiv.org/abs/2205.11039), arxiv 2022
+      - [TFLEX: Temporal Feature-Logic Embedding Framework for Complex Reasoning over Temporal Knowledge Graph](https://arxiv.org/pdf/2205.14307.pdf)
   
     </details> 
 
