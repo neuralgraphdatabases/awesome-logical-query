@@ -12,6 +12,7 @@ TODO: Insert an image from the paper
   - <details>
         <summary>Expand the list</summary>
 
+        - some text
         - [GQE](https://proceedings.neurips.cc/paper/2018/file/ef50c335cca9f340bde656363ebd02fd-Paper.pdf), NeurIPS 2018  
         - [GQE+hashing](https://ieeexplore.ieee.org/abstract/document/8970688/?casa_token=gLHFmr7V2ekAAAAA:wwDbUufdkwHTQo68pansuhJsJ2XQAF0P21_mQSu75KVRUkgqARmXBs_VEmFOkFgz_Lq-FXP8OA), ICDM 2019  
         - [Query2Box](https://openreview.net/pdf?id=BJgr4kSFDS), ICLR 2020  
