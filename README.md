@@ -502,9 +502,14 @@ Progressive scale of supported operators. That is, all models listed under the "
 
 ### Metrics
 
-- Generalization: predicting hard answers (MRR / Hits@k)
+- Original metrics: ROC AUC and Average Percentile Rank over 1000 negative samples. 
+  - Proposed by original [GQE](https://proceedings.neurips.cc/paper/2018/file/ef50c335cca9f340bde656363ebd02fd-Paper.pdf) (NeurIPS 2018), used by [GQE+hashing](https://ieeexplore.ieee.org/abstract/document/8970688/?casa_token=gLHFmr7V2ekAAAAA:wwDbUufdkwHTQo68pansuhJsJ2XQAF0P21_mQSu75KVRUkgqARmXBs_VEmFOkFgz_Lq-FXP8OA). **Not used after**.
+- Generalization: predicting hard answers (MRR / Hits@k).
+  - Introduced by [Query2Box](https://openreview.net/pdf?id=BJgr4kSFDS) (ICLR 2020). **Standard metric**.
 - Generalization: from ranking to binary classification
+  - Proposed in [Approximate knowledge graph query answering: from ranking to binary classification](https://library.oapen.org/bitstream/handle/20.500.12657/48251/9783030723088.pdf?sequence=1#page=114)
 - Entailment: faithfulness - ability to recover easy answers (no link prediction) (MRR / Hits@k)
+  - Proposed by [EmQL](https://proceedings.neurips.cc/paper/2020/hash/fe74074593f21197b7b7be3c08678616-Abstract.html) (NeurIPS 2020)
 - Estimating the cardinality of answer set size (Spearman's rank correlation, MAPE)
 - Predicting easy answers before hard answers (ROC-AUC)
 
