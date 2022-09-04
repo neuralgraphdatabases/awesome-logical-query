@@ -344,12 +344,50 @@ TODO: Insert an image from the paper
 
 ### Query Operators
 
-- JOIN (intersection)
-- \+ UNION 
-- \+ NOT (negation)
-- \+ FILTER over discrete outputs (filtering entities)
-- \+ FILTER over discrete + continuous outputs (+ filtering literals)
-- \+ AGGREGATIONS (GROUP BY, ORDER BY, etc)
+Progressive scale of supported operators. That is, all models listed under the "NOT" category also support JOIN and UNION.
+
+<details>
+  <summary>JOIN (intersection) (2) </summary>
+
+  0. None as of Sept 2022
+
+</details>
+
+<details>
+  <summary>\+ UNION (X) </summary>
+
+  1. None as of Sept 2022
+
+</details>
+
+<details>
+  <summary>\+ NOT (negation) (Y) </summary>
+
+  1. None as of Sept 2022
+
+</details>
+
+<details>
+  <summary> + FILTER over discrete outputs (filtering entities) (0) </summary>
+
+  0. None as of Sept 2022
+
+</details>
+
+<details>
+  <summary> + FILTER over discrete + continuous outputs (+ filtering literals) (0) </summary>
+
+  0. None as of Sept 2022
+
+</details>
+
+<details>
+  <summary> + AGGREGATIONS (GROUP BY, ORDER BY, etc) (0) </summary>
+
+  0. None as of Sept 2022
+
+</details>
+
 
 ### Return Type (Projections)
 
