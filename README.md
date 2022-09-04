@@ -518,9 +518,62 @@ Progressive scale of supported operators. That is, all models listed under the "
 
 ### BetaE Datasets
 
-- FB15k
-- FB15k237
-- NELL995
+The main difference with Query2Box datasets: queries in the BetaE datasets have less than 100 answers.
+
+<details>
+  <summary> Graphs </summary>
+
+  | Dataset | Entities | Relations | Training Edges | Validation Edges | Test Edges | Total Edges
+  |-----|----:|----:|----:|----:|----:|----:|
+  | FB15k    | 14,951 | 1,345 | 483,142 | 50,000 | 59,071 | 592,213 |
+  | FB15k237 | 14,505 | 237   | 272,115 | 17,526 | 20,438 | 310,079 |
+  | NELL995  | 63,361 | 200   | 114,213 | 14,324 | 14,267 | 142,804 | 
+
+</details>
+
+<details>
+  <summary> Queries </summary>
+
+  <!-- <table>
+  <th>
+    <td>Queries</td>
+    <td colspan="2">Training</td>
+    <td colspan="2">Validation</td>
+    <td colspan="2">Test</td>
+  </th>
+  <tr>
+    <td>Dataset</td>
+    <td>1p/2p/3p/2i/3i</td>
+    <td>2in/3in/inp/pin/pni</td>
+    <td>1p</td>
+    <td>others</td>
+    <td>1p</td>
+    <td>others</td>
+  </tr>
+  <tr>
+    <td> FB15k </td>
+  </tr>
+</table> -->
+
+  | Queries | Training | Training |  Validation | Validation |  Test | Test |
+  |---------|---------:|-----------:|-----:|---------:|-----------:|-----:|
+  | Dataset | 1p/2p/3p/2i/3i  | 2in/3in/inp/pin/pni  | 1p | others | 1p | others |
+  | FB15k    | 273,710 | 27,371 | 59,097 | 8,000 | 67,016 | 8,000 |
+  | FB15k237 | 149,689 | 14,968 | 20,101 | 5,000 | 22,812 | 5,000 |
+  | NELL995  | 107,982 | 10,798 | 16,927 | 4,000 | 17,034 | 4,000 | 
+
+</details>
+
+<details>
+  <summary> Average \# of answers </summary>
+
+  | Dataset | 1p | 2p |  3p | 2i |  3i | ip | pi | 2u | up | 2in | 3in | inp | pin | pni |
+  |---------|---:|---:|----:|---:|----:|---:|---:|---:|---:|---:|----:|---:|---:|---:|
+  | FB15k   | 1.7 | 19.6 | 24.4 | 8.0 | 5.2 | 18.3 | 12.5 | 18.9 | 23.8 | 15.9 | 14.6 | 19.8 | 21.6 | 16.9 |
+  | FB15k237 | 1.7 | 17.3 | 24.3 | 6.9 | 4.5 | 17.7 | 10.4 | 19.6 | 24.3 | 16.3 | 13.4 | 19.5 | 21.7 | 18.2 |
+  | NELL995 | 1.6 | 14.9 | 17.5 | 5.7 | 6.0 | 17.4 | 11.9 | 14.9 | 19.0 | 12.9 | 11.1 | 12.9 | 16.0 | 13.0 | 
+  
+</details>
 
 ### Query2Box Datasets
 
