@@ -345,11 +345,11 @@ TODO: Insert an image from the paper
 ### Query Operators
 
 - JOIN (intersection)
-- UNION 
-- NOT (negation)
-- FILTER over discrete outputs (filtering entities)
-- FILTER over discrete + continuous outputs (+ filtering literals)
-- AGGREGATIONS (GROUP BY, ORDER BY, etc)
+- + UNION 
+- + NOT (negation)
+- + FILTER over discrete outputs (filtering entities)
+- + FILTER over discrete + continuous outputs (+ filtering literals)
+- + AGGREGATIONS (GROUP BY, ORDER BY, etc)
 
 ### Return Type (Projections)
 
