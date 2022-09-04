@@ -520,6 +520,8 @@ Progressive scale of supported operators. That is, all models listed under the "
 
 The main difference with Query2Box datasets: queries in the BetaE datasets have less than 100 answers.
 
+Introduced in [Beta Embeddings for Multi-Hop Logical Reasoning in Knowledge Graphs](https://proceedings.neurips.cc/paper/2020/file/e43739bba7cdb577e9e3e4e42447f5a5-Paper.pdf), NeurIPS 2020
+
 <details>
   <summary> Graphs </summary>
 
@@ -534,27 +536,6 @@ The main difference with Query2Box datasets: queries in the BetaE datasets have 
 <details>
   <summary> Queries </summary>
 
-  <!-- <table>
-  <th>
-    <td>Queries</td>
-    <td colspan="2">Training</td>
-    <td colspan="2">Validation</td>
-    <td colspan="2">Test</td>
-  </th>
-  <tr>
-    <td>Dataset</td>
-    <td>1p/2p/3p/2i/3i</td>
-    <td>2in/3in/inp/pin/pni</td>
-    <td>1p</td>
-    <td>others</td>
-    <td>1p</td>
-    <td>others</td>
-  </tr>
-  <tr>
-    <td> FB15k </td>
-  </tr>
-</table> -->
-
   | Queries | Training | Training |  Validation | Validation |  Test | Test |
   |---------|---------:|-----------:|-----:|---------:|-----------:|-----:|
   | Dataset | 1p/2p/3p/2i/3i  | 2in/3in/inp/pin/pni  | 1p | others | 1p | others |
@@ -565,7 +546,7 @@ The main difference with Query2Box datasets: queries in the BetaE datasets have 
 </details>
 
 <details>
-  <summary> Average \# of answers </summary>
+  <summary> Average Number of Answers </summary>
 
   | Dataset | 1p | 2p |  3p | 2i |  3i | ip | pi | 2u | up | 2in | 3in | inp | pin | pni |
   |---------|---:|---:|----:|---:|----:|---:|---:|---:|---:|---:|----:|---:|---:|---:|
@@ -577,9 +558,43 @@ The main difference with Query2Box datasets: queries in the BetaE datasets have 
 
 ### Query2Box Datasets
 
-- FB15k
-- FB15k237
-- NELL995
+Introduced in [Query2box: Reasoning over Knowledge Graphs in Vector Space Using Box Embeddings](https://openreview.net/pdf?id=BJgr4kSFDS), ICLR 2020. 
+
+EPFO queries are considered **easier** than BetaE datasets. Doesn't have queries with negations.
+
+<details>
+  <summary> Graphs </summary>
+
+  | Dataset | Entities | Relations | Training Edges | Validation Edges | Test Edges | Total Edges
+  |-----|----:|----:|----:|----:|----:|----:|
+  | FB15k    | 14,951 | 1,345 | 483,142 | 50,000 | 59,071 | 592,213 |
+  | FB15k237 | 14,505 | 237   | 272,115 | 17,526 | 20,438 | 310,079 |
+  | NELL995  | 63,361 | 200   | 114,213 | 14,324 | 14,267 | 142,804 | 
+
+</details>
+
+<details>
+  <summary> Queries </summary>
+
+  | Queries | Training | Training |  Validation | Validation |  Test | Test |
+  |---------|---------:|-----------:|-----:|---------:|-----------:|-----:|
+  | Dataset | 1p  | others  | 1p | others | 1p | others |
+  | FB15k    | 273,710 | 273,710 | 59,097 | 8,000 | 67,016 | 8,000 |
+  | FB15k237 | 149,689 | 149,689 | 20,101 | 5,000 | 22,812 | 5,000 |
+  | NELL995  | 107,982 | 107,982 | 16,927 | 4,000 | 17,034 | 4,000 | 
+
+</details>
+
+<details>
+  <summary> Average Number of Answers </summary>
+
+  | Dataset | 1p | 2p |  3p | 2i |  3i | ip | pi | 2u | up | 
+  |---------|---:|---:|----:|---:|----:|---:|---:|---:|---:|
+  | FB15k   | 10.8 | 255.6 | 250.0 | 90.3 | 64.1 | 593.8 | 190.1 | 27.8 | 227.0 | 
+  | FB15k237 | 13.3 | 131.4 | 215.3 | 69.0 | 48.9 | 593.8 | 257.7 | 35.6 | 127.7 | 
+  | NELL995 | 8.5 | 56.6 | 65.3 | 30.3 | 15.9 | 310.0 | 144.9 | 14.4 | 62.5 | 
+  
+</details>
 
 ### Type-Aware Datasets
 
