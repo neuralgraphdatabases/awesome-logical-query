@@ -461,14 +461,15 @@ Progressive scale of supported operators. That is, all models listed under the "
 ### Return Type (Projections)
 
 <details>
-  <summary> Final node only (6) </summary>
+  <summary> Final node only (7) </summary>
 
   1. [GQE](https://proceedings.neurips.cc/paper/2018/file/ef50c335cca9f340bde656363ebd02fd-Paper.pdf), NeurIPS 2018  
   2. [GQE+hashing](https://ieeexplore.ieee.org/abstract/document/8970688/?casa_token=gLHFmr7V2ekAAAAA:wwDbUufdkwHTQo68pansuhJsJ2XQAF0P21_mQSu75KVRUkgqARmXBs_VEmFOkFgz_Lq-FXP8OA), ICDM 2019
   3. [MPQE](https://grlplus.github.io/papers/26.pdf), ICML 2020 Workshop
   4. [Knowledge Sheaves: A Sheaf-Theoretic Framework for Knowledge Graph Embedding](https://arxiv.org/pdf/2110.03789.pdf), arxiv 2021
   5. [MLPMix](https://openreview.net/forum?id=tgcAoUVHRIB), ICLR 2022
-  6. [CBR-SUBG](https://proceedings.mlr.press/v162/das22a.html), ICML 2022
+  6. [StarQE](https://arxiv.org/abs/2106.08166), ICLR 2022
+  7. [CBR-SUBG](https://proceedings.mlr.press/v162/das22a.html), ICML 2022
 
 </details>
 
