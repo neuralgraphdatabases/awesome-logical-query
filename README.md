@@ -518,7 +518,7 @@ Progressive scale of supported operators. That is, all models listed under the "
 
 ### BetaE Datasets
 
-The main difference with Query2Box datasets: queries in the BetaE datasets have less than 100 answers.
+The main difference with Query2Box datasets: queries in the BetaE datasets have less than 100 answers. Has queries with negation.
 
 Introduced in [Beta Embeddings for Multi-Hop Logical Reasoning in Knowledge Graphs](https://proceedings.neurips.cc/paper/2020/file/e43739bba7cdb577e9e3e4e42447f5a5-Paper.pdf), NeurIPS 2020
 
@@ -603,9 +603,39 @@ EPFO queries are considered **easier** than BetaE datasets. Doesn't have queries
 - YAGO 4 (Abductive), introduced in [TAR](https://github.com/lilv98/TAR)
 - DBpedia (Abductive), introduced in [TAR](https://github.com/lilv98/TAR)
 
+### Very Large Datasets
+
+Introduced in [SMORE: Knowledge Graph Completion and Multi-hop Reasoning in Massive Knowledge Graphs](https://arxiv.org/abs/2110.14890), KDD 2022.
+
+Training queries are sampled on-the-fly during training due to the huge size of underlying graphs. 
+TODO: confirm with Hongyu the number of validation / test queries.
+
+<details>
+  <summary> Graphs </summary>
+
+  | Dataset | Entities | Relations | Training Edges | Validation Edges | Test Edges | Total Edges
+  |-----|----:|----:|----:|----:|----:|----:|
+  | FB400k    | 409,829 | 918 | 1,075,837 | 537,917 | 537,917 | 2,151,671 |
+  | WikiKG2 | 2,500,604 | 535   | 16,109,182 | 429,456 | 598,543 | 17,137,181 |
+  | Freebase  | 86,054,361 | 14,824  | 304,727,650 | 16,929,318 | 16,929,308 | 338,586,276 | 
+
+</details>
+
+<details>
+  <summary> Queries </summary>
+
+  | Queries |  Validation | Validation |  Test | Test |
+  |---------|------------:|-----------:|------:|-----:|
+  | Dataset |  1p | others | 1p | others |
+  | FB400k    | TODO | TODO | TODO | TODO |
+  | WikiKG2 | TODO | TODO | TODO | TODO |
+  | Freebase  | TODO | TODO | TODO | TODO |
+
+</details>
+
 ### Inductive Datasets
 
-### Very Large Datasets
+
 
 ### Dataset tools
 
