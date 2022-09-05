@@ -596,6 +596,36 @@ EPFO queries are considered **easier** than BetaE datasets. Doesn't have queries
   
 </details>
 
+### Regex Queries
+
+Queries emulating property paths in SPARQL with variable length of relation paths (up to length 5). Queries are EPFO queries, i.e., no negation.
+
+* FB15k-Regex is based on Freebase, queries have less than 50 answers, 21 query types
+* Wiki100-Regex is based on query logs from the official Wikidata SPARQL endpoint, 5 query types. 
+
+Introduced in [Regex Queries over Incomplete Knowledge Bases](https://arxiv.org/abs/2005.00480), AKBC 2021
+
+<details>
+  <summary> Graphs </summary>
+
+  | Dataset | Entities | Relations | Training Edges | Validation Edges | Test Edges | Total Edges
+  |-----|----:|----:|----:|----:|----:|----:|
+  | FB15k    | 14,951 | 1,345 | 483,142 | 50,000 | 59,071 | 592,213 |
+  | Wiki100 | 41,291 | 100   | 389,795 | 21,655 | 21,656 | 433,106 |
+
+
+</details>
+
+<details>
+  <summary> Queries </summary>
+
+  #### FB15k-Regex
+
+
+  #### Wiki100-Regex
+
+</details>
+
 ### Type-Aware Datasets
 
 - TODO
@@ -608,6 +638,8 @@ EPFO queries are considered **easier** than BetaE datasets. Doesn't have queries
 Introduced in [SMORE: Knowledge Graph Completion and Multi-hop Reasoning in Massive Knowledge Graphs](https://arxiv.org/abs/2110.14890), KDD 2022.
 
 Training queries are sampled on-the-fly during training due to the huge size of underlying graphs. 
+
+The underlying graphs are FB400k (400K nodes), WikiKG 2 (2.5M nodes) [(from OGB)](https://ogb.stanford.edu/docs/linkprop/#ogbl-wikikg2), and full Freebase (86M nodes)
 TODO: confirm with Hongyu the number of validation / test queries.
 
 <details>
