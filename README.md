@@ -626,10 +626,16 @@ Introduced in [Regex Queries over Incomplete Knowledge Bases](https://arxiv.org/
 
 </details>
 
+### DAG Queries
+
+Conjunctive queries not limited to 9 patterns from Query2Box/BetaE datasets. 
+
+Introduced in [Answering complex queries in knowledge graphs with bidirectional sequence encoders](https://ojs.aaai.org/index.php/AAAI/article/view/16630), AAAI 2021
+
 ### Type-Aware Datasets
 
-- TODO
-- TODO
+- LUBM, introduced in [A Neural-symbolic Approach for Ontology-mediated Query Answering](https://arxiv.org/pdf/2106.14052.pdf), arxiv 2021
+- NELL, introduced in [A Neural-symbolic Approach for Ontology-mediated Query Answering](https://arxiv.org/pdf/2106.14052.pdf), arxiv 2021
 - YAGO 4 (Abductive), introduced in [TAR](https://github.com/lilv98/TAR)
 - DBpedia (Abductive), introduced in [TAR](https://github.com/lilv98/TAR)
 
@@ -665,8 +671,13 @@ TODO: confirm with Hongyu the number of validation / test queries.
 
 </details>
 
+### Hyper-Relational Datasets
+
+
 ### Inductive Datasets
 
+
+### Temporal Datasets
 
 
 ### Dataset tools
