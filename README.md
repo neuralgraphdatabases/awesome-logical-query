@@ -611,7 +611,9 @@ Two datasets:
 * FB15k-Regex is based on Freebase, queries have less than 50 answers, 21 query types
 * Wiki100-Regex is based on query logs from the official Wikidata SPARQL endpoint, 5 query types. 
 
-Introduced in [Regex Queries over Incomplete Knowledge Bases](https://arxiv.org/abs/2005.00480), AKBC 2021
+Introduced in [Regex Queries over Incomplete Knowledge Bases](https://arxiv.org/abs/2005.00480), AKBC 2021.
+
+Repo: [GitHub](https://github.com/dair-iitd/kbi-regex) - no actual data dumps are present :thinking_face: 
 
 <details>
   <summary> Graphs </summary>
