@@ -602,9 +602,11 @@ EPFO queries are considered **easier** than BetaE datasets. Doesn't have queries
 
 Queries emulating property paths in SPARQL with variable length of relation paths (up to length 5). Queries are EPFO queries, i.e., no negation.
 New operators over relations resemble those from SPARQL:
-* $ r_1 / r_2 / dots $ - relational path, aka classic projection queries
-* $ r_1 \lor r_2 $ - a union of decomposed patterns $(e, r_1, ?) \lor (e, r_2, ?)$
-* Kleene plus $r+$ - one or more occurence of relation $r$, eg, $r_1/r_2^{+}$ corresponds to $r_1 / r_2$, $r_1 / r_2 / r_2$, $r_1 / r_2 / r_2 / r_2 / \dots$ up to some final depth. Those *can* be cyclic patterns. 
+* $r_1 / r_2 / dots$ - relational path, aka classic projection queries
+* $r_1 \lor r_2$ - a union of decomposed patterns $(e, r_1, ?) \lor (e, r_2, ?)$
+* Kleene plus $r^{+}$ - one or more occurence of relation $r$, eg, $r_1/r_2^{+}$ corresponds to $r_1 / r_2$, $r_1 / r_2 / r_2$, $r_1 / r_2 / r_2 / r_2 / \dots$ up to some final depth. Those *can* be cyclic patterns. 
+
+Two datasets:
 
 * FB15k-Regex is based on Freebase, queries have less than 50 answers, 21 query types
 * Wiki100-Regex is based on query logs from the official Wikidata SPARQL endpoint, 5 query types. 
