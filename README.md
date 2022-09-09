@@ -676,6 +676,22 @@ Conjunctive queries not limited to 9 patterns from Query2Box/BetaE datasets.
 
 Introduced in [Answering complex queries in knowledge graphs with bidirectional sequence encoders](https://ojs.aaai.org/index.php/AAAI/article/view/16630), AAAI 2021
 
+<details>
+  <summary> Graphs </summary>
+
+  | Dataset | Entities | Relations | Training Edges | Validation Edges | Test Edges | Total Edges
+  |-----|----:|----:|----:|----:|----:|----:|
+  
+
+
+</details>
+
+<details>
+  <summary> Queries </summary>
+
+
+</details>
+
 ### Type-Aware Datasets
 
 - LUBM, introduced in [A Neural-symbolic Approach for Ontology-mediated Query Answering](https://arxiv.org/pdf/2106.14052.pdf), arxiv 2021
