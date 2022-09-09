@@ -613,7 +613,7 @@ Two datasets:
 
 Introduced in [Regex Queries over Incomplete Knowledge Bases](https://arxiv.org/abs/2005.00480), AKBC 2021.
 
-Repo: [GitHub](https://github.com/dair-iitd/kbi-regex) - no actual data dumps are present :thinking_face: 
+Repo: [GitHub](https://github.com/dair-iitd/kbi-regex) - no actual data dumps are present :(
 
 <details>
   <summary> Graphs </summary>
