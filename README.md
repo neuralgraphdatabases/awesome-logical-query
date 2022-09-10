@@ -717,8 +717,8 @@ New FB15K-237-CQ and WN18RR-CQ datasets have two variations:
   No detailed breakdown by query type is available, only the DAGs stats from the main table.
 
   | Dataset | FB15K-237-CQ | FB15K-237-CQ | FB15K-237-CQ | WN18RR-CQ | WN18RR-CQ | WN18RR-CQ |
-  | Dataset | Train | Validation | Test | Train | Validation | Test |
   |-----|----:|----:|----:|----:|----:|----:|
+  | Dataset | Train | Validation | Test | Train | Validation | Test |
   | Paths | 50,000 | - | - | 10,000 | - | - |
   | DAGs | 48,865 | 2,785 | 2,599 | 9,465 | 112 | 95 |
   | Avg Masks | 1.86 | 5.91 | 6.05 | 1.84 | 5.13 | 4.91 |
