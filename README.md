@@ -698,8 +698,8 @@ In addition to a normal graph of entities (instances) a-la BetaE datasets, the t
 
 Those datasets might include an additional task of predicting types of answer entities (Concept Retrieval).
 
-- LUBM, introduced in [A Neural-symbolic Approach for Ontology-mediated Query Answering](https://arxiv.org/pdf/2106.14052.pdf), arxiv 2021
-- NELL, introduced in [A Neural-symbolic Approach for Ontology-mediated Query Answering](https://arxiv.org/pdf/2106.14052.pdf), arxiv 2021
+- LUBM, introduced in [Neuro-Symbolic Ontology-Mediated Query Answering](https://openreview.net/pdf?id=wwVb95CkrFm), OpenReview 2021
+- NELL, introduced in [Neuro-Symbolic Ontology-Mediated Query Answering](https://openreview.net/pdf?id=wwVb95CkrFm), OpenReview 2021
 - YAGO 4, introduced in [TAR: Neural Logical Reasoning across TBox and ABox](https://github.com/lilv98/TAR)
 - DBpedia, introduced in [TAR: Neural Logical Reasoning across TBox and ABox](https://github.com/lilv98/TAR)
 
@@ -811,7 +811,7 @@ TODO: confirm with Hongyu the number of validation / test queries.
   14. (HypE) [Self-Supervised Hyperboloid Representations from Logical Queries over Knowledge Graphs](https://dl.acm.org/doi/abs/10.1145/3442381.3449974?casa_token=tQx20rBUtMwAAAAA:GRqp4JBze6ybzZzeSdCc9cNGlqN0wkAP0BVBPctAgtUVviVSoNiUQcNxBbEuGVGZxnCzJyLqfMmiYg), WWW 2021 + (new) DBpedia + Amazon prod dataset
   15. (NewLook) [Neural-Answering Logical Queries on Knowledge Graphs](http://tonghanghang.org/pdfs/kdd21_newlook.pdf) (KDD’21) ← subgraph matching
   16. [Benchmarking the Combinatorial Generalizability of Complex Query Answering on Knowledge Graphs](https://arxiv.org/abs/2109.08925) ← benchmarking, 2021, new datasets
-  17. [A Neural-symbolic Approach for Ontology-mediated Query Answering](https://arxiv.org/pdf/2106.14052.pdf) arxiv 2021 (Q2B with rules), new datasets with types - LUBM + NELL
+  17. [Neuro-Symbolic Ontology-Mediated Query Answering](https://openreview.net/pdf?id=wwVb95CkrFm) OpenReview 2021 (Q2B with rules), new datasets with types - LUBM + NELL
   18. (LogicE) [Logic Embeddings for Complex Query Answering](https://arxiv.org/pdf/2103.00418.pdf) arxiv 2021
   19. (StarQE) [Query Embedding on Hyper-relational Knowledge Graphs](https://arxiv.org/abs/2106.08166) ICLR 2022, new datasets
   20. (MLPMix) [Neural Methods for Logical Reasoning over Knowledge Graphs](https://openreview.net/forum?id=tgcAoUVHRIB) ICLR 2022
@@ -821,10 +821,11 @@ TODO: confirm with Hongyu the number of validation / test queries.
   24. (SMORE) [SMORE: Knowledge Graph Completion and Multi-hop Reasoning in Massive Knowledge Graphs](https://arxiv.org/abs/2110.14890) KDD 2022 ← very large graphs, new datasets
   25. (kgTransformer) [Mask and Reason: Pre-Training Knowledge Graph Transformers for Complex Logical Queries](https://keg.cs.tsinghua.edu.cn/jietang/publications/KDD22-Liu-et-al-KG-Transformer.pdf) KDD 2022, old Q2B datasets
   26. (Query2Particles) [Query2Particles: Knowledge Graph Reasoning with Particle Embeddings](https://arxiv.org/abs/2204.12847), Findings NAACL’22
-  27. (TAR) [Joint Abductive and Inductive Neural Logical Reasoning](https://arxiv.org/abs/2205.14591) (arxiv, 2022) Class Hierarchy, new dataset
+  27. (TAR) [TAR: Neural Logical Reasoning across TBox and ABox](https://arxiv.org/abs/2205.14591) (arxiv, 2022) Class Hierarchy, new dataset
   28. (TeMP) [Type-aware embeddings for multi-hop reasoning over knowledge graphs](https://arxiv.org/abs/2205.00782) (arxiv 2022) Class Hierarchy, new dataset
   29. (FLEX) [FLEX: Feature-Logic Embedding Framework for CompleX Knowledge Graph Reasoning](https://arxiv.org/abs/2205.11039) (arxiv 2022)
   30. (TFLEX) [TFLEX: Temporal Feature-Logic Embedding Framework for Complex Reasoning over Temporal Knowledge Graph](https://arxiv.org/pdf/2205.14307.pdf) (arxiv, 2022), new dataset
   31. (LinE) [LinE: Logical Query Reasoning over Hierarchical Knowledge Graphs](https://dl.acm.org/doi/pdf/10.1145/3534678.3539338?casa_token=_jPlNJj2TlYAAAAA:pKAA42_lrZ2JIHc1YZV0fchIlRiIcqCy8oCBL2UU3Gm84MOeTSYLfQn31DKtXBbU2yqzC7LUsYvREBw) KDD 2022
+  32. GNNQ: A Neuro-Symbolic Approach for Query Answering over Incomplete Knowledge Graphs. Accepted to ISWC 2022, not yet available
 
 </details>
