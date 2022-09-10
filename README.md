@@ -684,23 +684,45 @@ Repo: [GitHub](https://github.com/dair-iitd/kbi-regex) - no actual data dumps ar
 
 ### DAG Queries
 
-Conjunctive queries not limited to 9 patterns from Query2Box/BetaE datasets. 
+Conjunctive queries (w/o union) not limited to 9 patterns from Query2Box/BetaE datasets. The task is to predict *all* intermediate entities, not just final leaf nodes. Query depth: 2-5; max 3 intersecting branches.
 
-Introduced in [Answering complex queries in knowledge graphs with bidirectional sequence encoders](https://ojs.aaai.org/index.php/AAAI/article/view/16630), AAAI 2021
+Introduced in [Answering complex queries in knowledge graphs with bidirectional sequence encoders](https://ojs.aaai.org/index.php/AAAI/article/view/16630), AAAI 2021.
+
+New FB15K-237-CQ and WN18RR-CQ datasets have two variations:
+* CQ (conjunctive queries) - Training on triples + paths + DAGs, Validation/Test on **DAGs only**;
+* Paths - Training on triples + paths, Validation/Test on **paths only**
+
+**Sept 2022: the datasets are not publicly available.**
 
 <details>
   <summary> Graphs </summary>
-
-  | Dataset | Entities | Relations | Training Edges | Validation Edges | Test Edges | Total Edges
-  |-----|----:|----:|----:|----:|----:|----:|
   
+  | Dataset | FB15K-237-CQ | FB15K-237-CQ | FB15K-237-CQ | WN18RR-CQ | WN18RR-CQ | WN18RR-CQ |
+  | Dataset | Train | Validation | Test | Train | Validation | Test |
+  |-----|----:|----:|----:|----:|----:|----:|
+  | Entities | 14,505 | - | - | 40,943 | - | - |
+  | Relations | 237 | 237 | 237 | 11 | 11 | 11 |
+  | Triples  | 272,115 | - | - | 86,835 | - | - |
+  | Paths | 50,000 | - | - | 10,000 | - | - |
+  | DAGs | 48,865 | 2,785 | 2,599 | 9,465 | 112 | 95 |
+  | Avg Masks | 1.86 | 5.91 | 6.05 | 1.84 | 5.13 | 4.91 |
+  | Avg Query Len (Tokens) | 152 | 460 | 479 | 71 | 198 | 199 |   
 
 
 </details>
 
 <details>
   <summary> Queries </summary>
+  
+  No detailed breakdown by query type is available, only the DAGs stats from the main table.
 
+  | Dataset | FB15K-237-CQ | FB15K-237-CQ | FB15K-237-CQ | WN18RR-CQ | WN18RR-CQ | WN18RR-CQ |
+  | Dataset | Train | Validation | Test | Train | Validation | Test |
+  |-----|----:|----:|----:|----:|----:|----:|
+  | Paths | 50,000 | - | - | 10,000 | - | - |
+  | DAGs | 48,865 | 2,785 | 2,599 | 9,465 | 112 | 95 |
+  | Avg Masks | 1.86 | 5.91 | 6.05 | 1.84 | 5.13 | 4.91 |
+  | Avg Query Len (Tokens) | 152 | 460 | 479 | 71 | 198 | 199 | 
 
 </details>
 
