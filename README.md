@@ -740,6 +740,7 @@ LUBM and NELL employ ontological axioms of the DL-Lite (R) family of Description
   | NELL | 63,361 | 400 | 307 | 285k | 497k | 
 
   Axioms breakdown in ontologies for LUBM and NELL
+  
   | Dataset | $|O|$ | $A \sqsubseteq A'$ | $p \sqsubseteq s$ | $p^{-} \sqsubseteq s$ | $\exists p \sqsubseteq A$ | $\exists p^{-} \sqsubseteq A$ |
   |-----|----:|----:|----:|----:|----:|---:|
   | LUBM | 68 | 13 | 5 | 28 | 11 | 11 |
