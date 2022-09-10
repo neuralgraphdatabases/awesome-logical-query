@@ -694,10 +694,45 @@ Introduced in [Answering complex queries in knowledge graphs with bidirectional 
 
 ### Type-Aware Datasets
 
+In addition to a normal graph of entities (instances) a-la BetaE datasets, the type-aware datasets offer an additional set of classes, classes hierarchy (from a pre-existing ontology), and `instanceOf` links between entities and classes.
+
+Those datasets might include an additional task of predicting types of answer entities (Concept Retrieval).
+
 - LUBM, introduced in [A Neural-symbolic Approach for Ontology-mediated Query Answering](https://arxiv.org/pdf/2106.14052.pdf), arxiv 2021
 - NELL, introduced in [A Neural-symbolic Approach for Ontology-mediated Query Answering](https://arxiv.org/pdf/2106.14052.pdf), arxiv 2021
-- YAGO 4 (Abductive), introduced in [TAR](https://github.com/lilv98/TAR)
-- DBpedia (Abductive), introduced in [TAR](https://github.com/lilv98/TAR)
+- YAGO 4, introduced in [TAR: Neural Logical Reasoning across TBox and ABox](https://github.com/lilv98/TAR)
+- DBpedia, introduced in [TAR: Neural Logical Reasoning across TBox and ABox](https://github.com/lilv98/TAR)
+
+<details>
+  <summary> Graphs </summary>
+
+  **TODO** Figure out Concept Retrieval edges in TAR 
+
+  | Dataset | Entities | Relations | Classes | Training Edges | Validation Edges | Test Edges | Entity-Class Edges | Class Hierarchy Edges | Total Edges |
+  |-----|----:|----:|----:|----:|----:|----:|
+  | YAGO 4 | 32,465 | 75 | 8,382 | 101,417 | 1,000 | 1,000 | 83,291 | 16,644 | 184,708 |
+  | DBpedia | 28,824 | 327 | 981 | 136,821 | 1,000 | 1,000 | 225,436 | 2,582 | 362,257 |
+  
+
+
+</details>
+
+<details>
+  <summary> Queries </summary>
+  
+  | Queries | Training | Training |  Validation | Validation |  Test | Test |
+  |---------|---------:|-----------:|-----:|---------:|-----------:|-----:|
+  | Dataset | 1p  | others  | 1p | others | 1p | others |
+  | YAGO 4 (Concept Retrieval)    | 189,338 | 10,000 | 1,000 | 1,000 | 1,000 | 1,000 |
+  | YAGO 4 (Entity Only)    | 101,417 | 10,000 | 1,000 | 1,000 | 1,000 | 1,000 |
+  | YAGO 4 (Entity + Instantiations)    | 184,708 | 10,000 | 1,000 | 1,000 | 1,000 | 1,000 |
+  | DBpedia (Concept Retrieval)    | 473,924 | 10,000 | 1,000 | 1,000 | 1,000 | 1,000 |
+  | DBpedia (Entity Only)    | 136,821 | 10,000 | 1,000 | 1,000 | 1,000 | 1,000 |
+  | DBpedia (Entity + Instantiations)    | 362,257 | 10,000 | 1,000 | 1,000 | 1,000 | 1,000 |
+
+
+
+</details>
 
 ### Very Large Datasets
 
