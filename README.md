@@ -727,6 +727,8 @@ Those datasets might include an additional task of predicting types of answer en
 - YAGO 4, introduced in [TAR: Neural Logical Reasoning across TBox and ABox](https://github.com/lilv98/TAR)
 - DBpedia, introduced in [TAR: Neural Logical Reasoning across TBox and ABox](https://github.com/lilv98/TAR)
 
+LUBM and NELL employ ontological axioms of the DL-Lite (R) family of Description Logics.
+
 <details>
   <summary> Graphs </summary>
 
@@ -738,7 +740,7 @@ Those datasets might include an additional task of predicting types of answer en
   | NELL | 63,361 | 400 | 307 | 285k | 497k | 
 
   Axioms breakdown in ontologies for LUBM and NELL
-  | Dataset | $|O|$ | $A \sqsubseteq A' $ | $ p \sqsubseteq s $ | $ p^{-} \sqsubseteq s $ | $ \exists p \sqsubseteq A $ | $ \exists p^{-} \sqsubseteq A $ |
+  | Dataset | $|O|$ | $A \sqsubseteq A'$ | $p \sqsubseteq s$ | $p^{-} \sqsubseteq s$ | $\exists p \sqsubseteq A$ | $\exists p^{-} \sqsubseteq A$ |
   |-----|----:|----:|----:|----:|----:|---:|
   | LUBM | 68 | 13 | 5 | 28 | 11 | 11 |
   | NELL | 307 | - | 92 | 215 | - | - |
@@ -882,7 +884,7 @@ Based on FOL operators, the dataset focuses on temporal reasoning, which include
 - [TAR](https://github.com/lilv98/TAR): Former ABIN
 
 
-## All Papers (31)
+## All Papers (32)
 
 <details>
   <summary>Click to expand </summary>
