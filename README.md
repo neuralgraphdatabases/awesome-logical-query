@@ -713,7 +713,7 @@ Introduced in [Benchmarking the Combinatorial Generalizability of Complex Query 
 <details>
   <summary> Queries </summary>
 
-Cannot list all the 301 query types. Details can be found in a summarization excel file[here](https://docs.google.com/spreadsheets/d/18RJL1puHpbGZJKLkffqKEbzRmRFdSnGFQvekApFWc3Q/edit?usp=sharing).
+Cannot list all the 301 query types. Details can be found in a summarization excel file [here](https://docs.google.com/spreadsheets/d/18RJL1puHpbGZJKLkffqKEbzRmRFdSnGFQvekApFWc3Q/edit?usp=sharing).
 
 </details>
 
