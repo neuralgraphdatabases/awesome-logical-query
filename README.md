@@ -698,8 +698,8 @@ New FB15K-237-CQ and WN18RR-CQ datasets have two variations:
   <summary> Graphs </summary>
   
   | Dataset | FB15K-237-CQ | FB15K-237-CQ | FB15K-237-CQ | WN18RR-CQ | WN18RR-CQ | WN18RR-CQ |
-  | Dataset | Train | Validation | Test | Train | Validation | Test |
   |-----|----:|----:|----:|----:|----:|----:|
+  | Dataset | Train | Validation | Test | Train | Validation | Test |
   | Entities | 14,505 | - | - | 40,943 | - | - |
   | Relations | 237 | 237 | 237 | 11 | 11 | 11 |
   | Triples  | 272,115 | - | - | 86,835 | - | - |
