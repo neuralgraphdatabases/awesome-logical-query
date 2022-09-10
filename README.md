@@ -3,7 +3,6 @@ A collection of resources on the topic of Complex Logical Query Answering
 
 TODO: Insert an image from the paper
 
-
 ## :scroll: Categorization of papers
 
 ### Modalities
@@ -692,6 +691,31 @@ Introduced in [Answering complex queries in knowledge graphs with bidirectional 
 
 </details>
 
+###  EFO-1 Queries
+
+Existential First-Order queries  with Singel Free Variable, extended from BetaE. The goal is to evaluate the combinatorial generalizability. 
+
+Introduced in [Benchmarking the Combinatorial Generalizability of Complex Query Answering on Knowledge Graphs](https://arxiv.org/abs/2109.08925), NeurIPS 2021 (Datasets and Benchmarks)
+
+<details>
+  <summary> Graphs </summary>
+
+  | Queries | Training | Training |  Validation | Validation |  Test | Test |
+  |---------|---------:|-----------:|-----:|---------:|-----------:|-----:|
+  | Dataset | 1p/2p/3p/2i/3i  | 2in/3in/inp/pin/pni  | 1p | others | 1p | others |
+  | FB15k    | 273,710 | 27,371 | 59,097 | 8,000 | 67,016 | 8,000 |
+  | FB15k237 | 149,689 | 14,968 | 20,101 | 5,000 | 22,812 | 5,000 |
+  | NELL995  | 107,982 | 10,798 | 16,927 | 4,000 | 17,034 | 4,000 | 
+
+</details>
+
+<details>
+  <summary> Queries </summary>
+
+Cannot list all the 301 query types. Details can be found in a summarization excel file [here](https://docs.google.com/spreadsheets/d/18RJL1puHpbGZJKLkffqKEbzRmRFdSnGFQvekApFWc3Q/edit?usp=sharing).
+
+</details>
+
 ### Type-Aware Datasets
 
 In addition to a normal graph of entities (instances) a-la BetaE datasets, the type-aware datasets offer an additional set of classes, classes hierarchy (from a pre-existing ontology), and `instanceOf` links between entities and classes.
@@ -786,6 +810,62 @@ TODO: confirm with Hongyu the number of validation / test queries.
 
 ### Temporal Datasets
 
+Introduced in [TFLEX: Temporal Feature-Logic Embedding Framework for Complex Reasoning over Temporal Knowledge Graph](https://arxiv.org/abs/2205.14307), KDD 2022.
+
+Based on FOL operators, the dataset focuses on temporal reasoning, which includes `after`, `before` and `between` on any timestamp set.
+
+<details>
+  <summary> Graphs </summary>
+
+  | Dataset | Entities | Relations | Timestamps | Training Edges | Validation Edges | Test Edges | Total Edges
+  |-----|----:|----:|----:|----:|----:|----:|----:|
+  | ICEWS14 | 7,128 | 230 | 365 | 72,826 | 8,941 | 8,963 | 90,730 |
+  | ICEWS05-15 | 10,488 | 251 | 4,017 | 386,962 | 46,275 | 46,092 | 479,329 |
+  | GDELT-500  | 500 | 20 | 366 | 2,735,685 | 341,961 | 341,961 | 3,419,607 |
+
+</details>
+
+<details>
+  <summary> Queries </summary>
+  
+| Query Name | ICEWS14-Train | Validation | Test | ICES05-15-Train | Validation | Test  | GDELT-500-Train | Validation | Test  |
+|------------|---------------|------------|------|-----------------|------------|-------|-----------------|------------|-------|
+| Pe2        | 72826         | 3482       | 4037 | 368962          | 10000      | 10000 | 2215309         | 10000      | 10000 |
+| Pe3        | 72826         | 3492       | 4083 | 368962          | 10000      | 10000 | 2215309         | 10000      | 10000 |
+| Pe_Pt      | 7282          | 3385       | 3638 | 36896           | 10000      | 10000 | 221530          | 10000      | 10000 |
+| e2i        | 72826         | 3305       | 3655 | 368962          | 10000      | 10000 | 2215309         | 10000      | 10000 |
+| e3i        | 72826         | 2966       | 3023 | 368962          | 10000      | 10000 | 2215309         | 10000      | 10000 |
+| e2i_Pe     | -             | 2913       | 2913 | -               | 10000      | 10000 | -               | 10000      | 10000 |
+| Pe_e2i     | -             | 2913       | 2913 | -               | 10000      | 10000 | -               | 10000      | 10000 |
+| Pe_t2i     | -             | 2913       | 2913 | -               | 10000      | 10000 | -               | 10000      | 10000 |
+| e2i_NPe       | 7282          | 3061       | 3192 | 36896           | 10000      | 10000 | 221530          | 10000      | 10000 |
+| e2i_peN       | 7282          | 2971       | 3031 | 36896           | 10000      | 10000 | 221530          | 10000      | 10000 |
+| Pe_e2i_Pe_NPe | 7282          | 2968       | 3012 | 36896           | 10000      | 10000 | 221530          | 10000      | 10000 |
+| e2i_N         | 7282          | 2949       | 2975 | 36896           | 10000      | 10000 | 221530          | 10000      | 10000 |
+| e3i_N         | 7282          | 2913       | 2914 | 36896           | 10000      | 10000 | 221530          | 10000      | 10000 |
+| e2u           | -             | 2913       | 2913 | -               | 10000      | 10000 | -               | 10000      | 10000 |
+| Pe_e2u        | -             | 2913       | 2913 | -               | 10000      | 10000 | -               | 10000      | 10000 |
+| Pt_lPe     | 7282          | 4976       | 5608 | 36896           | 10000      | 10000 | 221530          | 10000      | 10000 |
+| Pt_rPe     | 7282          | 3321       | 3621 | 36896           | 10000      | 10000 | 221530          | 10000      | 10000 |
+| t2i        | 72826         | 5112       | 6631 | 368962          | 10000      | 10000 | 2215309         | 10000      | 10000 |
+| t3i        | 72826         | 3094       | 3296 | 368962          | 10000      | 10000 | 2215309         | 10000      | 10000 |
+| t2i_Pe     | -             | 2913       | 2913 | -               | 10000      | 10000 | -               | 10000      | 10000 |
+| Pt_le2i    | 7282          | 3226       | 3466 | 36896           | 10000      | 10000 | 221530          | 10000      | 10000 |
+| Pt_re2i    | 7282          | 3236       | 3485 | 36896           | 10000      | 10000 | 221530          | 10000      | 10000 |
+| t2i_NPt         | 7282          | 4873       | 5464 | 36896           | 10000      | 10000 | 221530          | 10000      | 10000 |
+| t2i_PtN         | 7282          | 3300       | 3609 | 36896           | 10000      | 10000 | 221530          | 10000      | 10000 |
+| Pe_t2i_PtPe_NPt | 7282          | 3031       | 3127 | 36896           | 10000      | 10000 | 221530          | 10000      | 10000 |
+| t2i_N           | 7282          | 3135       | 3328 | 36896           | 10000      | 10000 | 221530          | 10000      | 10000 |
+| t3i_N           | 7282          | 2924       | 2944 | 36896           | 10000      | 10000 | 221530          | 10000      | 10000 |
+| t2u        | -             | 2913       | 2913 | -               | 10000      | 10000 | -               | 10000      | 10000 |
+| Pe_t2u     | -             | 2913       | 2913 | -               | 10000      | 10000 | -               | 10000      | 10000 |
+| Pe_aPt     | 7282          | 4134       | 4733 | 68262           | 10000      | 10000 | 221530          | 10000      | 10000 |
+| Pe_bPt     | 7282          | 3970       | 4565 | 36896           | 10000      | 10000 | 221530          | 10000      | 10000 |
+| Pe_at2i    | 7282          | 4607       | 5338 | 36896           | 10000      | 10000 | 221530          | 10000      | 10000 |
+| Pe_bt2i    | 7282          | 4583       | 5386 | 36896           | 10000      | 10000 | 221530          | 10000      | 10000 |
+| between    | 7282          | 2913       | 2913 | 36896           | 10000      | 10000 | 221530          | 10000      | 10000 |
+
+</details>
 
 ### Dataset tools
 
@@ -822,7 +902,7 @@ TODO: confirm with Hongyu the number of validation / test queries.
   13. (CQD) [Complex Query Answering with Neural Link Predictors](https://openreview.net/forum?id=Mos9F9kDwkz) ICLR’21
   14. (HypE) [Self-Supervised Hyperboloid Representations from Logical Queries over Knowledge Graphs](https://dl.acm.org/doi/abs/10.1145/3442381.3449974?casa_token=tQx20rBUtMwAAAAA:GRqp4JBze6ybzZzeSdCc9cNGlqN0wkAP0BVBPctAgtUVviVSoNiUQcNxBbEuGVGZxnCzJyLqfMmiYg), WWW 2021 + (new) DBpedia + Amazon prod dataset
   15. (NewLook) [Neural-Answering Logical Queries on Knowledge Graphs](http://tonghanghang.org/pdfs/kdd21_newlook.pdf) (KDD’21) ← subgraph matching
-  16. [Benchmarking the Combinatorial Generalizability of Complex Query Answering on Knowledge Graphs](https://arxiv.org/abs/2109.08925) ← benchmarking, 2021, new datasets
+  16. [Benchmarking the Combinatorial Generalizability of Complex Query Answering on Knowledge Graphs](https://arxiv.org/abs/2109.08925), NeurIPS 2021 (Datasets and Benchmarks) ← benchmarking, 2021, new datasets
   17. [Neuro-Symbolic Ontology-Mediated Query Answering](https://openreview.net/pdf?id=wwVb95CkrFm) OpenReview 2021 (Q2B with rules), new datasets with types - LUBM + NELL
   18. (LogicE) [Logic Embeddings for Complex Query Answering](https://arxiv.org/pdf/2103.00418.pdf) arxiv 2021
   19. (StarQE) [Query Embedding on Hyper-relational Knowledge Graphs](https://arxiv.org/abs/2106.08166) ICLR 2022, new datasets
