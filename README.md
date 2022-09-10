@@ -764,6 +764,24 @@ LUBM and NELL employ ontological axioms of the DL-Lite (R) family of Description
 <details>
   <summary> Queries </summary>
   
+  | Dataset | Train / Test | 1p | 2p | 3p | 2i | 3i | ip | pi | 2u | up |
+  |--------:|-------------:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+  | LUBM    | Plain (**Train**)| 110,000 | 110,000 | 110,000 | 110,000 | 110,000 | - | - | - | - |
+  | LUBM    | Generalized (**Train**)| 117,124 | 136,731 | 150,653 | 181,234 | 208,710 | - | - | - | - | 
+  | LUBM    | Specialized (**Train**)| 117,780 | 154,851 | 173,678 | 271,532 | 230,085 | - | - | - | - | 
+  | LUBM    | Ontological (**Train**)| 116,893 | 166,159 | 333,406 | 212,718 | 491,707 | - | - | - | - |
+  | LUBM    | Induction (w/ missing links in queries) (**Val/Test**)| 8,000 | 8,000 | 8,000 | 8,000 | 8,000 | 8,000 | 8,000 | 8,000 | 8,000 | 
+  | LUBM    | Deduction (w/o missing link in training) (**Val/Test**)| 1,241 | 4,701 | 6,472 | 3,829 | 4,746 | 7,393 | 7,557 | 4,986 | 7,122 |
+  | LUBM    | Induction + Deduction (**Val/Test**)| 8,000 | 8,000 | 8,000 | 8,000 | 8,000 | 8,000 | 8,000 | 7,986 | 8,000 |
+  | NELL    | Plain (**Train**)| 107,982 | 107,982 | 107,982 | 107,982 | 107,982 | - | - | - | - |
+  | NELL    | Generalized (**Train**)| 174,310 | 408,842 | 864,268 | 398,412 | 930,787 | - | - | - | - | 
+  | NELL    | Specialized (**Train**)| 174,310 | 419,664 | 906,609 | 401,954 | 936,537 | - | - | - | - | 
+  | NELL    | Ontological (**Train**)| 114,614 | 542,923 | 864,268 | 629,144 | 930,787 | - | - | - | - |
+  | NELL    | Induction (w/ missing links in queries) (**Val/Test**)| 15,688 | 3,910 | 3,918 | 3,828 | 3,786 | 3,932 | 3,895 |3,940 | 3,966 | 
+  | NELL    | Deduction (w/o missing link in training) (**Val/Test**)| 346 | 4,461 | 4,294 | 4,842 | 5,996 | 7,295 | 5,862 | 5,646 | 6,894 |
+  | NELL    | Induction + Deduction (**Val/Test**)| 8,000 | 8,000 | 8,000 | 8,000 | 8,000 | 8,000 | 8,000 | 7,990 | 8,000 |
+
+
   | Queries | Training | Training |  Validation | Validation |  Test | Test |
   |---------|---------:|-----------:|-----:|---------:|-----------:|-----:|
   | Dataset | 1p  | others  | 1p | others | 1p | others |
