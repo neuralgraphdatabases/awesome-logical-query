@@ -743,8 +743,8 @@ LUBM and NELL employ ontological axioms of the DL-Lite (R) family of Description
 
   | Rules | LUBM | NELL | 
   |------:|-----:|-----:|
-  | $|O|$ |  68  | 307  |
-  | $A \sqsubseteq A'$ | 13 | - |
+  | $\mathcal{O}$ (Total) |  68  | 307  |
+  | $A \sqsubseteq A'$ (Subclass) | 13 | - |
   | $p \sqsubseteq s$ | 5 | 92 |
   | $p^{-} \sqsubseteq s$ | 28 | 215 |
   | $\exists p \sqsubseteq A$ | 11 | - |
