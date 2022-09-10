@@ -699,7 +699,7 @@ In addition to a normal graph of entities (instances) a-la BetaE datasets, the t
 Those datasets might include an additional task of predicting types of answer entities (Concept Retrieval).
 
 - LUBM, introduced in [Neuro-Symbolic Ontology-Mediated Query Answering](https://openreview.net/pdf?id=wwVb95CkrFm), OpenReview 2021
-- NELL, introduced in [Neuro-Symbolic Ontology-Mediated Query Answering](https://openreview.net/pdf?id=wwVb95CkrFm), OpenReview 2021
+- NELL, introduced in [Neuro-Symbolic Ontology-Mediated Query Answering](https://openreview.net/pdf?id=wwVb95CkrFm), OpenReview 2021. The base graph is the same as in the BetaE datasets, but a few ontological axioms were added.
 - YAGO 4, introduced in [TAR: Neural Logical Reasoning across TBox and ABox](https://github.com/lilv98/TAR)
 - DBpedia, introduced in [TAR: Neural Logical Reasoning across TBox and ABox](https://github.com/lilv98/TAR)
 
@@ -707,6 +707,18 @@ Those datasets might include an additional task of predicting types of answer en
   <summary> Graphs </summary>
 
   **TODO** Figure out Concept Retrieval edges in TAR 
+  
+  | Dataset | Entities | Relations | Axioms | Base Graph | Materialized Graph | 
+  |-----|----:|----:|----:|----:|----:|
+  | LUBM | 55,684 | 28 | 68 | 284k | 565k | 
+  | NELL | 63,361 | 400 | 307 | 285k | 497k | 
+
+  Axioms breakdown in ontologies for LUBM and NELL
+  | Dataset | $|O|$ | $A \sqsubseteq A' $ | $ p \sqsubseteq s $ | $ p^{-} \sqsubseteq s $ | $ \exists p \sqsubseteq A $ | $ \exists p^{-} \sqsubseteq A $ |
+  |-----|----:|----:|----:|----:|----:|---:|
+  | LUBM | 68 | 13 | 5 | 28 | 11 | 11 |
+  | NELL | 307 | - | 92 | 215 | - | - |
+
 
   | Dataset | Entities | Relations | Classes | Training Edges | Validation Edges | Test Edges | Entity-Class Edges | Class Hierarchy Edges | Total Edges |
   |-----|----:|----:|----:|----:|----:|----:|---:|---:|---:|
