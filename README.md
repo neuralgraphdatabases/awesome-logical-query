@@ -709,7 +709,7 @@ Those datasets might include an additional task of predicting types of answer en
   **TODO** Figure out Concept Retrieval edges in TAR 
 
   | Dataset | Entities | Relations | Classes | Training Edges | Validation Edges | Test Edges | Entity-Class Edges | Class Hierarchy Edges | Total Edges |
-  |-----|----:|----:|----:|----:|----:|----:|
+  |-----|----:|----:|----:|----:|----:|----:|---:|---:|---:|
   | YAGO 4 | 32,465 | 75 | 8,382 | 101,417 | 1,000 | 1,000 | 83,291 | 16,644 | 184,708 |
   | DBpedia | 28,824 | 327 | 981 | 136,821 | 1,000 | 1,000 | 225,436 | 2,582 | 362,257 |
   
