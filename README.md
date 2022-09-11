@@ -865,6 +865,40 @@ TODO: confirm with Hongyu the number of validation / test queries.
 
 ### Hyper-Relational Datasets
 
+The main difference of hyper-relational datasets is that edges are no longer plain triples $(h, r, t)$ but *statements* (in terms of Wikidata) $(h, r, t, \{ q_{ri}, q_{ei} \}_i)$ with key-value (relation:entity) qualifiers $(q_{r}, q_{e})$ over the *main* triple.
+
+Entities and relations in qualifiers are still legit entities and relations which could be present in main triples. Still, some entities and relations can be found *only* in qualifiers.
+
+The dataset has only conjunctive queries (projection + intersection), neither union nor negation.
+
+Introduced in [Query Embedding on Hyper-Relational Knowledge Graphs](https://openreview.net/pdf?id=4rLw09TgRw9), ICLR 2022
+
+<details>
+  <summary> Graph </summary>
+
+  The original WD50K graph from the [StarE paper](https://aclanthology.org/2020.emnlp-main.596.pdf) by Galkin et al.
+
+
+  | Dataset | Entities | Relations | Qualifier-only Entities | Qualifier-only Relations | Training Edges | Validation Edges | Test Edges | Total Edges
+  |-----|----:|----:|----:|----:|----:|----:|----:|----:|
+  | WD50K    | 47,156 | 532 | 5460 | 45 | 166,435 | 23,913 | 46,159 | 236,508 |
+
+  32,167 edges have at least one key-value (relation:entity) qualifier.
+ 
+
+</details>
+
+<details>
+  <summary> Queries </summary>
+
+  | Split | 1p | 2p | 3p | 2i | 3i | ip | pi |
+  |-----|----:|----:|----:|----:|----:|----:|----:|
+  | train | 24,819 | 313,088 | 5,950,990 | 48,513 | 318,735 | 306,022 | 1,088,539 |
+  | validation | 4,100 | 100,706 | 2,968,315 | 15,648 | 169,195 | 169,438 | 569,957 |
+  | test  | 7,716 | 202,045 | 6,433,476 | 38,207 | 547,272 | 445,007 | 1,267,452 |
+
+
+</details>
 
 ### Inductive Datasets
 
