@@ -865,7 +865,7 @@ TODO: confirm with Hongyu the number of validation / test queries.
 
 ### Hyper-Relational Datasets
 
-The main difference of hyper-relational datasets is that edges are no longer plain triples $(h, r, t)$ but *statements* (in terms of Wikidata) $(h, r, t, { q\_{ri}, q\_{ei} }\_i)$ with key-value (relation:entity) qualifiers $(q\_{r}, q\_{e})$ over the *main* triple.
+The main difference of hyper-relational datasets is that edges are no longer plain triples $(h, r, t)$ but *statements* (in terms of Wikidata) $(h, r, t, \Big(q\_{ri}, q\_{ei}\Big)\_i)$ with key-value (relation:entity) qualifiers $(q\_{r}, q\_{e})$ over the *main* triple.
 
 Entities and relations in qualifiers are still legit entities and relations which could be present in main triples. Still, some entities and relations can be found *only* in qualifiers.
 
