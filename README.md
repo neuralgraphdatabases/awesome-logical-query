@@ -865,9 +865,11 @@ TODO: confirm with Hongyu the number of validation / test queries.
 
 ### Hyper-Relational Datasets
 
-The main difference of hyper-relational datasets is that edges are no longer plain triples $(h, r, t)$ but *statements* (in terms of Wikidata) $\Big(h, r, t, (q\_{ri}, q\_{ei})\_i\Big)$ with key-value (relation:entity) qualifiers $(q\_{r}, q\_{e})$ over the *main* triple.
+The main difference of hyper-relational datasets is that edges are no longer plain triples $(h, r, t)$ but *statements* (in terms of Wikidata or RDF-Star) $\Big(h, r, t, (q\_{ri}, q\_{ei})\_i\Big)$ with key-value (relation:entity) qualifiers $(q\_{r}, q\_{e})$ over the *main* triple. 
+For example, in the statment `(Albert Einstein, educated at, ETH Zurich, (degree, Bachelor))`, the main triple is `Albert Einstein, educated at, ETH Zurich` and its unique qualifier is `(degree, Bachelor)`. 
+Qualifiers provide an additional context to the edge - the tail node might change with another qualifier, e.g., `(Albert Einstein, educated at, University of Zurich, (degree, Doctorate))`.
 
-Entities and relations in qualifiers are still legit entities and relations which could be present in main triples. Still, some entities and relations can be found *only* in qualifiers.
+Entities and relations in qualifiers are still legit entities and relations which could be present in main triples. Some entities and relations can be found *only* in qualifiers.
 
 The dataset has only conjunctive queries (projection + intersection), neither union nor negation.
 
