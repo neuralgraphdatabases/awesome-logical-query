@@ -904,6 +904,44 @@ Introduced in [Query Embedding on Hyper-Relational Knowledge Graphs](https://ope
 
 ### Inductive Datasets
 
+As of Sept 2022, there are no existing purely inductive datasets such that the training and validation/test graphs are different (validation and test containing new unseen entities) and predictions should only rely on the graph structure w/o external data.
+
+#### Type-based Inductive
+
+As a bridge between shallow transductive models and inductive inference, [Type-aware Embeddings for Multi-Hop Reasoning over Knowledge Graphs](https://arxiv.org/pdf/2205.00782.pdf) propose to mine entity types as the invariant that remains the same at training and inference.
+
+As a result, the following datasets assume an existing and known in advance class hierarchy (or a graph of classes). Technically, those can be put in the [Type-Aware Datasets](#type-aware-datasets) category. The query datasets only have EPFO queries (no negation).
+
+**As of Sept 2022, the dataset is not published**
+
+<details>
+  <summary> Graphs </summary>
+  
+  The underlying graphs are FB15k-237-V2 and NELL995-V3 from [Inductive relation prediction by subgraph reasoning](https://arxiv.org/abs/1911.06962) by Teru et al, ICML 2020. The original repo and other datasets are [here](https://github.com/kkteru/grail).
+
+  Training is performed on the Train Graph, but at validation/test time the model is fed with a new Inference Graph with completely new nodes. The Inference Graph has missing edges that have to be predicted at validation or test time.
+
+
+  | Dataset | Relations | Train Graph | Train Graph | Inference Graph | Inference Graph | Inference Graph | Inference Graph |
+  |-----|----:|----:|----:|----:|----:|----:|----:|
+  |  |  | Train Entities | Train Edges | Inference Entities | Inference Edges | Validation Edges | Test Edges |
+  | FB15k-237-V2 | 203 | 3,000 | 4,245 | 2,000 | 4,145 | 469 | 478 |
+  | NELL995-V3 | 142 | 4,647 | 16,393 | 4,921 | 8.048 | 811 | 809 |
+
+  The amount of mined types and type hierarchy created for those datasets remains unknown.
+
+</details>
+
+<details>
+  <summary> Queries </summary>
+
+  | Queries | Training |  Validation | Validation |  Test | Test |
+  |---------|---------:|-----:|---------:|-----------:|-----:|
+  | Dataset | 1p/2p/3p/2i/3i  | 1p | others | 1p | others |
+  | FB15k-237-V2  | 9,964 | 1,738 | 2,000 | 791 | 1,000 |
+  | NELL995-V3 | 12,010 | 2,197 | 2,000 | 1,167 | 1,500 |
+
+</details> 
 
 ### Temporal Datasets
 
@@ -976,7 +1014,8 @@ Based on FOL operators, the dataset focuses on temporal reasoning, which include
 - [StarQE](https://github.com/DimitrisAlivas/StarQE): StarQE
 - [SMORE](https://github.com/google-research/smore): GQE, Query2Box, BetaE + Very Large Datasets
 - [GNN-QE](https://github.com/DeepGraphLearning/GNN-QE): GNN-QE
-- [TAR](https://github.com/lilv98/TAR): Former ABIN
+- [TAR](https://github.com/lilv98/TAR): TAR
+- [QE-TeMP](https://github.com/zhiweihu1103/QE-TEMP): TeMP (based on KGReasoning)
 
 
 ## All Papers (33)
@@ -1012,7 +1051,7 @@ Based on FOL operators, the dataset focuses on temporal reasoning, which include
   26. (kgTransformer) [Mask and Reason: Pre-Training Knowledge Graph Transformers for Complex Logical Queries](https://keg.cs.tsinghua.edu.cn/jietang/publications/KDD22-Liu-et-al-KG-Transformer.pdf) KDD 2022, old Q2B datasets
   27. (Query2Particles) [Query2Particles: Knowledge Graph Reasoning with Particle Embeddings](https://arxiv.org/abs/2204.12847), Findings NAACL’22
   28. (TAR) [TAR: Neural Logical Reasoning across TBox and ABox](https://arxiv.org/abs/2205.14591) (arxiv, 2022) Class Hierarchy, new dataset
-  29. (TeMP) [Type-aware embeddings for multi-hop reasoning over knowledge graphs](https://arxiv.org/abs/2205.00782) (arxiv 2022) Class Hierarchy, new dataset
+  29. (TeMP) [Type-aware embeddings for multi-hop reasoning over knowledge graphs](https://arxiv.org/abs/2205.00782) (IJCAI-ECAI 2022) Class Hierarchy, new dataset
   30. (FLEX) [FLEX: Feature-Logic Embedding Framework for CompleX Knowledge Graph Reasoning](https://arxiv.org/abs/2205.11039) (arxiv 2022)
   31. (TFLEX) [TFLEX: Temporal Feature-Logic Embedding Framework for Complex Reasoning over Temporal Knowledge Graph](https://arxiv.org/pdf/2205.14307.pdf) (arxiv, 2022), new dataset
   32. (LinE) [LinE: Logical Query Reasoning over Hierarchical Knowledge Graphs](https://dl.acm.org/doi/pdf/10.1145/3534678.3539338?casa_token=_jPlNJj2TlYAAAAA:pKAA42_lrZ2JIHc1YZV0fchIlRiIcqCy8oCBL2UU3Gm84MOeTSYLfQn31DKtXBbU2yqzC7LUsYvREBw) KDD 2022
