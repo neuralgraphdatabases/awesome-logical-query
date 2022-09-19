@@ -945,7 +945,7 @@ As a result, the following datasets assume an existing and known in advance clas
 
 #### Tree-like Conjunctive Inductive
 
-The dataset proposed in GNNQ (ISWC'22) frames query answering as node classification. The dataset has 9 tree-like conjunctive queries (6 synthetic from WatDiv and 3 from FB15k237), no unions nor negations. For each query, there are **P** KGs with an answer entity satisfying a query and **N** KGs with negative samplies where an answer does not satisfy a query. 
+The dataset proposed in [GNNQ](https://github.com/KRR-Oxford/GNNQ) frames query answering as node classification. The dataset has 9 tree-like conjunctive queries (6 synthetic from WatDiv and 3 from FB15k237), no unions nor negations. For each query, there are **P** KGs with an answer entity satisfying a query and **N** KGs with negative samplies where an answer does not satisfy a query. 
 Test splits have graphs with new entities (but the same query shapes).
 
 <details>
@@ -1044,6 +1044,7 @@ Based on FOL operators, the dataset focuses on temporal reasoning, which include
 - [GNN-QE](https://github.com/DeepGraphLearning/GNN-QE): GNN-QE
 - [TAR](https://github.com/lilv98/TAR): TAR
 - [QE-TeMP](https://github.com/zhiweihu1103/QE-TEMP): TeMP (based on KGReasoning)
+- [GNNQ](https://github.com/KRR-Oxford/GNNQ): GNNQ
 
 
 ## All Papers (33)
