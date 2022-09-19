@@ -943,6 +943,34 @@ As a result, the following datasets assume an existing and known in advance clas
 
 </details> 
 
+#### Tree-like Conjunctive Inductive
+
+The dataset proposed in GNNQ (ISWC'22) frames query answering as node classification. The dataset has 9 tree-like conjunctive queries (6 synthetic from WatDiv and 3 from FB15k237), no unions nor negations. For each query, there are **P** KGs with an answer entity satisfying a query and **N** KGs with negative samplies where an answer does not satisfy a query. 
+Test splits have graphs with new entities (but the same query shapes).
+
+<details>
+  <summary> Graphs </summary>
+    Many - each WatDiv query has 2K positive GRAPHS and 700K negative GRAPHS (each of about 100K triples); each FB15k237 query has about 1K positive GRAPHS and 1K negative GRAPHS (each of about 10K triples)
+</details>
+
+<details>
+  <summary> Queries </summary>
+
+  Each query in the table has many associated graphs where one node is an answer (positive graph sample) and where nodes are not answers (negative graph samples)
+  
+  | Query | Relations | Num atoms / tree depth |  Train: pos/neg | Test: pos/neg | 
+  |---------|---------:|-----:|---------:|-----------:|
+  | WatDiv-Q1 | 158  | 8 / 4 | 2114 / 699699 | 1085 / 349877 |
+  | WatDiv-Q2 | 158  | 8 / 3 | 3258 / 698396 | 1769 / 349119 |
+  | WatDiv-Q3 | 158  | 8 / 3 | 1520 / 700276 | 798 / 350165 | 
+  | WatDiv-Q4 | 158  | 10 / 4 | 2397 / 698986 | 1226 / 349546 | 
+  | WatDiv-Q5 | 158  | 10 / 4 | 6338 / 693988 | 2866 / 347570 | 
+  | WatDiv-Q6 | 158  | 10 / 4 | 7545 / 692439 | 3744 / 346290 | 
+  | FB15k237-Q1 | 237  | 7 / 4 | 1185 / 1180 | 395 / 395 | 
+  | FB15k237-Q2 | 237  | 7 / 4 | 650 / 660 | 220 / 220 | 
+  | FB15k237-Q3 | 237  | 5 / 4 | 860 / 870 | 290 / 290 | 
+</details>
+
 ### Temporal Datasets
 
 Introduced in [TFLEX: Temporal Feature-Logic Embedding Framework for Complex Reasoning over Temporal Knowledge Graph](https://arxiv.org/abs/2205.14307), KDD 2022.
