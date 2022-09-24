@@ -18,7 +18,7 @@ TODO: Insert an image from the paper
   5. [BetaE](https://proceedings.neurips.cc/paper/2020/file/e43739bba7cdb577e9e3e4e42447f5a5-Paper.pdf), NeurIPS 2020
   6. [EmQL](https://proceedings.neurips.cc/paper/2020/hash/fe74074593f21197b7b7be3c08678616-Abstract.html), NeurIPS 2020
   7. [MPQE](https://grlplus.github.io/papers/26.pdf), ICML 2020 Workshop
-  8. [Regex Queries over Incomplete Knowledge Bases](https://arxiv.org/abs/2005.00480), AKBC 2021
+  8. [RotatE-Box](https://arxiv.org/abs/2005.00480), AKBC 2021
   9. [BiQE](https://ojs.aaai.org/index.php/AAAI/article/view/16630), AAAI 2021
   10. [Knowledge Sheaves: A Sheaf-Theoretic Framework for Knowledge Graph Embedding](https://arxiv.org/pdf/2110.03789.pdf), arxiv 2021
   11. [CQD](https://openreview.net/forum?id=Mos9F9kDwkz), ICLR 2021
@@ -71,7 +71,7 @@ TODO: Insert an image from the paper
   5. [BetaE](https://proceedings.neurips.cc/paper/2020/file/e43739bba7cdb577e9e3e4e42447f5a5-Paper.pdf), NeurIPS 2020
   6. [EmQL](https://proceedings.neurips.cc/paper/2020/hash/fe74074593f21197b7b7be3c08678616-Abstract.html), NeurIPS 2020
   7. [MPQE](https://grlplus.github.io/papers/26.pdf), ICML 2020 Workshop
-  8. [Regex Queries over Incomplete Knowledge Bases](https://arxiv.org/abs/2005.00480), AKBC 2021
+  8. [RotatE-Box](https://arxiv.org/abs/2005.00480), AKBC 2021
   9. [BiQE](https://ojs.aaai.org/index.php/AAAI/article/view/16630), AAAI 2021
   10. [Knowledge Sheaves: A Sheaf-Theoretic Framework for Knowledge Graph Embedding](https://arxiv.org/pdf/2110.03789.pdf), arxiv 2021
   11. [CQD](https://openreview.net/forum?id=Mos9F9kDwkz), ICLR 2021
@@ -130,7 +130,7 @@ TODO: Insert an image from the paper
   4. [Query2Box](https://openreview.net/pdf?id=BJgr4kSFDS), ICLR 2020  
   5. [EmQL](https://proceedings.neurips.cc/paper/2020/hash/fe74074593f21197b7b7be3c08678616-Abstract.html), NeurIPS 2020
   6. [MPQE](https://grlplus.github.io/papers/26.pdf), ICML 2020 Workshop
-  7. [Regex Queries over Incomplete Knowledge Bases](https://arxiv.org/abs/2005.00480), AKBC 2021
+  7. [RotatE-Box](https://arxiv.org/abs/2005.00480), AKBC 2021
   8. [BiQE](https://ojs.aaai.org/index.php/AAAI/article/view/16630), AAAI 2021
   9. [Knowledge Sheaves: A Sheaf-Theoretic Framework for Knowledge Graph Embedding](https://arxiv.org/pdf/2110.03789.pdf), arxiv 2021
   10. [CQD](https://openreview.net/forum?id=Mos9F9kDwkz), ICLR 2021
@@ -180,7 +180,7 @@ TODO: Insert an image from the paper
   5. [BetaE](https://proceedings.neurips.cc/paper/2020/file/e43739bba7cdb577e9e3e4e42447f5a5-Paper.pdf), NeurIPS 2020
   6. [EmQL](https://proceedings.neurips.cc/paper/2020/hash/fe74074593f21197b7b7be3c08678616-Abstract.html), NeurIPS 2020
   7. [MPQE](https://grlplus.github.io/papers/26.pdf), ICML 2020 Workshop
-  8. [Regex Queries over Incomplete Knowledge Bases](https://arxiv.org/abs/2005.00480), AKBC 2021
+  8. [RotatE-Box](https://arxiv.org/abs/2005.00480), AKBC 2021
   9. [BiQE](https://ojs.aaai.org/index.php/AAAI/article/view/16630), AAAI 2021
   10. [Knowledge Sheaves: A Sheaf-Theoretic Framework for Knowledge Graph Embedding](https://arxiv.org/pdf/2110.03789.pdf), arxiv 2021
   11. [HypE](https://dl.acm.org/doi/abs/10.1145/3442381.3449974?casa_token=tQx20rBUtMwAAAAA:GRqp4JBze6ybzZzeSdCc9cNGlqN0wkAP0BVBPctAgtUVviVSoNiUQcNxBbEuGVGZxnCzJyLqfMmiYg), WWW 2021
@@ -293,7 +293,7 @@ TODO: Insert an image from the paper
   5. [BetaE](https://proceedings.neurips.cc/paper/2020/file/e43739bba7cdb577e9e3e4e42447f5a5-Paper.pdf), NeurIPS 2020
   6. [EmQL](https://proceedings.neurips.cc/paper/2020/hash/fe74074593f21197b7b7be3c08678616-Abstract.html), NeurIPS 2020
   7. [MPQE](https://grlplus.github.io/papers/26.pdf), ICML 2020 Workshop
-  8. [Regex Queries over Incomplete Knowledge Bases](https://arxiv.org/abs/2005.00480), AKBC 2021
+  8. [RotatE-Box](https://arxiv.org/abs/2005.00480), AKBC 2021
   9. [BiQE](https://ojs.aaai.org/index.php/AAAI/article/view/16630), AAAI 2021
   10. [Knowledge Sheaves: A Sheaf-Theoretic Framework for Knowledge Graph Embedding](https://arxiv.org/pdf/2110.03789.pdf), arxiv 2021
   11. [HypE](https://dl.acm.org/doi/abs/10.1145/3442381.3449974?casa_token=tQx20rBUtMwAAAAA:GRqp4JBze6ybzZzeSdCc9cNGlqN0wkAP0BVBPctAgtUVviVSoNiUQcNxBbEuGVGZxnCzJyLqfMmiYg), WWW 2021
@@ -337,7 +337,7 @@ TODO: Insert an image from the paper
   4. [Query2Box](https://openreview.net/pdf?id=BJgr4kSFDS), ICLR 2020  
   5. [BetaE](https://proceedings.neurips.cc/paper/2020/file/e43739bba7cdb577e9e3e4e42447f5a5-Paper.pdf), NeurIPS 2020
   6. [EmQL](https://proceedings.neurips.cc/paper/2020/hash/fe74074593f21197b7b7be3c08678616-Abstract.html), NeurIPS 2020
-  7. [Regex Queries over Incomplete Knowledge Bases](https://arxiv.org/abs/2005.00480), AKBC 2021
+  7. [RotatE-Box](https://arxiv.org/abs/2005.00480), AKBC 2021
   8. [Knowledge Sheaves: A Sheaf-Theoretic Framework for Knowledge Graph Embedding](https://arxiv.org/pdf/2110.03789.pdf), arxiv 2021
   9.  [HypE](https://dl.acm.org/doi/abs/10.1145/3442381.3449974?casa_token=tQx20rBUtMwAAAAA:GRqp4JBze6ybzZzeSdCc9cNGlqN0wkAP0BVBPctAgtUVviVSoNiUQcNxBbEuGVGZxnCzJyLqfMmiYg), WWW 2021
   10. [NewLook](http://tonghanghang.org/pdfs/kdd21_newlook.pdf), KDD 2021
@@ -416,7 +416,7 @@ Progressive scale of supported operators. That is, all models listed under the "
   2. [EmQL](https://proceedings.neurips.cc/paper/2020/hash/fe74074593f21197b7b7be3c08678616-Abstract.html), NeurIPS 2020
   3. [HypE](https://dl.acm.org/doi/abs/10.1145/3442381.3449974?casa_token=tQx20rBUtMwAAAAA:GRqp4JBze6ybzZzeSdCc9cNGlqN0wkAP0BVBPctAgtUVviVSoNiUQcNxBbEuGVGZxnCzJyLqfMmiYg), WWW 2021
   4. [NewLook](http://tonghanghang.org/pdfs/kdd21_newlook.pdf), KDD 2021
-  5. [Regex Queries over Incomplete Knowledge Bases](https://arxiv.org/abs/2005.00480), AKBC 2021
+  5. [RotatE-Box](https://arxiv.org/abs/2005.00480), AKBC 2021
   6. [CQD](https://openreview.net/forum?id=Mos9F9kDwkz) ICLR’21
   7. [Neural-symbolic Approach for Ontology-mediated Query Answering](https://arxiv.org/pdf/2106.14052.pdf), arxiv 2021
   8. [kgTransformer](https://keg.cs.tsinghua.edu.cn/jietang/publications/KDD22-Liu-et-al-KG-Transformer.pdf), KDD 2022
@@ -623,7 +623,7 @@ Two datasets:
 * FB15k-Regex is based on Freebase, queries have less than 50 answers, 21 query types
 * Wiki100-Regex is based on query logs from the official Wikidata SPARQL endpoint, 5 query types. 
 
-Introduced in [Regex Queries over Incomplete Knowledge Bases](https://arxiv.org/abs/2005.00480), AKBC 2021.
+Introduced in [RotatE-Box](https://arxiv.org/abs/2005.00480), AKBC 2021.
 
 Repo: [GitHub](https://github.com/dair-iitd/kbi-regex) - no actual data dumps are present :(
 
@@ -1059,7 +1059,7 @@ Based on FOL operators, the dataset focuses on temporal reasoning, which include
   5. (BetaE) [Beta Embeddings for Multi-Hop Logical Reasoning in Knowledge Graphs](https://proceedings.neurips.cc/paper/2020/file/e43739bba7cdb577e9e3e4e42447f5a5-Paper.pdf) NeurIPS 2020
   6. (EmQL) [Faithful embeddings for knowledge base queries](https://proceedings.neurips.cc/paper/2020/hash/fe74074593f21197b7b7be3c08678616-Abstract.html) NeurIPS 2020
   7. (MPQE) [Message Passing Query Embedding](https://grlplus.github.io/papers/26.pdf) ICML’20 Workshop
-  8. [Regex Queries over Incomplete Knowledge Bases](https://arxiv.org/abs/2005.00480) AKBC’21
+  8. (RotatE-Box)[Regex Queries over Incomplete Knowledge Bases](https://arxiv.org/abs/2005.00480) AKBC’21
   9. (BiQE) [Answering complex queries in knowledge graphs with bidirectional sequence encoders](https://ojs.aaai.org/index.php/AAAI/article/view/16630), AAAI’21 
   10. [Approximate knowledge graph query answering: from ranking to binary classification](https://library.oapen.org/bitstream/handle/20.500.12657/48251/9783030723088.pdf?sequence=1#page=114) ← benchmarking, 2020 / 2021
   11. [Knowledge Sheaves: A Sheaf-Theoretic Framework for Knowledge Graph Embedding](https://arxiv.org/pdf/2110.03789.pdf) arxiv, BetaE datasets, 2021
