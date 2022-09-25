@@ -912,7 +912,7 @@ As a bridge between shallow transductive models and inductive inference, [Type-a
 
 As a result, the following datasets assume an existing and known in advance class hierarchy (or a graph of classes). Technically, those can be put in the [Type-Aware Datasets](#type-aware-datasets) category. The query datasets only have EPFO queries (no negation).
 
-**As of Sept 2022, the dataset is not published**
+Inductive splits have been published, see the [GitHub issue](https://github.com/zhiweihu1103/QE-TEMP/issues/2)
 
 <details>
   <summary> Graphs </summary>
@@ -922,13 +922,13 @@ As a result, the following datasets assume an existing and known in advance clas
   Training is performed on the Train Graph, but at validation/test time the model is fed with a new Inference Graph with completely new nodes. The Inference Graph has missing edges that have to be predicted at validation or test time.
 
 
-  | Dataset | Relations | Train Graph | Train Graph | Inference Graph | Inference Graph | Inference Graph | Inference Graph |
-  |-----|----:|----:|----:|----:|----:|----:|----:|
-  |  |  | Train Entities | Train Edges | Inference Entities | Inference Edges | Validation Edges | Test Edges |
-  | FB15k-237-V2 | 203 | 3,000 | 4,245 | 2,000 | 4,145 | 469 | 478 |
-  | NELL995-V3 | 142 | 4,647 | 16,393 | 4,921 | 8.048 | 811 | 809 |
+  | Dataset | Relations | Types | Train Graph | Train Graph | Inference Graph | Inference Graph | Inference Graph | Inference Graph |
+  |-----|----:|----:|----:|----:|----:|----:|----:|----:|
+  |  |  |  |  Train Entities | Train Edges | Inference Entities | Inference Edges | Validation Edges | Test Edges |
+  | FB15k-237-V2 | 203 | 3851 | 3,000 | 4,245 | 2,000 | 4,145 | 469 | 478 |
+  | NELL995-V3 | 142 | 267 | 4,647 | 16,393 | 4,921 | 8.048 | 811 | 809 |
 
-  The amount of mined types and type hierarchy created for those datasets remains unknown.
+  The type hierarchy created for those datasets remains unknown.
 
 </details>
 
