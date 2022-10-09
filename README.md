@@ -1113,5 +1113,7 @@ Based on FOL operators, the dataset focuses on temporal reasoning, which include
   34. [GNNQ: A Neuro-Symbolic Approach for Query Answering over Incomplete Knowledge Graphs](https://scholar.archive.org/work/sswyx3mbc5danaxosfnyr45cw4/access/wayback/https://s3-eu-west-1.amazonaws.com/pstorage-oxford-0703704596/36647646/GNNQ_full.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3OGA3B5WHKHW6LWV/20220814/eu-west-1/s3/aws4_request&X-Amz-Date=20220814T213541Z&X-Amz-Expires=10&X-Amz-SignedHeaders=host&X-Amz-Signature=1bf627735fbce377c2478f514fbac1dfcf49423980d372cc71e2bed732d6ae2c) ISWC 2022
   35. (ENeSy) [Neural-Symbolic Entangled Framework for Complex Query Answering](https://arxiv.org/pdf/2209.08779.pdf) NeurIPS 2022
   36. Inductive Logical Query Answering in Knowledge Graphs. NeurIPS 2022
+  37. (RoMA) [Reasoning over Multi-view Knowledge Graphs](https://arxiv.org/pdf/2209.13702.pdf) arxiv 2022, temporal setup, some new datasets, but no code/data published
+  38. (LMPNN) [Logical Message Passing Networks With One-Hop Inference On Atomic Formulas](https://openreview.net/pdf?id=SoyOsp7i_l) ICLR'23 submission, MPQE-style with ComplEx-derived negation
 
 </details>
