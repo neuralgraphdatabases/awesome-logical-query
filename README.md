@@ -1117,3 +1117,9 @@ Based on FOL operators, the dataset focuses on temporal reasoning, which include
   38. (LMPNN) [Logical Message Passing Networks With One-Hop Inference On Atomic Formulas](https://openreview.net/pdf?id=SoyOsp7i_l) ICLR'23 submission, MPQE-style with ComplEx-derived negation
 
 </details>
+
+## Triaging
+
+1. [Hybrid Structured and Similarity Queries over Wikidata plus Embeddings with Kypher-V](https://www.isi.edu/~hans/publications/WDWS-ISWC-2022.pdf), ISWC 2022
+2. [TrQuery: An Embedding-based Framework for Recommanding SPARQL Queries](https://arxiv.org/pdf/1806.06205.pdf), 2018
+3. [Towards Empty Answers in SPARQL: Approximating Querying with RDF Embedding](https://link.springer.com/content/pdf/10.1007/978-3-030-00671-6.pdf), ISWC 2018
