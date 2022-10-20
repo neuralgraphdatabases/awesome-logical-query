@@ -1121,6 +1121,7 @@ Based on FOL operators, the dataset focuses on temporal reasoning, which include
 ## Triaging
 
 1. [Hybrid Structured and Similarity Queries over Wikidata plus Embeddings with Kypher-V](https://www.isi.edu/~hans/publications/WDWS-ISWC-2022.pdf), ISWC 2022
-2. [TrQuery: An Embedding-based Framework for Recommanding SPARQL Queries](https://arxiv.org/pdf/1806.06205.pdf), 2018
-3. [Towards Empty Answers in SPARQL: Approximating Querying with RDF Embedding](https://link.springer.com/content/pdf/10.1007/978-3-030-00671-6.pdf), ISWC 2018
-4. [Neural Graph Databases](https://arxiv.org/pdf/2209.09732.pdf), 2022, essentially just LPG2vec representation method
+2. [Combining RDF Graph Data and Embedding Models for an Augmented Knowledge Graph](https://dl.acm.org/doi/fullHtml/10.1145/3184558.3191527), BigNet 2018 Workshop @ WWW'18
+3. [TrQuery: An Embedding-based Framework for Recommanding SPARQL Queries](https://arxiv.org/pdf/1806.06205.pdf), 2018
+4. [Towards Empty Answers in SPARQL: Approximating Querying with RDF Embedding](https://link.springer.com/content/pdf/10.1007/978-3-030-00671-6.pdf), ISWC 2018
+5. [Neural Graph Databases](https://arxiv.org/pdf/2209.09732.pdf), 2022, essentially just LPG2vec representation method
