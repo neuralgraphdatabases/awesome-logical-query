@@ -218,7 +218,7 @@ TODO: Insert an image from the paper
 ### Inference (datasets)
 
 <details>
-  <summary>Transductive datasets (11) </summary>
+  <summary>Transductive datasets (10) </summary>
 
   1. (GQE datasets) [GQE](https://proceedings.neurips.cc/paper/2018/file/ef50c335cca9f340bde656363ebd02fd-Paper.pdf), NeurIPS 2018
   2. (Query2Box datasets) [Query2Box](https://openreview.net/pdf?id=BJgr4kSFDS), ICLR 2020  
@@ -245,7 +245,7 @@ TODO: Insert an image from the paper
 ### Encoder 
 
 <details>
-  <summary>Shallow Embedding (21) </summary>
+  <summary>Shallow Embedding (20) </summary>
 
   1. [GQE](https://proceedings.neurips.cc/paper/2018/file/ef50c335cca9f340bde656363ebd02fd-Paper.pdf), NeurIPS 2018  
   2. [GQE+hashing](https://ieeexplore.ieee.org/abstract/document/8970688/?casa_token=gLHFmr7V2ekAAAAA:wwDbUufdkwHTQo68pansuhJsJ2XQAF0P21_mQSu75KVRUkgqARmXBs_VEmFOkFgz_Lq-FXP8OA), ICDM 2019 
@@ -262,11 +262,11 @@ TODO: Insert an image from the paper
   13. [LogicE](https://arxiv.org/pdf/2103.00418.pdf), arxiv 2021
   14. [FuzzQE](https://ojs.aaai.org/index.php/AAAI/article/view/20310), AAAI 2022
   15. [SMORE](https://arxiv.org/abs/2110.14890), KDD 2022
-  17. [LinE](https://dl.acm.org/doi/pdf/10.1145/3534678.3539338?casa_token=_jPlNJj2TlYAAAAA:pKAA42_lrZ2JIHc1YZV0fchIlRiIcqCy8oCBL2UU3Gm84MOeTSYLfQn31DKtXBbU2yqzC7LUsYvREBw), KDD 2022
-  18. [TAR: Neural Logical Reasoning across TBox and ABox](https://arxiv.org/abs/2205.14591), arxiv 2022
-  19. [Query2Particles](https://arxiv.org/abs/2204.12847), NAACL 2022
-  20. [FLEX: Feature-Logic Embedding Framework for CompleX Knowledge Graph Reasoning](https://arxiv.org/abs/2205.11039), arxiv 2022
-  21. [TFLEX: Temporal Feature-Logic Embedding Framework for Complex Reasoning over Temporal Knowledge Graph](https://arxiv.org/pdf/2205.14307.pdf), arxiv 2022
+  16. [LinE](https://dl.acm.org/doi/pdf/10.1145/3534678.3539338?casa_token=_jPlNJj2TlYAAAAA:pKAA42_lrZ2JIHc1YZV0fchIlRiIcqCy8oCBL2UU3Gm84MOeTSYLfQn31DKtXBbU2yqzC7LUsYvREBw), KDD 2022
+  17. [TAR: Neural Logical Reasoning across TBox and ABox](https://arxiv.org/abs/2205.14591), arxiv 2022
+  18. [Query2Particles](https://arxiv.org/abs/2204.12847), NAACL 2022
+  19. [FLEX: Feature-Logic Embedding Framework for CompleX Knowledge Graph Reasoning](https://arxiv.org/abs/2205.11039), arxiv 2022
+  20. [TFLEX: Temporal Feature-Logic Embedding Framework for Complex Reasoning over Temporal Knowledge Graph](https://arxiv.org/pdf/2205.14307.pdf), arxiv 2022
 
 </details>
 
@@ -297,15 +297,16 @@ TODO: Insert an image from the paper
 ### Processor
 
 <details>
-  <summary>End-to-end Neural (7) </summary>
+  <summary>End-to-end Neural (8) </summary>
 
   1. [GQE](https://proceedings.neurips.cc/paper/2018/file/ef50c335cca9f340bde656363ebd02fd-Paper.pdf), NeurIPS 2018  
   2. [GQE+hashing](https://ieeexplore.ieee.org/abstract/document/8970688/?casa_token=gLHFmr7V2ekAAAAA:wwDbUufdkwHTQo68pansuhJsJ2XQAF0P21_mQSu75KVRUkgqARmXBs_VEmFOkFgz_Lq-FXP8OA), ICDM 2019
   3. [CGA](https://arxiv.org/pdf/1910.00084.pdf), K-CAP 2019
-  4. [BiQE](https://ojs.aaai.org/index.php/AAAI/article/view/16630), AAAI 2021
-  5. [MLPMix](https://openreview.net/forum?id=tgcAoUVHRIB), ICLR 2022
-  6. [kgTransformer](https://keg.cs.tsinghua.edu.cn/jietang/publications/KDD22-Liu-et-al-KG-Transformer.pdf), KDD 2022
-  7. [Type-aware embeddings for multi-hop reasoning over knowledge graphs](https://arxiv.org/abs/2205.00782), arxiv 2022
+  4. [MPQE](https://grlplus.github.io/papers/26.pdf), ICML 2020 Workshop
+  5. [BiQE](https://ojs.aaai.org/index.php/AAAI/article/view/16630), AAAI 2021
+  6. [MLPMix](https://openreview.net/forum?id=tgcAoUVHRIB), ICLR 2022
+  7. [StarQE](https://arxiv.org/abs/2106.08166), ICLR 2022
+  8. [kgTransformer](https://keg.cs.tsinghua.edu.cn/jietang/publications/KDD22-Liu-et-al-KG-Transformer.pdf), KDD 2022
 
 </details>
 
@@ -313,25 +314,28 @@ TODO: Insert an image from the paper
   <summary>Neuro-Symbolic (20) </summary>
 
   #### GNN-based (3)
-  1. [MPQE](https://grlplus.github.io/papers/26.pdf), ICML 2020 Workshop
-  2. [StarQE](https://arxiv.org/abs/2106.08166), ICLR 2022
-  3. [GNN-QE](https://arxiv.org/abs/2205.10128), ICML 2022
+  1. [GNN-QE](https://arxiv.org/abs/2205.10128), ICML 2022
+  2. [GNNQ](https://scholar.archive.org/work/sswyx3mbc5danaxosfnyr45cw4/access/wayback/https://s3-eu-west-1.amazonaws.com/pstorage-oxford-0703704596/36647646/GNNQ_full.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3OGA3B5WHKHW6LWV/20220814/eu-west-1/s3/aws4_request&X-Amz-Date=20220814T213541Z&X-Amz-Expires=10&X-Amz-SignedHeaders=host&X-Amz-Signature=1bf627735fbce377c2478f514fbac1dfcf49423980d372cc71e2bed732d6ae2c) ISWC 2022
+  3. [LMPNN](https://openreview.net/pdf?id=SoyOsp7i_l) ICLR'23 submission,
 
-  #### Geometric (6)
+  #### Geometric (8)
   1. [Query2Box](https://openreview.net/pdf?id=BJgr4kSFDS), ICLR 2020
-  2. [Knowledge Sheaves: A Sheaf-Theoretic Framework for Knowledge Graph Embedding](https://arxiv.org/pdf/2110.03789.pdf), arxiv 2021
-  3. [HypE](https://dl.acm.org/doi/abs/10.1145/3442381.3449974?casa_token=tQx20rBUtMwAAAAA:GRqp4JBze6ybzZzeSdCc9cNGlqN0wkAP0BVBPctAgtUVviVSoNiUQcNxBbEuGVGZxnCzJyLqfMmiYg), WWW 2021
-  4. [ConE](https://proceedings.neurips.cc/paper/2021/hash/a0160709701140704575d499c997b6ca-Abstract.html), NeurIPS 2021
-  5. [Neural-symbolic Approach for Ontology-mediated Query Answering](https://arxiv.org/pdf/2106.14052.pdf), arxiv 2021
-  6. [Query2Particles](https://arxiv.org/abs/2204.12847), NAACL 2022
+  2. [Neural-symbolic Approach for Ontology-mediated Query Answering](https://arxiv.org/pdf/2106.14052.pdf), arxiv 2021
+  3. [Knowledge Sheaves: A Sheaf-Theoretic Framework for Knowledge Graph Embedding](https://arxiv.org/pdf/2110.03789.pdf), arxiv 2021
+  4. [RotatE-Box](https://arxiv.org/abs/2005.00480), AKBC 2021
+  5. [HypE](https://dl.acm.org/doi/abs/10.1145/3442381.3449974?casa_token=tQx20rBUtMwAAAAA:GRqp4JBze6ybzZzeSdCc9cNGlqN0wkAP0BVBPctAgtUVviVSoNiUQcNxBbEuGVGZxnCzJyLqfMmiYg), WWW 2021
+  6. [ConE](https://proceedings.neurips.cc/paper/2021/hash/a0160709701140704575d499c997b6ca-Abstract.html), NeurIPS 2021
+  7. [Query2Particles](https://arxiv.org/abs/2204.12847), NAACL 2022
+  8. [Rotate-m, DistMult-m, ComplEx-m / SMORE](https://arxiv.org/abs/2110.14890), KDD 2022
 
-  #### Distributions (3)
+  #### Probabilistic (4)
   1. [BetaE](https://proceedings.neurips.cc/paper/2020/file/e43739bba7cdb577e9e3e4e42447f5a5-Paper.pdf), NeurIPS 2020
   2. [PERM](https://proceedings.neurips.cc/paper/2021/hash/c4d2ce3f3ebb5393a77c33c0cd95dc93-Abstract.html), NeurIPS 2021
   3. [LinE](https://dl.acm.org/doi/pdf/10.1145/3534678.3539338?casa_token=_jPlNJj2TlYAAAAA:pKAA42_lrZ2JIHc1YZV0fchIlRiIcqCy8oCBL2UU3Gm84MOeTSYLfQn31DKtXBbU2yqzC7LUsYvREBw), KDD 2022
+  4. [Type-aware embeddings for multi-hop reasoning over knowledge graphs](https://arxiv.org/abs/2205.00782), arxiv 2022
    
 
-  #### Entity-centric or T-norms (8)
+  #### Fuzzy Logic (8)
 
   1. [EmQL](https://proceedings.neurips.cc/paper/2020/hash/fe74074593f21197b7b7be3c08678616-Abstract.html), NeurIPS 2020
   2. [CQD](https://openreview.net/forum?id=Mos9F9kDwkz), ICLR 2021
@@ -341,6 +345,7 @@ TODO: Insert an image from the paper
   6. [FLEX: Feature-Logic Embedding Framework for CompleX Knowledge Graph Reasoning](https://arxiv.org/abs/2205.11039), arxiv 2022
   7. [TFLEX: Temporal Feature-Logic Embedding Framework for Complex Reasoning over Temporal Knowledge Graph](https://arxiv.org/pdf/2205.14307.pdf), arxiv 2022
   8. [Neural-Symbolic Entangled Framework for Complex Query Answering](https://arxiv.org/pdf/2209.08779.pdf) NeurIPS 2022
+  9. [NodePiece-QE](https://arxiv.org/abs/2210.08008) NeurIPS 2022
 
 </details>
 
@@ -350,6 +355,22 @@ TODO: Insert an image from the paper
   1. [TractOR](https://arxiv.org/pdf/2002.10029.pdf), UAI 2020   
   2. [NewLook](http://tonghanghang.org/pdfs/kdd21_newlook.pdf), KDD 2021
   3. [CBR-SUBG](https://proceedings.mlr.press/v162/das22a.html), ICML 2022
+
+</details>
+
+### Decoder
+
+<details>
+  <summary>Non-Parametric (all) TODO </summary>
+
+  1. TODO
+
+</details>
+
+<details>
+  <summary>Parametric (0) </summary>
+
+  1. None as of Oct 2022
 
 </details>
 
