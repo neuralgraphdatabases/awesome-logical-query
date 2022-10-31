@@ -1157,7 +1157,7 @@ Based on FOL operators, the dataset focuses on temporal reasoning, which include
   36. (NodePiece-QE, InductiveQE) [Inductive Logical Query Answering in Knowledge Graphs](https://arxiv.org/abs/2210.08008) NeurIPS 2022
   37. (RoMA) [Reasoning over Multi-view Knowledge Graphs](https://arxiv.org/pdf/2209.13702.pdf) arxiv 2022, temporal setup, some new datasets, but no code/data published
   38. (LMPNN) [Logical Message Passing Networks With One-Hop Inference On Atomic Formulas](https://openreview.net/pdf?id=SoyOsp7i_l) ICLR'23 submission, MPQE-style with ComplEx-derived negation
-  39. (GammaE) [GammaE: Gamma Embeddings for Logical Queries on Knowledge Graphs](https://arxiv.org/pdf/2210.15578.pdf)
+  39. (GammaE) [GammaE: Gamma Embeddings for Logical Queries on Knowledge Graphs](https://arxiv.org/pdf/2210.15578.pdf) arxiv 2022
 
 </details>
 
