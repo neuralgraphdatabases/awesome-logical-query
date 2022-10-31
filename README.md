@@ -291,7 +291,7 @@ TODO: Insert an image from the paper
   1. [BetaE](https://proceedings.neurips.cc/paper/2020/file/e43739bba7cdb577e9e3e4e42447f5a5-Paper.pdf), NeurIPS 2020
   2. [PERM](https://proceedings.neurips.cc/paper/2021/hash/c4d2ce3f3ebb5393a77c33c0cd95dc93-Abstract.html), NeurIPS 2021
   3. [LinE](https://dl.acm.org/doi/pdf/10.1145/3534678.3539338?casa_token=_jPlNJj2TlYAAAAA:pKAA42_lrZ2JIHc1YZV0fchIlRiIcqCy8oCBL2UU3Gm84MOeTSYLfQn31DKtXBbU2yqzC7LUsYvREBw), KDD 2022
-  4. [Type-aware embeddings for multi-hop reasoning over knowledge graphs](https://arxiv.org/abs/2205.00782), arxiv 2022
+  4. [GammaE: Gamma Embeddings for Logical Queries on Knowledge Graphs](https://arxiv.org/pdf/2210.15578.pdf), arxiv 2022
    
 
   #### Fuzzy Logic (8)
@@ -1157,6 +1157,7 @@ Based on FOL operators, the dataset focuses on temporal reasoning, which include
   36. (NodePiece-QE, InductiveQE) [Inductive Logical Query Answering in Knowledge Graphs](https://arxiv.org/abs/2210.08008) NeurIPS 2022
   37. (RoMA) [Reasoning over Multi-view Knowledge Graphs](https://arxiv.org/pdf/2209.13702.pdf) arxiv 2022, temporal setup, some new datasets, but no code/data published
   38. (LMPNN) [Logical Message Passing Networks With One-Hop Inference On Atomic Formulas](https://openreview.net/pdf?id=SoyOsp7i_l) ICLR'23 submission, MPQE-style with ComplEx-derived negation
+  39. (GammaE) [GammaE: Gamma Embeddings for Logical Queries on Knowledge Graphs](https://arxiv.org/pdf/2210.15578.pdf)
 
 </details>
 
