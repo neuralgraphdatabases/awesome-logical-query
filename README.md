@@ -1134,7 +1134,7 @@ Based on FOL operators, the dataset focuses on temporal reasoning, which include
   13. (ConE) [Cone: Cone embeddings for multi-hop reasoning over knowledge graphs](https://proceedings.neurips.cc/paper/2021/hash/a0160709701140704575d499c997b6ca-Abstract.html) NeurIPS’21
   14. (PERM) [Probabilistic entity representation model for reasoning over knowledge graphs](https://proceedings.neurips.cc/paper/2021/hash/c4d2ce3f3ebb5393a77c33c0cd95dc93-Abstract.html) (improv over BetaE) NeurIPS’21
   15. (CQD) [Complex Query Answering with Neural Link Predictors](https://openreview.net/forum?id=Mos9F9kDwkz) ICLR’21
-  16. (HypE) [Self-Supervised Hyperboloid Representations from Logical Queries over Knowledge Graphs](https://dl.acm.org/doi/abs/10.1145/3442381.3449974?casa_token=tQx20rBUtMwAAAAA:GRqp4JBze6ybzZzeSdCc9cNGlqN0wkAP0BVBPctAgtUVviVSoNiUQcNxBbEuGVGZxnCzJyLqfMmiYg), WWW 2021 + (new) DBpedia + Amazon prod dataset
+  16. (HypE) [Self-Supervised Hyperboloid Representations from Logical Queries over Knowledge Graphs](https://arxiv.org/pdf/2012.13023.pdf), WWW 2021 + (new) DBpedia + Amazon prod dataset
   17. (NewLook) [Neural-Answering Logical Queries on Knowledge Graphs](http://tonghanghang.org/pdfs/kdd21_newlook.pdf) (KDD’21) ← subgraph matching
   18. [Benchmarking the Combinatorial Generalizability of Complex Query Answering on Knowledge Graphs](https://arxiv.org/abs/2109.08925), NeurIPS 2021 (Datasets and Benchmarks) ← benchmarking, 2021, new datasets
   19. [Neuro-Symbolic Ontology-Mediated Query Answering](https://openreview.net/pdf?id=wwVb95CkrFm) OpenReview 2021 (Q2B with rules), new datasets with types - LUBM + NELL
