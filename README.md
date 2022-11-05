@@ -1168,3 +1168,4 @@ Based on FOL operators, the dataset focuses on temporal reasoning, which include
 3. [TrQuery: An Embedding-based Framework for Recommanding SPARQL Queries](https://arxiv.org/pdf/1806.06205.pdf), 2018
 4. [Towards Empty Answers in SPARQL: Approximating Querying with RDF Embedding](https://link.springer.com/content/pdf/10.1007/978-3-030-00671-6.pdf), ISWC 2018
 5. [Neural Graph Databases](https://arxiv.org/pdf/2209.09732.pdf), 2022, essentially just LPG2vec representation method
+6. [SE-KGE: A Location-Aware Knowledge Graph Embedding Model for Geographic Question Answering and Spatial Semantic Lifting](https://arxiv.org/pdf/2004.14171.pdf), Transactions in GIS 2020, GQE with scalar (x,y) coordinate prediction / encoding
