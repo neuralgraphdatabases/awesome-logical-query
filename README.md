@@ -580,6 +580,11 @@ Progressive scale of supported operators. That is, all models listed under the "
   - Proposed in [Approximate knowledge graph query answering: from ranking to binary classification](https://library.oapen.org/bitstream/handle/20.500.12657/48251/9783030723088.pdf?sequence=1#page=114)
 - Entailment: faithfulness - ability to recover easy answers (no link prediction) (MRR / Hits@k)
   - Proposed by [EmQL](https://proceedings.neurips.cc/paper/2020/hash/fe74074593f21197b7b7be3c08678616-Abstract.html) (NeurIPS 2020)
+- Retrieval Accuracy: similar as faithfullness - ability to recover all the answers
+  - Proposed by [EFO-1-QA](https://arxiv.org/pdf/2109.08925.pdf)
+  - Details
+    - estimate the size of the answer set as N
+    -  compute the accuracy of the top-N answers against the true answer set.
 - Estimating the cardinality of answer set size (Spearman's rank correlation, MAPE)
 - Predicting easy answers before hard answers (ROC-AUC)
 
