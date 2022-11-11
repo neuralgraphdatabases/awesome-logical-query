@@ -474,10 +474,10 @@ Progressive scale of supported operators. That is, all models listed under the "
   3. [HypE](https://dl.acm.org/doi/abs/10.1145/3442381.3449974?casa_token=tQx20rBUtMwAAAAA:GRqp4JBze6ybzZzeSdCc9cNGlqN0wkAP0BVBPctAgtUVviVSoNiUQcNxBbEuGVGZxnCzJyLqfMmiYg), WWW 2021
   4. [NewLook](http://tonghanghang.org/pdfs/kdd21_newlook.pdf), KDD 2021
   5. [RotatE-Box](https://arxiv.org/abs/2005.00480), AKBC 2021
-  6. [CQD](https://openreview.net/forum?id=Mos9F9kDwkz) ICLR’21
-  7. [Neural-symbolic Approach for Ontology-mediated Query Answering](https://arxiv.org/pdf/2106.14052.pdf), arxiv 2021
-  8. [kgTransformer](https://keg.cs.tsinghua.edu.cn/jietang/publications/KDD22-Liu-et-al-KG-Transformer.pdf), KDD 2022
-  9.  [TAR: Neural Logical Reasoning across TBox and ABox](https://arxiv.org/abs/2205.14591), arxiv 2022
+  6. [PERM](https://proceedings.neurips.cc/paper/2021/hash/c4d2ce3f3ebb5393a77c33c0cd95dc93-Abstract.html), NeurIPS 2021
+  7. [CQD](https://openreview.net/forum?id=Mos9F9kDwkz) ICLR’21
+  8. [Neural-symbolic Approach for Ontology-mediated Query Answering](https://arxiv.org/pdf/2106.14052.pdf), arxiv 2021
+  9. [kgTransformer](https://keg.cs.tsinghua.edu.cn/jietang/publications/KDD22-Liu-et-al-KG-Transformer.pdf), KDD 2022
 
 </details>
 
@@ -486,14 +486,14 @@ Progressive scale of supported operators. That is, all models listed under the "
 
   1. [BetaE](https://proceedings.neurips.cc/paper/2020/file/e43739bba7cdb577e9e3e4e42447f5a5-Paper.pdf), NeurIPS 2020
   2. [ConE](https://proceedings.neurips.cc/paper/2021/hash/a0160709701140704575d499c997b6ca-Abstract.html), NeurIPS 2021
-  3. [PERM](https://proceedings.neurips.cc/paper/2021/hash/c4d2ce3f3ebb5393a77c33c0cd95dc93-Abstract.html), NeurIPS 2021
-  4. [LogicE](https://arxiv.org/pdf/2103.00418.pdf), arxiv 2021
-  5. [MLPMix](https://openreview.net/forum?id=tgcAoUVHRIB), ICLR 2022
-  6. [FuzzQE](https://ojs.aaai.org/index.php/AAAI/article/view/20310), AAAI 2022
-  7. [GNN-QE](https://arxiv.org/abs/2205.10128), ICML 2022
-  8. [SMORE](https://arxiv.org/abs/2110.14890), KDD 2022
-  9. [LinE](https://dl.acm.org/doi/pdf/10.1145/3534678.3539338?casa_token=_jPlNJj2TlYAAAAA:pKAA42_lrZ2JIHc1YZV0fchIlRiIcqCy8oCBL2UU3Gm84MOeTSYLfQn31DKtXBbU2yqzC7LUsYvREBw), KDD 2022
-  10. [Query2Particles](https://arxiv.org/abs/2204.12847), NAACL 2022
+  3. [LogicE](https://arxiv.org/pdf/2103.00418.pdf), arxiv 2021
+  4. [MLPMix](https://openreview.net/forum?id=tgcAoUVHRIB), ICLR 2022
+  5. [FuzzQE](https://ojs.aaai.org/index.php/AAAI/article/view/20310), AAAI 2022
+  6. [GNN-QE](https://arxiv.org/abs/2205.10128), ICML 2022
+  7. [SMORE](https://arxiv.org/abs/2110.14890), KDD 2022
+  8. [LinE](https://dl.acm.org/doi/pdf/10.1145/3534678.3539338?casa_token=_jPlNJj2TlYAAAAA:pKAA42_lrZ2JIHc1YZV0fchIlRiIcqCy8oCBL2UU3Gm84MOeTSYLfQn31DKtXBbU2yqzC7LUsYvREBw), KDD 2022
+  9.  [Query2Particles](https://arxiv.org/abs/2204.12847), NAACL 2022
+  10. [TAR: Neural Logical Reasoning across TBox and ABox](https://arxiv.org/abs/2205.14591), arxiv 2022
   11. [Type-aware embeddings for multi-hop reasoning over knowledge graphs](https://arxiv.org/abs/2205.00782), arxiv 2022
   12. [FLEX: Feature-Logic Embedding Framework for CompleX Knowledge Graph Reasoning](https://arxiv.org/abs/2205.11039), arxiv 2022
   13. [TFLEX: Temporal Feature-Logic Embedding Framework for Complex Reasoning over Temporal Knowledge Graph](https://arxiv.org/pdf/2205.14307.pdf), arxiv 2022
@@ -577,14 +577,9 @@ Progressive scale of supported operators. That is, all models listed under the "
 - Generalization: predicting hard answers (MRR / Hits@k).
   - Introduced by [Query2Box](https://openreview.net/pdf?id=BJgr4kSFDS) (ICLR 2020). **Standard metric**.
 - Generalization: from ranking to binary classification
-  - Proposed in [Approximate knowledge graph query answering: from ranking to binary classification](https://library.oapen.org/bitstream/handle/20.500.12657/48251/9783030723088.pdf?sequence=1#page=114)
+  - Proposed in [Approximate knowledge graph query answering: from ranking to binary classification](https://arxiv.org/abs/2102.11389)
 - Entailment: faithfulness - ability to recover easy answers (no link prediction) (MRR / Hits@k)
   - Proposed by [EmQL](https://proceedings.neurips.cc/paper/2020/hash/fe74074593f21197b7b7be3c08678616-Abstract.html) (NeurIPS 2020)
-- Retrieval Accuracy: similar as faithfullness - ability to recover all the answers
-  - Proposed by [EFO-1-QA](https://arxiv.org/pdf/2109.08925.pdf)
-  - Details
-    - estimate the size of the answer set as N
-    -  compute the accuracy of the top-N answers against the true answer set.
 - Estimating the cardinality of answer set size (Spearman's rank correlation, MAPE)
 - Predicting easy answers before hard answers (ROC-AUC)
 
@@ -1134,7 +1129,7 @@ Based on FOL operators, the dataset focuses on temporal reasoning, which include
   8. (MPQE) [Message Passing Query Embedding](https://grlplus.github.io/papers/26.pdf) ICML’20 Workshop
   9. (RotatE-Box)[Regex Queries over Incomplete Knowledge Bases](https://arxiv.org/abs/2005.00480) AKBC’21
   10. (BiQE) [Answering complex queries in knowledge graphs with bidirectional sequence encoders](https://ojs.aaai.org/index.php/AAAI/article/view/16630), AAAI’21 
-  11. [Approximate knowledge graph query answering: from ranking to binary classification](https://library.oapen.org/bitstream/handle/20.500.12657/48251/9783030723088.pdf?sequence=1#page=114) ← benchmarking, 2020 / 2021
+  11. [Approximate knowledge graph query answering: from ranking to binary classification](https://arxiv.org/abs/2102.11389) ← benchmarking, 2020 / 2021
   12. [Knowledge Sheaves: A Sheaf-Theoretic Framework for Knowledge Graph Embedding](https://arxiv.org/pdf/2110.03789.pdf) arxiv, BetaE datasets, 2021
   13. (ConE) [Cone: Cone embeddings for multi-hop reasoning over knowledge graphs](https://proceedings.neurips.cc/paper/2021/hash/a0160709701140704575d499c997b6ca-Abstract.html) NeurIPS’21
   14. (PERM) [Probabilistic entity representation model for reasoning over knowledge graphs](https://proceedings.neurips.cc/paper/2021/hash/c4d2ce3f3ebb5393a77c33c0cd95dc93-Abstract.html) (improv over BetaE) NeurIPS’21
