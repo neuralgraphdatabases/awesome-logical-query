@@ -1169,3 +1169,4 @@ Based on FOL operators, the dataset focuses on temporal reasoning, which include
 4. [Towards Empty Answers in SPARQL: Approximating Querying with RDF Embedding](https://link.springer.com/content/pdf/10.1007/978-3-030-00671-6.pdf), ISWC 2018
 5. [Neural Graph Databases](https://arxiv.org/pdf/2209.09732.pdf), 2022, essentially just LPG2vec representation method
 6. [SE-KGE: A Location-Aware Knowledge Graph Embedding Model for Geographic Question Answering and Spatial Semantic Lifting](https://arxiv.org/pdf/2004.14171.pdf), Transactions in GIS 2020, GQE with scalar (x,y) coordinate prediction / encoding
+7. [Your Knowledge Graph Embeddings are Secretly Circuits and You Should Treat Them as Such](https://openreview.net/forum?id=2bjCZdGyEGE), The paper does not completely evaluate this idea, yet, but it could in principle extend their link prediciton technique to a union of conjunctions of these circuits. 
