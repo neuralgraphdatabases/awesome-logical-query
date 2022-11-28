@@ -49,9 +49,10 @@ TODO: Insert an image from the paper
   </details> 
 
 <details>
-  <summary>Hyper-relational KGs (1)</summary>
+  <summary>Hyper-relational KGs (2)</summary>
 
   1. [StarQE](https://arxiv.org/abs/2106.08166), ICLR 2022
+  2. [NQE](https://arxiv.org/pdf/2211.13469.pdf), AAAI 2023
 
 </details>
 
@@ -937,9 +938,11 @@ Qualifiers provide an additional context to the edge - the tail node might chang
 
 Entities and relations in qualifiers are still legit entities and relations which could be present in main triples. Some entities and relations can be found *only* in qualifiers.
 
-The dataset has only conjunctive queries (projection + intersection), neither union nor negation.
+The WD50K dataset has only conjunctive queries (projection + intersection), neither union nor negation.
 
 Introduced in [Query Embedding on Hyper-Relational Knowledge Graphs](https://openreview.net/pdf?id=4rLw09TgRw9), ICLR 2022
+
+The WD50K-NFOL dataset introduced in [NQE: N-ary Query Embedding for Complex Query Answering over Hyper-relational Knowledge Graphs](https://arxiv.org/pdf/2211.13469.pdf)adds unions and negations, as well as possibility of variables at qualifier entity positions. **As of Nov 2022, not openly available)
 
 <details>
   <summary> Graph </summary>
@@ -965,6 +968,7 @@ Introduced in [Query Embedding on Hyper-Relational Knowledge Graphs](https://ope
   | validation | 4,100 | 100,706 | 2,968,315 | 15,648 | 169,195 | 169,438 | 569,957 |
   | test  | 7,716 | 202,045 | 6,433,476 | 38,207 | 547,272 | 445,007 | 1,267,452 |
 
+  WD50K-NFOL stats are not yet available
 
 </details>
 
@@ -1114,7 +1118,7 @@ Based on FOL operators, the dataset focuses on temporal reasoning, which include
 - [SE-KGE](https://github.com/gengchenmai/se-kge): GQE, CGA, and geospatial model
 
 
-## All Papers (39)
+## All Papers (41)
 
 <details>
   <summary>Click to expand </summary>
@@ -1157,7 +1161,9 @@ Based on FOL operators, the dataset focuses on temporal reasoning, which include
   36. (NodePiece-QE, InductiveQE) [Inductive Logical Query Answering in Knowledge Graphs](https://arxiv.org/abs/2210.08008) NeurIPS 2022
   37. (RoMA) [Reasoning over Multi-view Knowledge Graphs](https://arxiv.org/pdf/2209.13702.pdf) arxiv 2022, temporal setup, some new datasets, but no code/data published
   38. (LMPNN) [Logical Message Passing Networks With One-Hop Inference On Atomic Formulas](https://openreview.net/pdf?id=SoyOsp7i_l) ICLR'23 submission, MPQE-style with ComplEx-derived negation
-  39. (GammaE) [GammaE: Gamma Embeddings for Logical Queries on Knowledge Graphs](https://arxiv.org/pdf/2210.15578.pdf) arxiv 2022
+  39. (GammaE) [GammaE: Gamma Embeddings for Logical Queries on Knowledge Graphs](https://arxiv.org/pdf/2210.15578.pdf) EMNLP 2022
+  40. (NMP-QEM) Neural-based Mixture Probabilistic Query Embedding for Answering FOL queries on Knowledge Graphs, EMNLP 2022
+  41. (NQE) [NQE: N-ary Query Embedding for Complex Query Answering over Hyper-relational Knowledge Graphs](https://arxiv.org/pdf/2211.13469.pdf) AAAI 2023, new dataset with hyper-relational queries with unions and negations
 
 </details>
 
