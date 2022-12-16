@@ -1176,3 +1176,4 @@ Based on FOL operators, the dataset focuses on temporal reasoning, which include
 5. [Neural Graph Databases](https://arxiv.org/pdf/2209.09732.pdf), 2022, essentially just LPG2vec representation method
 6. [SE-KGE: A Location-Aware Knowledge Graph Embedding Model for Geographic Question Answering and Spatial Semantic Lifting](https://arxiv.org/pdf/2004.14171.pdf), Transactions in GIS 2020, GQE with scalar (x,y) coordinate prediction / encoding
 7. [Your Knowledge Graph Embeddings are Secretly Circuits and You Should Treat Them as Such](https://openreview.net/forum?id=2bjCZdGyEGE), The paper does not completely evaluate this idea, yet, but it could in principle extend their link prediciton technique to a union of conjunctions of these circuits. 
+8. [Towards High-Order Complementary Recommendation via Logical Reasoning Network](https://arxiv.org/pdf/2212.04966.pdf) Application: BetaE in RecSys (LogiRec)
