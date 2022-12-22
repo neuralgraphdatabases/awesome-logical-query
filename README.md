@@ -1118,7 +1118,7 @@ Based on FOL operators, the dataset focuses on temporal reasoning, which include
 - [SE-KGE](https://github.com/gengchenmai/se-kge): GQE, CGA, and geospatial model
 
 
-## All Papers (41)
+## All Papers (42)
 
 <details>
   <summary>Click to expand </summary>
@@ -1164,6 +1164,7 @@ Based on FOL operators, the dataset focuses on temporal reasoning, which include
   39. (GammaE) [GammaE: Gamma Embeddings for Logical Queries on Knowledge Graphs](https://arxiv.org/pdf/2210.15578.pdf) EMNLP 2022
   40. (NMP-QEM) [Neural-based Mixture Probabilistic Query Embedding for Answering FOL queries on Knowledge Graphs](https://preview.aclanthology.org/emnlp-22-ingestion/2022.emnlp-main.194.pdf), EMNLP 2022, potential SOTA on NELL-995, new WN18RR-based dataset
   41. (NQE) [NQE: N-ary Query Embedding for Complex Query Answering over Hyper-relational Knowledge Graphs](https://arxiv.org/pdf/2211.13469.pdf) AAAI 2023, new dataset with hyper-relational queries with unions and negations
+  42. (QTO) [Answering Complex Logical Queries on Knowledge Graphs via Query Computation Tree Optimization](https://arxiv.org/pdf/2212.09567.pdf), ICML'23 submission, improvement over CQD
 
 </details>
 
