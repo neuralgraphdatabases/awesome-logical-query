@@ -1167,8 +1167,9 @@ Based on FOL operators, the dataset focuses on temporal reasoning, which include
   42. (QTO) [Answering Complex Logical Queries on Knowledge Graphs via Query Computation Tree Optimization](https://arxiv.org/pdf/2212.09567.pdf), ICML'23 submission, improvement over CQD
   43. (SignalE) [Signal Embeddings for Complex Logical Reasoning in Knowledge Graphs](https://link.springer.com/content/pdf/10.1007/978-3-031-10983-6.pdf?pdf=button), KSEM'22, signal embeddings with two forms of time domain and frequency domain
   44. (Var2Vec) [Efficient Embeddings of Logical Variables for Query Answering over Incomplete Knowledge Graphs](https://ora.ox.ac.uk/objects/uuid:27c9b239-20d0-449f-b425-b5065eb128fe/download_file?file_format=application%2Fpdf&safe_filename=Wang_et_al_2022_Efficient_Embeddings_ofAM.pdf&type_of_work=Conference+item), AAAI'23
-  45. (CQA-A) [Adapting Neural Link Predictors for Complex Query Answering](https://arxiv.org/pdf/2301.12313.pdf)
-  46. (PLM4CLQA)[Unifying Structure Reasoning and Language Model Pre-training for Complex Reasoning](https://arxiv.org/pdf/2301.08913.pdf) ACL submission? Really it does not have a name.....
+  45. (CQD-A) [Adapting Neural Link Predictors for Complex Query Answering](https://arxiv.org/pdf/2301.12313.pdf)
+  46. (Query2Geom)[Analysis of Attention Mechanisms in Box-Embedding Systems](https://link.springer.com/chapter/10.1007/978-3-031-26438-2_6), Query2Box with exact box intersection instead of attention
+  47. (SQE)[Sequential Query Encoding For Complex Query Answering on Knowledge Graphs](https://arxiv.org/pdf/2302.13114.pdf)
 
 </details>
 
@@ -1182,3 +1183,4 @@ Based on FOL operators, the dataset focuses on temporal reasoning, which include
 6. [SE-KGE: A Location-Aware Knowledge Graph Embedding Model for Geographic Question Answering and Spatial Semantic Lifting](https://arxiv.org/pdf/2004.14171.pdf), Transactions in GIS 2020, GQE with scalar (x,y) coordinate prediction / encoding
 7. [Your Knowledge Graph Embeddings are Secretly Circuits and You Should Treat Them as Such](https://openreview.net/forum?id=2bjCZdGyEGE), The paper does not completely evaluate this idea, yet, but it could in principle extend their link prediciton technique to a union of conjunctions of these circuits. 
 8. [Towards High-Order Complementary Recommendation via Logical Reasoning Network](https://arxiv.org/pdf/2212.04966.pdf) Application: BetaE in RecSys (LogiRec)
+9. (PLM4CLQA)[Unifying Structure Reasoning and Language Model Pre-training for Complex Reasoning](https://arxiv.org/pdf/2301.08913.pdf) ACL submission? Really it does not have a name..... -> To Applications
