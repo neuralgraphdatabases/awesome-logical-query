@@ -795,7 +795,7 @@ New FB15K-237-CQ and WN18RR-CQ datasets have two variations:
 
 ###  EFO-1 Queries
 
-Existential First-Order queries  with Singel Free Variable, extended from BetaE. The goal is to evaluate the combinatorial generalizability. 
+Existential First-Order queries  with Single Free Variable, extended from BetaE. The goal is to evaluate the combinatorial generalizability. 
 
 Introduced in [Benchmarking the Combinatorial Generalizability of Complex Query Answering on Knowledge Graphs](https://arxiv.org/abs/2109.08925), NeurIPS 2021 (Datasets and Benchmarks)
 
@@ -815,6 +815,31 @@ Introduced in [Benchmarking the Combinatorial Generalizability of Complex Query 
   <summary> Queries </summary>
 
 Cannot list all the 301 query types. Details can be found in a summarization excel file [here](https://docs.google.com/spreadsheets/d/18RJL1puHpbGZJKLkffqKEbzRmRFdSnGFQvekApFWc3Q/edit?usp=sharing).
+
+</details>
+
+###  SQE Queries
+
+Existential First-Order queries aimed at evaluating compositional generalization to OOD query patterns (29 in-distribution types, 29 outp-of-distribution). In contrast to BetaE datasets, does **not** have restrictions on the number of answers per query, long tails are possible.  
+
+Introduced in [Sequential Query Encoding For Complex Query Answering on Knowledge Graphs](https://arxiv.org/abs/2302.13114)
+
+<details>
+  <summary> Graphs </summary>
+
+  | Queries | Training | Training |  Validation | Test |
+  |---------|---------:|-----------:|-----:|---------:|
+  | Dataset | 1p | others  | all | all |
+  | FB15k    | 273,710 | 821,130 | 8,000 | 8,000 |
+  | FB15k237 | 149,689 | 449,067 | 5,000 | 5,000 |
+  | NELL995  | 107,982 | 323,946 | 4,000 | 4,000 | 
+
+</details>
+
+<details>
+  <summary> Queries </summary>
+
+58 query types, refer to Appendix A in the paper for the full list of patterns.
 
 </details>
 
@@ -1169,7 +1194,7 @@ Based on FOL operators, the dataset focuses on temporal reasoning, which include
   44. (Var2Vec) [Efficient Embeddings of Logical Variables for Query Answering over Incomplete Knowledge Graphs](https://ora.ox.ac.uk/objects/uuid:27c9b239-20d0-449f-b425-b5065eb128fe/download_file?file_format=application%2Fpdf&safe_filename=Wang_et_al_2022_Efficient_Embeddings_ofAM.pdf&type_of_work=Conference+item), AAAI'23
   45. (CQD-A) [Adapting Neural Link Predictors for Complex Query Answering](https://arxiv.org/pdf/2301.12313.pdf)
   46. (Query2Geom) [Analysis of Attention Mechanisms in Box-Embedding Systems](https://link.springer.com/chapter/10.1007/978-3-031-26438-2_6), Query2Box with exact box intersection instead of attention
-  47. (SQE) [Sequential Query Encoding For Complex Query Answering on Knowledge Graphs](https://arxiv.org/pdf/2302.13114.pdf)
+  47. (SQE) [Sequential Query Encoding For Complex Query Answering on Knowledge Graphs](https://arxiv.org/pdf/2302.13114.pdf), new datasets with 29 in-distribution query patterns and 29 OOD patterns
 
 </details>
 
