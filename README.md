@@ -1,5 +1,12 @@
 # Complex Logical Query Answering & Neural Graph Databases #
 
+<p align="center">
+  <a href="https://arxiv.org/abs/2303.14617"><img src="http://img.shields.io/badge/Paper-PDF-red.svg"></a>
+  <a href="https://mgalkin.medium.com/neural-graph-databases-cc35c9e1d04f"><img src="https://img.shields.io/badge/Blog-Medium-03a87c"></a>
+  <a href="https://www.ngdb.org/">
+      <img src="https://img.shields.io/badge/Project-website-blue"></a>
+</p>
+
 A collection of resources on the topic of Complex Logical Query Answering accompanying the paper [Neural Graph Reasoning: Complex Logical Query Answering Meets Graph Databases](https://arxiv.org/abs/2303.14617). 
 Feel free to open PRs and issues to add new papers, datasets, and implementations!
 
@@ -1166,7 +1173,7 @@ Based on FOL operators, the dataset focuses on temporal reasoning, which include
 ## Potentially Relevant 
 <details>
   <summary>Click to expand </summary>
-  
+
   1. [Hybrid Structured and Similarity Queries over Wikidata plus Embeddings with Kypher-V](https://www.isi.edu/~hans/publications/WDWS-ISWC-2022.pdf), ISWC 2022
   2. [Combining RDF Graph Data and Embedding Models for an Augmented Knowledge Graph](https://dl.acm.org/doi/fullHtml/10.1145/3184558.3191527), BigNet 2018 Workshop @ WWW'18
   3. [TrQuery: An Embedding-based Framework for Recommanding SPARQL Queries](https://arxiv.org/pdf/1806.06205.pdf), 2018
