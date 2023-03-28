@@ -1,8 +1,11 @@
-# awesome-logical-query-answering
+# Complex Logical Query Answering & Neural Graph Databases #
 
-A collection of resources on the topic of Complex Logical Query Answering accompanying the paper [Insert Title](link)
+A collection of resources on the topic of Complex Logical Query Answering accompanying the paper [Neural Graph Reasoning: Complex Logical Query Answering Meets Graph Databases](https://arxiv.org/abs/2303.14617). 
+Feel free to open PRs and issues to add new papers, datasets, and implementations!
 
-TODO: Insert an image from the paper
+This repo follows the Neural Query Engine taxonomy proposed in the paper (Figure 9).
+
+![hierarchy](asset/tree.png)
 
 ## :scroll: Categorization of papers
 
@@ -68,7 +71,7 @@ TODO: Insert an image from the paper
 <details>
   <summary>Hyper-graphs and Multi-modal graphs (0)</summary>
 
-  0. None as of Sept 2022
+  0. None as of March 2023
   
 </details>
 
@@ -949,7 +952,7 @@ The WD50K-NFOL dataset introduced in [NQE: N-ary Query Embedding for Complex Que
 
 ### Inductive Datasets
 
-As of Sept 2022, there are no existing purely inductive datasets such that the training and validation/test graphs are different (validation and test containing new unseen entities) and predictions should only rely on the graph structure w/o external data.
+As of March 2023, there are no existing purely inductive datasets such that the training and validation/test graphs are different (validation and test containing new unseen entities) and predictions should only rely on the graph structure w/o external data.
 
 #### Type-based Inductive
 
@@ -1108,42 +1111,42 @@ Based on FOL operators, the dataset focuses on temporal reasoning, which include
   8. (MPQE) [Message Passing Query Embedding](https://grlplus.github.io/papers/26.pdf) ICML’20 Workshop
   9. (RotatE-Box)[Regex Queries over Incomplete Knowledge Bases](https://arxiv.org/abs/2005.00480) AKBC’21
   10. (BiQE) [Answering complex queries in knowledge graphs with bidirectional sequence encoders](https://ojs.aaai.org/index.php/AAAI/article/view/16630), AAAI’21 
-  11. [Approximate knowledge graph query answering: from ranking to binary classification](https://arxiv.org/abs/2102.11389) ← benchmarking, 2020 / 2021
-  12. [Knowledge Sheaves: A Sheaf-Theoretic Framework for Knowledge Graph Embedding](https://arxiv.org/pdf/2110.03789.pdf) arxiv, BetaE datasets, 2021
+  11. [Approximate knowledge graph query answering: from ranking to binary classification](https://arxiv.org/abs/2102.11389)
+  12. [Knowledge Sheaves: A Sheaf-Theoretic Framework for Knowledge Graph Embedding](https://arxiv.org/pdf/2110.03789.pdf) arxiv, 2021
   13. (ConE) [Cone: Cone embeddings for multi-hop reasoning over knowledge graphs](https://proceedings.neurips.cc/paper/2021/hash/a0160709701140704575d499c997b6ca-Abstract.html) NeurIPS’21
   14. (PERM) [Probabilistic entity representation model for reasoning over knowledge graphs](https://proceedings.neurips.cc/paper/2021/hash/c4d2ce3f3ebb5393a77c33c0cd95dc93-Abstract.html) (improv over BetaE) NeurIPS’21
   15. (CQD) [Complex Query Answering with Neural Link Predictors](https://openreview.net/forum?id=Mos9F9kDwkz) ICLR’21
-  16. (HypE) [Self-Supervised Hyperboloid Representations from Logical Queries over Knowledge Graphs](https://arxiv.org/pdf/2012.13023.pdf), WWW 2021 + (new) DBpedia + Amazon prod dataset
-  17. (NewLook) [Neural-Answering Logical Queries on Knowledge Graphs](http://tonghanghang.org/pdfs/kdd21_newlook.pdf) (KDD’21) ← subgraph matching
-  18. [Benchmarking the Combinatorial Generalizability of Complex Query Answering on Knowledge Graphs](https://arxiv.org/abs/2109.08925), NeurIPS 2021 (Datasets and Benchmarks) ← benchmarking, 2021, new datasets
-  19. [Neuro-Symbolic Ontology-Mediated Query Answering](https://openreview.net/pdf?id=wwVb95CkrFm) OpenReview 2021 (Q2B with rules), new datasets with types - LUBM + NELL
+  16. (HypE) [Self-Supervised Hyperboloid Representations from Logical Queries over Knowledge Graphs](https://arxiv.org/pdf/2012.13023.pdf), WWW 2021
+  17. (NewLook) [Neural-Answering Logical Queries on Knowledge Graphs](http://tonghanghang.org/pdfs/kdd21_newlook.pdf) (KDD’21) 
+  18. [Benchmarking the Combinatorial Generalizability of Complex Query Answering on Knowledge Graphs](https://arxiv.org/abs/2109.08925), NeurIPS 2021 (Datasets and Benchmarks)
+  19. [Neuro-Symbolic Ontology-Mediated Query Answering](https://openreview.net/pdf?id=wwVb95CkrFm) OpenReview 2021
   20. (LogicE) [Logic Embeddings for Complex Query Answering](https://arxiv.org/pdf/2103.00418.pdf) arxiv 2021
-  21. (StarQE) [Query Embedding on Hyper-relational Knowledge Graphs](https://arxiv.org/abs/2106.08166) ICLR 2022, new datasets
+  21. (StarQE) [Query Embedding on Hyper-relational Knowledge Graphs](https://arxiv.org/abs/2106.08166) ICLR 2022, 
   22. (MLPMix) [Neural Methods for Logical Reasoning over Knowledge Graphs](https://openreview.net/forum?id=tgcAoUVHRIB) ICLR 2022
   23. (FuzzQE) [Fuzzy Logic Based Logical Query Answering on Knowledge Graphs](https://ojs.aaai.org/index.php/AAAI/article/view/20310), AAAI 2022
   24. (GNN-QE)  [Neural-Symbolic Models for Logical Queries on Knowledge Graphs](https://arxiv.org/abs/2205.10128), ICML 2022
-  25. (SMORE) [SMORE: Knowledge Graph Completion and Multi-hop Reasoning in Massive Knowledge Graphs](https://arxiv.org/abs/2110.14890) KDD 2022 ← very large graphs, new datasets
-  26. (kgTransformer) [Mask and Reason: Pre-Training Knowledge Graph Transformers for Complex Logical Queries](https://dl.acm.org/doi/pdf/10.1145/3534678.3539472?casa_token=c_fD5BwP0MoAAAAA:eYO12-vcXophXPFSYro_6go4b2sQRkCTcEYRZRcVgDT6SiDpKa0AvGhqS8spvhn8-y_H0ZmCz72E) KDD 2022, old Q2B datasets
+  25. (SMORE) [SMORE: Knowledge Graph Completion and Multi-hop Reasoning in Massive Knowledge Graphs](https://arxiv.org/abs/2110.14890) KDD 2022 
+  26. (kgTransformer) [Mask and Reason: Pre-Training Knowledge Graph Transformers for Complex Logical Queries](https://dl.acm.org/doi/pdf/10.1145/3534678.3539472?casa_token=c_fD5BwP0MoAAAAA:eYO12-vcXophXPFSYro_6go4b2sQRkCTcEYRZRcVgDT6SiDpKa0AvGhqS8spvhn8-y_H0ZmCz72E) KDD 2022
   27. (Query2Particles) [Query2Particles: Knowledge Graph Reasoning with Particle Embeddings](https://arxiv.org/abs/2204.12847), Findings NAACL’22
-  28. (TAR) [TAR: Neural Logical Reasoning across TBox and ABox](https://arxiv.org/abs/2205.14591) (arxiv, 2022) Class Hierarchy, new dataset
-  29. (TeMP) [Type-aware embeddings for multi-hop reasoning over knowledge graphs](https://arxiv.org/abs/2205.00782) (IJCAI-ECAI 2022) Class Hierarchy, new dataset
+  28. (TAR) [TAR: Neural Logical Reasoning across TBox and ABox](https://arxiv.org/abs/2205.14591) (arxiv, 2022) 
+  29. (TeMP) [Type-aware embeddings for multi-hop reasoning over knowledge graphs](https://arxiv.org/abs/2205.00782) (IJCAI-ECAI 2022) 
   30. (FLEX) [FLEX: Feature-Logic Embedding Framework for CompleX Knowledge Graph Reasoning](https://arxiv.org/abs/2205.11039) (arxiv 2022)
-  31. (TFLEX) [TFLEX: Temporal Feature-Logic Embedding Framework for Complex Reasoning over Temporal Knowledge Graph](https://arxiv.org/pdf/2205.14307.pdf) (arxiv, 2022), new dataset
+  31. (TFLEX) [TFLEX: Temporal Feature-Logic Embedding Framework for Complex Reasoning over Temporal Knowledge Graph](https://arxiv.org/pdf/2205.14307.pdf) (arxiv, 2022)
   32. (LinE) [LinE: Logical Query Reasoning over Hierarchical Knowledge Graphs](https://dl.acm.org/doi/pdf/10.1145/3534678.3539338?casa_token=_jPlNJj2TlYAAAAA:pKAA42_lrZ2JIHc1YZV0fchIlRiIcqCy8oCBL2UU3Gm84MOeTSYLfQn31DKtXBbU2yqzC7LUsYvREBw) KDD 2022
   33. [GNNQ: A Neuro-Symbolic Approach for Query Answering over Incomplete Knowledge Graphs](https://scholar.archive.org/work/sswyx3mbc5danaxosfnyr45cw4/access/wayback/https://s3-eu-west-1.amazonaws.com/pstorage-oxford-0703704596/36647646/GNNQ_full.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3OGA3B5WHKHW6LWV/20220814/eu-west-1/s3/aws4_request&X-Amz-Date=20220814T213541Z&X-Amz-Expires=10&X-Amz-SignedHeaders=host&X-Amz-Signature=1bf627735fbce377c2478f514fbac1dfcf49423980d372cc71e2bed732d6ae2c) ISWC 2022
-  34. (ENeSy) [Neural-Symbolic Entangled Framework for Complex Query Answering](https://arxiv.org/pdf/2209.08779.pdf) NeurIPS 2022
-  35. (NodePiece-QE, InductiveQE) [Inductive Logical Query Answering in Knowledge Graphs](https://arxiv.org/abs/2210.08008) NeurIPS 2022
-  36. (RoMA) [Reasoning over Multi-view Knowledge Graphs](https://arxiv.org/pdf/2209.13702.pdf) arxiv 2022, temporal setup, some new datasets, but no code/data published
-  37. (LMPNN) [Logical Message Passing Networks With One-Hop Inference On Atomic Formulas](https://openreview.net/pdf?id=SoyOsp7i_l) ICLR'23 submission, MPQE-style with ComplEx-derived negation
-  38. (GammaE) [GammaE: Gamma Embeddings for Logical Queries on Knowledge Graphs](https://arxiv.org/pdf/2210.15578.pdf) EMNLP 2022
-  39. (NMP-QEM) [Neural-based Mixture Probabilistic Query Embedding for Answering FOL queries on Knowledge Graphs](https://preview.aclanthology.org/emnlp-22-ingestion/2022.emnlp-main.194.pdf), EMNLP 2022, potential SOTA on NELL-995, new WN18RR-based dataset
-  40. (NQE) [NQE: N-ary Query Embedding for Complex Query Answering over Hyper-relational Knowledge Graphs](https://arxiv.org/pdf/2211.13469.pdf) AAAI 2023, new dataset with hyper-relational queries with unions and negations
-  41. (QTO) [Answering Complex Logical Queries on Knowledge Graphs via Query Computation Tree Optimization](https://arxiv.org/pdf/2212.09567.pdf), ICML'23 submission, improvement over CQD
-  42. (SignalE) [Signal Embeddings for Complex Logical Reasoning in Knowledge Graphs](https://link.springer.com/content/pdf/10.1007/978-3-031-10983-6.pdf?pdf=button), KSEM'22, signal embeddings with two forms of time domain and frequency domain
+  34. (ENeSy) [Neural-Symbolic Entangled Framework for Complex Query Answering](https://arxiv.org/pdf/2209.08779.pdf) NeurIPS 2022  
+  35. (NodePiece-QE, InductiveQE) [Inductive Logical Query Answering in Knowledge Graphs](https://arxiv.org/abs/2210.08008) NeurIPS 2022  
+  36. (RoMA) [Reasoning over Multi-view Knowledge Graphs](https://arxiv.org/pdf/2209.13702.pdf) arxiv 2022, some new datasets, but no code/data published  
+  37. (LMPNN) [Logical Message Passing Networks With One-Hop Inference On Atomic Formulas](https://openreview.net/pdf?id=SoyOsp7i_l) ICLR'23  
+  38. (GammaE) [GammaE: Gamma Embeddings for Logical Queries on Knowledge Graphs](https://arxiv.org/pdf/2210.15578.pdf) EMNLP 2022  
+  39. (NMP-QEM) [Neural-based Mixture Probabilistic Query Embedding for Answering FOL queries on Knowledge Graphs](https://preview.aclanthology.org/emnlp-22-ingestion/2022.emnlp-main.194.pdf), EMNLP 2022  
+  40. (NQE) [NQE: N-ary Query Embedding for Complex Query Answering over Hyper-relational Knowledge Graphs](https://arxiv.org/pdf/2211.13469.pdf) AAAI 2023  
+  41. (QTO) [Answering Complex Logical Queries on Knowledge Graphs via Query Computation Tree Optimization](https://arxiv.org/pdf/2212.09567.pdf), ICML'23 submission  
+  42. (SignalE) [Signal Embeddings for Complex Logical Reasoning in Knowledge Graphs](https://link.springer.com/content/pdf/10.1007/978-3-031-10983-6.pdf?pdf=button), KSEM'22  
   43. (Var2Vec) [Efficient Embeddings of Logical Variables for Query Answering over Incomplete Knowledge Graphs](https://ora.ox.ac.uk/objects/uuid:27c9b239-20d0-449f-b425-b5065eb128fe/download_file?file_format=application%2Fpdf&safe_filename=Wang_et_al_2022_Efficient_Embeddings_ofAM.pdf&type_of_work=Conference+item), AAAI'23
   44. (CQD-A) [Adapting Neural Link Predictors for Complex Query Answering](https://arxiv.org/pdf/2301.12313.pdf)
-  45. (Query2Geom) [Analysis of Attention Mechanisms in Box-Embedding Systems](https://link.springer.com/chapter/10.1007/978-3-031-26438-2_6), Query2Box with exact box intersection instead of attention
-  46. (SQE) [Sequential Query Encoding For Complex Query Answering on Knowledge Graphs](https://arxiv.org/pdf/2302.13114.pdf), new datasets with 29 in-distribution query patterns and 29 OOD patterns
+  45. (Query2Geom) [Analysis of Attention Mechanisms in Box-Embedding Systems](https://link.springer.com/chapter/10.1007/978-3-031-26438-2_6), 2023
+  46. (SQE) [Sequential Query Encoding For Complex Query Answering on Knowledge Graphs](https://arxiv.org/pdf/2302.13114.pdf) arxiv 2023  
 
 </details>
 
@@ -1160,10 +1163,12 @@ Based on FOL operators, the dataset focuses on temporal reasoning, which include
   7. [Unifying structure reasoning and language model pre-training for complex reasoning](https://arxiv.org/pdf/2301.08913), arxiv 2023
 </details>
 
-## Triaging
-
-1. [Hybrid Structured and Similarity Queries over Wikidata plus Embeddings with Kypher-V](https://www.isi.edu/~hans/publications/WDWS-ISWC-2022.pdf), ISWC 2022
-2. [Combining RDF Graph Data and Embedding Models for an Augmented Knowledge Graph](https://dl.acm.org/doi/fullHtml/10.1145/3184558.3191527), BigNet 2018 Workshop @ WWW'18
-3. [TrQuery: An Embedding-based Framework for Recommanding SPARQL Queries](https://arxiv.org/pdf/1806.06205.pdf), 2018
-4. [Towards Empty Answers in SPARQL: Approximating Querying with RDF Embedding](https://link.springer.com/content/pdf/10.1007/978-3-030-00671-6.pdf), ISWC 2018
-5. [Your Knowledge Graph Embeddings are Secretly Circuits and You Should Treat Them as Such](https://openreview.net/forum?id=2bjCZdGyEGE), The paper does not completely evaluate this idea, yet, but it could in principle extend their link prediciton technique to a union of conjunctions of these circuits. 
+## Potentially Relevant 
+<details>
+  <summary>Click to expand </summary>
+  
+  1. [Hybrid Structured and Similarity Queries over Wikidata plus Embeddings with Kypher-V](https://www.isi.edu/~hans/publications/WDWS-ISWC-2022.pdf), ISWC 2022
+  2. [Combining RDF Graph Data and Embedding Models for an Augmented Knowledge Graph](https://dl.acm.org/doi/fullHtml/10.1145/3184558.3191527), BigNet 2018 Workshop @ WWW'18
+  3. [TrQuery: An Embedding-based Framework for Recommanding SPARQL Queries](https://arxiv.org/pdf/1806.06205.pdf), 2018
+  4. [Towards Empty Answers in SPARQL: Approximating Querying with RDF Embedding](https://link.springer.com/content/pdf/10.1007/978-3-030-00671-6.pdf), ISWC 2018
+</details>
