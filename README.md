@@ -1179,3 +1179,17 @@ Based on FOL operators, the dataset focuses on temporal reasoning, which include
   3. [TrQuery: An Embedding-based Framework for Recommanding SPARQL Queries](https://arxiv.org/pdf/1806.06205.pdf), 2018
   4. [Towards Empty Answers in SPARQL: Approximating Querying with RDF Embedding](https://link.springer.com/content/pdf/10.1007/978-3-030-00671-6.pdf), ISWC 2018
 </details>
+
+## Citation
+
+If you find this work useful, please cite the original paper:
+
+```bibtex
+@article{ren2023ngdb,
+    title={Neural Graph Reasoning: Complex Logical Query Answering Meets Graph Databases},
+    author={Hongyu Ren and Mikhail Galkin and Michael Cochez and Zhaocheng Zhu and Jure Leskovec},
+    year={2023},
+    eprint={2303.14617},
+    archivePrefix={arXiv},
+}
+```
