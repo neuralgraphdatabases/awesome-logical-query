@@ -778,9 +778,29 @@ Cannot list all the 301 query types. Details can be found in a summarization exc
 
 </details>
 
+### EFO-1 Queries with Cycles
+
+For standard FB15k, FB15k-237, and NELL - 9 new query types (10 with reworked `pni` type) including:
+-  `l` - queries with existentially quantified variables as leaf nodes (2il, 3il)
+-  `m` - queries with multiple relation projection edges from one variable to another (2m, 2nm, 3mp, 3pm, im)
+-  `c` - queries with cycles (3c, cm)
+
+All new query have 5000 instances in three KGs. Introduced in [On Existential First Order Queries Inference on Knowledge Graphs](https://arxiv.org/pdf/2304.07063.pdf), arxiv 2023
+
+#### EPFO queries with Literals
+
+Based on a variation of the FB15k-237 dataset with entity attributes (12,390 entities, 237 relations, 115 attributes, 29,229 (?) triples).
+Literals are restricted to numerical values, three additional filter functions (less than, equal, greater then).
+
+The dataset includes standard 9 EPFO query types and adds 8 more variations of those patterns enriched with literals:
+- 5 query types where literals are in queries, but the answer is an entity (ai, 2ai, pai, aip, au)
+- 3 query types where literals are in queries, and the answer is a mean of relevant literal values (1ap, 2ap, 3ap)
+
+Introduced in [LitCQD: Multi-Hop Reasoning in Incomplete Knowledge Graphs with Numeric Literals](https://arxiv.org/pdf/2304.14742.pdf), arxiv 2023
+
 ###  SQE Queries
 
-Existential First-Order queries aimed at evaluating compositional generalization to OOD query patterns (29 in-distribution types, 29 outp-of-distribution). In contrast to BetaE datasets, does **not** have restrictions on the number of answers per query, long tails are possible.  
+Existential First-Order queries aimed at evaluating compositional generalization to OOD query patterns (29 in-distribution types, 29 out-of-distribution). In contrast to BetaE datasets, does **not** have restrictions on the number of answers per query, long tails are possible.  
 
 Introduced in [Sequential Query Encoding For Complex Query Answering on Knowledge Graphs](https://arxiv.org/abs/2302.13114)
 
@@ -1103,7 +1123,7 @@ Based on FOL operators, the dataset focuses on temporal reasoning, which include
 - [SE-KGE](https://github.com/gengchenmai/se-kge): GQE, CGA, and geospatial model
 
 
-## All Papers on Complex Logical Query Answering (46)
+## All Papers on Complex Logical Query Answering (50)
 
 <details>
   <summary>Click to expand </summary>
@@ -1153,7 +1173,11 @@ Based on FOL operators, the dataset focuses on temporal reasoning, which include
   43. (Var2Vec) [Efficient Embeddings of Logical Variables for Query Answering over Incomplete Knowledge Graphs](https://ora.ox.ac.uk/objects/uuid:27c9b239-20d0-449f-b425-b5065eb128fe/download_file?file_format=application%2Fpdf&safe_filename=Wang_et_al_2022_Efficient_Embeddings_ofAM.pdf&type_of_work=Conference+item), AAAI'23
   44. (CQD-A) [Adapting Neural Link Predictors for Complex Query Answering](https://arxiv.org/pdf/2301.12313.pdf)
   45. (Query2Geom) [Analysis of Attention Mechanisms in Box-Embedding Systems](https://link.springer.com/chapter/10.1007/978-3-031-26438-2_6), 2023
-  46. (SQE) [Sequential Query Encoding For Complex Query Answering on Knowledge Graphs](https://arxiv.org/pdf/2302.13114.pdf) arxiv 2023  
+  46. (SQE) [Sequential Query Encoding For Complex Query Answering on Knowledge Graphs](https://arxiv.org/pdf/2302.13114.pdf), arxiv 2023  
+  47. (CylE) [CylE: Cylinder Embeddings for Multi-hop Reasoning over Knowledge Graphs](https://aclanthology.org/2023.eacl-main.127.pdf), EACL 2023  
+  48. (RoConE) [Modeling Relational Patterns for Logical Query Answering over Knowledge Graphs](https://arxiv.org/pdf/2303.11858.pdf)  
+  49. (FIT) [On Existential First Order Queries Inference on Knowledge Graphs](https://arxiv.org/pdf/2304.07063.pdf), arxiv 2023  
+  50. (LitCQD) [LitCQD: Multi-Hop Reasoning in Incomplete Knowledge Graphs with Numeric Literals](https://arxiv.org/pdf/2304.14742.pdf), arxiv 2023
 
 </details>
 
