@@ -1117,13 +1117,16 @@ Based on FOL operators, the dataset focuses on temporal reasoning, which include
 - [StarQE](https://github.com/DimitrisAlivas/StarQE): StarQE
 - [SMORE](https://github.com/google-research/smore): GQE, Query2Box, BetaE + Very Large Datasets
 - [GNN-QE](https://github.com/DeepGraphLearning/GNN-QE): GNN-QE
+- [InductiveQE](https://github.com/DeepGraphLearning/InductiveQE): Inductive QE with NodePiece and GNN-QE
 - [TAR](https://github.com/lilv98/TAR): TAR
 - [QE-TeMP](https://github.com/zhiweihu1103/QE-TEMP): TeMP (based on KGReasoning)
 - [GNNQ](https://github.com/KRR-Oxford/GNNQ): GNNQ
 - [SE-KGE](https://github.com/gengchenmai/se-kge): GQE, CGA, and geospatial model
+- [LARK](https://github.com/Akirato/LLM-KG-Reasoning/): LARK (uses Huggingface LLMs)
+- [WFRE](https://github.com/HKUST-KnowComp/WFRE): WFRE
 
 
-## All Papers on Complex Logical Query Answering (50)
+## All Papers on Complex Logical Query Answering (52)
 
 <details>
   <summary>Click to expand </summary>
@@ -1177,8 +1180,9 @@ Based on FOL operators, the dataset focuses on temporal reasoning, which include
   47. (CylE) [CylE: Cylinder Embeddings for Multi-hop Reasoning over Knowledge Graphs](https://aclanthology.org/2023.eacl-main.127.pdf), EACL 2023  
   48. (RoConE) [Modeling Relational Patterns for Logical Query Answering over Knowledge Graphs](https://arxiv.org/pdf/2303.11858.pdf)  
   49. (FIT) [On Existential First Order Queries Inference on Knowledge Graphs](https://arxiv.org/pdf/2304.07063.pdf), arxiv 2023  
-  50. (LitCQD) [LitCQD: Multi-Hop Reasoning in Incomplete Knowledge Graphs with Numeric Literals](https://arxiv.org/pdf/2304.14742.pdf), arxiv 2023
-
+  50. (LitCQD) [LitCQD: Multi-Hop Reasoning in Incomplete Knowledge Graphs with Numeric Literals](https://arxiv.org/pdf/2304.14742.pdf), arxiv 2023  
+  51. (LARK) [Complex Logical Reasoning over Knowledge Graphs using Large Language Models](https://arxiv.org/pdf/2305.01157.pdf), arxiv 2023  
+  52. (WFRE) [Wasserstein-Fisher-Rao Embedding: Logical Query Embeddings with Local Comparison and Global Transport](https://arxiv.org/pdf/2305.04034.pdf), arxiv 2023
 </details>
 
 ## Application Papers (7)
