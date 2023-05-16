@@ -778,8 +778,9 @@ Cannot list all the 301 query types. Details can be found in a summarization exc
 
 </details>
 
-### EFO-1 Queries with Cycles
+### Real EFO-1 dataset
 
+Rethinking the EFO-1 formulation by introducing leaf nodes, multi edge, and cycle.
 For standard FB15k, FB15k-237, and NELL - 9 new query types (10 with reworked `pni` type) including:
 -  `l` - queries with existentially quantified variables as leaf nodes (2il, 3il)
 -  `m` - queries with multiple relation projection edges from one variable to another (2m, 2nm, 3mp, 3pm, im)
@@ -1114,7 +1115,7 @@ Based on FOL operators, the dataset focuses on temporal reasoning, which include
 
 - [KGReasoning](https://github.com/snap-stanford/KGReasoning): GQE, Query2Box, BetaE
 - [CQD](https://github.com/pminervini/KGReasoning): GQE, Query2Box, BetaE, CQD
-- [EFO-1-QA-benchmark](https://github.com/HKUST-KnowComp/EFO-1-QA-benchmark): Query2Box, BetaE, LogicE, NewLook, ConE, FuzzQE + EFO-1 datasets
+- [EFO-1-QA-benchmark](https://github.com/HKUST-KnowComp/EFO-1-QA-benchmark): Query2Box, BetaE, LogicE, NewLook, ConE, FuzzQE
 - [Query2particles](https://github.com/HKUST-KnowComp/query2particles)
 - [StarQE](https://github.com/DimitrisAlivas/StarQE): StarQE
 - [SMORE](https://github.com/google-research/smore): GQE, Query2Box, BetaE + Very Large Datasets
