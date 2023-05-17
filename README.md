@@ -778,14 +778,15 @@ Cannot list all the 301 query types. Details can be found in a summarization exc
 
 </details>
 
-### EFO-1 Queries with Cycles
+### Real EFO-1 dataset
 
+Rethinking the EFO-1 formulation by introducing leaf nodes, multi edge, and cycle.
 For standard FB15k, FB15k-237, and NELL - 9 new query types (10 with reworked `pni` type) including:
 -  `l` - queries with existentially quantified variables as leaf nodes (2il, 3il)
 -  `m` - queries with multiple relation projection edges from one variable to another (2m, 2nm, 3mp, 3pm, im)
 -  `c` - queries with cycles (3c, cm)
 
-All new query have 5000 instances in three KGs. Introduced in [On Existential First Order Queries Inference on Knowledge Graphs](https://arxiv.org/pdf/2304.07063.pdf), arxiv 2023
+All new query have 5000 instances in three KGs. Introduced in [On Existential First Order Queries Inference on Knowledge Graphs](https://arxiv.org/pdf/2304.07063.pdf), arxiv 2023. The dataset can be downloaded from [here](https://drive.google.com/drive/folders/17bPr6_ESqh5D0LgWNgpE4mY8gpg2iC5o?usp=sharing).
 
 #### EPFO queries with Literals
 
@@ -1108,12 +1109,14 @@ Based on FOL operators, the dataset focuses on temporal reasoning, which include
 ### Dataset tools
 
 - [Graph Query Sampler](https://github.com/miselico/graph_query_sampler): Not a method, rather a dataset generator
-
+- [EFO-1-QA-benchmark](https://github.com/HKUST-KnowComp/EFO-1-QA-benchmark): Generating combiantorial tree-formed query types and sample the data.
 
 ## :wrench: Implementations
 
 - [KGReasoning](https://github.com/snap-stanford/KGReasoning): GQE, Query2Box, BetaE
 - [CQD](https://github.com/pminervini/KGReasoning): GQE, Query2Box, BetaE, CQD
+- [EFO-1-QA-benchmark](https://github.com/HKUST-KnowComp/EFO-1-QA-benchmark): Query2Box, BetaE, LogicE, NewLook, ConE, FuzzQE
+- [Query2particles](https://github.com/HKUST-KnowComp/query2particles)
 - [StarQE](https://github.com/DimitrisAlivas/StarQE): StarQE
 - [SMORE](https://github.com/google-research/smore): GQE, Query2Box, BetaE + Very Large Datasets
 - [GNN-QE](https://github.com/DeepGraphLearning/GNN-QE): GNN-QE
@@ -1124,6 +1127,7 @@ Based on FOL operators, the dataset focuses on temporal reasoning, which include
 - [SE-KGE](https://github.com/gengchenmai/se-kge): GQE, CGA, and geospatial model
 - [LARK](https://github.com/Akirato/LLM-KG-Reasoning/): LARK (uses Huggingface LLMs)
 - [WFRE](https://github.com/HKUST-KnowComp/WFRE): WFRE
+- [FIT](https://github.com/HKUST-KnowComp/FIT): FIT
 
 
 ## All Papers on Complex Logical Query Answering (52)
