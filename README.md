@@ -55,8 +55,8 @@ This repo follows the Neural Query Engine taxonomy proposed in the paper (Figure
   31. [ENeSy](https://arxiv.org/pdf/2209.08779.pdf), NeurIPS 2022
   32. [NodePiece-QE](https://arxiv.org/abs/2210.08008), NeurIPS 2022
   33. [GammaE](https://arxiv.org/pdf/2210.15578.pdf), EMNLP 2022
-  34. [NMP-QEM](https://preview.aclanthology.org/emnlp-22-ingestion/2022.emnlp-main.194.pdf), EMNLP 2022
-  35. [SignalE](https://link.springer.com/content/pdf/10.1007/978-3-031-10983-6.pdf?pdf=button), KSEM 2022
+  34. [NMP-QEM](https://aclanthology.org/2022.emnlp-main.194.pdf), EMNLP 2022
+  35. [SignalE](https://link.springer.com/content/pdf/10.1007/978-3-031-10983-6_20.pdf?pdf=inline%20link), KSEM 2022
   36. [Query2Geom](https://link.springer.com/chapter/10.1007/978-3-031-26438-2_6), AICS 2022
   37. [LMPNN](https://openreview.net/pdf?id=SoyOsp7i_l), ICLR 2023
   38. [QTO](https://arxiv.org/pdf/2212.09567.pdf), arxiv 2023
@@ -123,8 +123,8 @@ This repo follows the Neural Query Engine taxonomy proposed in the paper (Figure
   32. [ENeSy](https://arxiv.org/pdf/2209.08779.pdf), NeurIPS 2022
   33. [NodePiece-QE](https://arxiv.org/abs/2210.08008), NeurIPS 2022
   34. [GammaE](https://arxiv.org/pdf/2210.15578.pdf), EMNLP 2022
-  35. [NMP-QEM](https://preview.aclanthology.org/emnlp-22-ingestion/2022.emnlp-main.194.pdf), EMNLP 2022
-  36. [SignalE](https://link.springer.com/content/pdf/10.1007/978-3-031-10983-6.pdf?pdf=button), KSEM 2022
+  35. [NMP-QEM](https://aclanthology.org/2022.emnlp-main.194.pdf), EMNLP 2022
+  36. [SignalE](https://link.springer.com/content/pdf/10.1007/978-3-031-10983-6_20.pdf?pdf=inline%20link), KSEM 2022
   37. [Query2Geom](https://link.springer.com/chapter/10.1007/978-3-031-26438-2_6), AICS 2022
   38. [LMPNN](https://openreview.net/pdf?id=SoyOsp7i_l), ICLR 2023
   39. [QTO](https://arxiv.org/pdf/2212.09567.pdf), arxiv 2023
@@ -186,8 +186,8 @@ This repo follows the Neural Query Engine taxonomy proposed in the paper (Figure
   28. [ENesy](https://arxiv.org/pdf/2209.08779.pdf), NeurIPS 2022
   29. [NodePiece-QE](https://arxiv.org/abs/2210.08008), NeurIPS 2022
   30. [GammaE](https://arxiv.org/pdf/2210.15578.pdf), EMNLP 2022
-  31. [NMP-QEM](https://preview.aclanthology.org/emnlp-22-ingestion/2022.emnlp-main.194.pdf), EMNLP 2022
-  32. [SignalE](https://link.springer.com/content/pdf/10.1007/978-3-031-10983-6.pdf?pdf=button), KSEM 2022
+  31. [NMP-QEM](https://aclanthology.org/2022.emnlp-main.194.pdf), EMNLP 2022
+  32. [SignalE](https://link.springer.com/content/pdf/10.1007/978-3-031-10983-6_20.pdf?pdf=inline%20link), KSEM 2022
   33. [Query2Geom](https://link.springer.com/chapter/10.1007/978-3-031-26438-2_6), AICS 2022
   34. [LMPNN](https://openreview.net/pdf?id=SoyOsp7i_l), ICLR 2023
   35. [QTO](https://arxiv.org/pdf/2212.09567.pdf), arxiv 2023
@@ -242,8 +242,8 @@ This repo follows the Neural Query Engine taxonomy proposed in the paper (Figure
   22. [FLEX](https://arxiv.org/abs/2205.11039), arxiv 2022
   23. [TFLEX](https://arxiv.org/pdf/2205.14307.pdf), arxiv 2022
   24. [GammaE](https://arxiv.org/pdf/2210.15578.pdf), EMNLP 2022
-  25. [NMP-QEM](https://preview.aclanthology.org/emnlp-22-ingestion/2022.emnlp-main.194.pdf), EMNLP 2022
-  26. [SignalE](https://link.springer.com/content/pdf/10.1007/978-3-031-10983-6.pdf?pdf=button), KSEM 2022
+  25. [NMP-QEM](https://aclanthology.org/2022.emnlp-main.194.pdf), EMNLP 2022
+  26. [SignalE](https://link.springer.com/content/pdf/10.1007/978-3-031-10983-6_20.pdf?pdf=inline%20link), KSEM 2022
   27. [Query2Geom](https://link.springer.com/chapter/10.1007/978-3-031-26438-2_6), AICS 2022
   28. [QTO](https://arxiv.org/pdf/2212.09567.pdf), arxiv 2023
   29. [Var2Vec](https://ora.ox.ac.uk/objects/uuid:27c9b239-20d0-449f-b425-b5065eb128fe/download_file?file_format=application%2Fpdf&safe_filename=Wang_et_al_2022_Efficient_Embeddings_ofAM.pdf&type_of_work=Conference+item), AAAI 2023
@@ -300,7 +300,7 @@ This repo follows the Neural Query Engine taxonomy proposed in the paper (Figure
   9. [Query2Particles](https://arxiv.org/abs/2204.12847), NAACL 2022
   10. [SMORE](https://arxiv.org/abs/2110.14890), KDD 2022
   11. [GNNQ](https://scholar.archive.org/work/sswyx3mbc5danaxosfnyr45cw4/access/wayback/https://s3-eu-west-1.amazonaws.com/pstorage-oxford-0703704596/36647646/GNNQ_full.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3OGA3B5WHKHW6LWV/20220814/eu-west-1/s3/aws4_request&X-Amz-Date=20220814T213541Z&X-Amz-Expires=10&X-Amz-SignedHeaders=host&X-Amz-Signature=1bf627735fbce377c2478f514fbac1dfcf49423980d372cc71e2bed732d6ae2c), ISWC 2022
-  12. [SignalE](https://link.springer.com/content/pdf/10.1007/978-3-031-10983-6.pdf?pdf=button), KSEM 2022
+  12. [SignalE](https://link.springer.com/content/pdf/10.1007/978-3-031-10983-6_20.pdf?pdf=inline%20link), KSEM 2022
   13. [LMPNN](https://openreview.net/pdf?id=SoyOsp7i_l) ICLR 2023
   14. [SQE](https://arxiv.org/pdf/2302.13114.pdf), arxiv 2023
 
@@ -328,7 +328,7 @@ This repo follows the Neural Query Engine taxonomy proposed in the paper (Figure
   2. [PERM](https://proceedings.neurips.cc/paper/2021/hash/c4d2ce3f3ebb5393a77c33c0cd95dc93-Abstract.html), NeurIPS 2021
   3. [LinE](https://dl.acm.org/doi/pdf/10.1145/3534678.3539338?casa_token=_jPlNJj2TlYAAAAA:pKAA42_lrZ2JIHc1YZV0fchIlRiIcqCy8oCBL2UU3Gm84MOeTSYLfQn31DKtXBbU2yqzC7LUsYvREBw), KDD 2022
   4. [GammaE](https://arxiv.org/pdf/2210.15578.pdf), EMNLP 2022
-  5. [NMP-QEM](https://preview.aclanthology.org/emnlp-22-ingestion/2022.emnlp-main.194.pdf), EMNLP 2022
+  5. [NMP-QEM](https://aclanthology.org/2022.emnlp-main.194.pdf), EMNLP 2022
 
 </details>
 
@@ -415,12 +415,12 @@ Progressive scale of supported operators. That is, all models listed under the "
   7. [LinE](https://dl.acm.org/doi/pdf/10.1145/3534678.3539338?casa_token=_jPlNJj2TlYAAAAA:pKAA42_lrZ2JIHc1YZV0fchIlRiIcqCy8oCBL2UU3Gm84MOeTSYLfQn31DKtXBbU2yqzC7LUsYvREBw), KDD 2022
   8. [Query2Particles](https://arxiv.org/abs/2204.12847), NAACL 2022
   9. [GammaE](https://arxiv.org/pdf/2210.15578.pdf), EMNLP 2022
-  10. [NMP-QEM](https://preview.aclanthology.org/emnlp-22-ingestion/2022.emnlp-main.194.pdf), EMNLP 2022
+  10. [NMP-QEM](https://aclanthology.org/2022.emnlp-main.194.pdf), EMNLP 2022
   11. [TAR](https://arxiv.org/abs/2205.14591), arxiv 2022
   12. [FLEX](https://arxiv.org/abs/2205.11039), arxiv 2022
   13. [TFLEX](https://arxiv.org/pdf/2205.14307.pdf), arxiv 2022
   14. [ENeSy](https://arxiv.org/pdf/2209.08779.pdf), NeurIPS 2022
-  15. [SignalE](https://link.springer.com/content/pdf/10.1007/978-3-031-10983-6.pdf?pdf=button), KSEM 2022
+  15. [SignalE](https://link.springer.com/content/pdf/10.1007/978-3-031-10983-6_20.pdf?pdf=inline%20link), KSEM 2022
   16. [QTO](https://arxiv.org/pdf/2212.09567.pdf), arxiv 2023
   17. [LMPNN](https://openreview.net/pdf?id=SoyOsp7i_l), ICLR 2023
   18. [NQE](https://arxiv.org/pdf/2211.13469.pdf), AAAI 2023
@@ -1173,10 +1173,10 @@ Based on FOL operators, the dataset focuses on temporal reasoning, which include
   36. (RoMA) [Reasoning over Multi-view Knowledge Graphs](https://arxiv.org/pdf/2209.13702.pdf) arxiv 2022, some new datasets, but no code/data published  
   37. (LMPNN) [Logical Message Passing Networks With One-Hop Inference On Atomic Formulas](https://openreview.net/pdf?id=SoyOsp7i_l) ICLR'23  
   38. (GammaE) [GammaE: Gamma Embeddings for Logical Queries on Knowledge Graphs](https://arxiv.org/pdf/2210.15578.pdf) EMNLP 2022  
-  39. (NMP-QEM) [Neural-based Mixture Probabilistic Query Embedding for Answering FOL queries on Knowledge Graphs](https://preview.aclanthology.org/emnlp-22-ingestion/2022.emnlp-main.194.pdf), EMNLP 2022  
+  39. (NMP-QEM) [Neural-based Mixture Probabilistic Query Embedding for Answering FOL queries on Knowledge Graphs](https://aclanthology.org/2022.emnlp-main.194.pdf), EMNLP 2022  
   40. (NQE) [NQE: N-ary Query Embedding for Complex Query Answering over Hyper-relational Knowledge Graphs](https://arxiv.org/pdf/2211.13469.pdf) AAAI 2023  
   41. (QTO) [Answering Complex Logical Queries on Knowledge Graphs via Query Computation Tree Optimization](https://arxiv.org/pdf/2212.09567.pdf), ICML'23 submission  
-  42. (SignalE) [Signal Embeddings for Complex Logical Reasoning in Knowledge Graphs](https://link.springer.com/content/pdf/10.1007/978-3-031-10983-6.pdf?pdf=button), KSEM'22  
+  42. (SignalE) [Signal Embeddings for Complex Logical Reasoning in Knowledge Graphs](https://link.springer.com/content/pdf/10.1007/978-3-031-10983-6_20.pdf?pdf=inline%20link), KSEM'22  
   43. (Var2Vec) [Efficient Embeddings of Logical Variables for Query Answering over Incomplete Knowledge Graphs](https://ora.ox.ac.uk/objects/uuid:27c9b239-20d0-449f-b425-b5065eb128fe/download_file?file_format=application%2Fpdf&safe_filename=Wang_et_al_2022_Efficient_Embeddings_ofAM.pdf&type_of_work=Conference+item), AAAI'23
   44. (CQD-A) [Adapting Neural Link Predictors for Complex Query Answering](https://arxiv.org/pdf/2301.12313.pdf)
   45. (Query2Geom) [Analysis of Attention Mechanisms in Box-Embedding Systems](https://link.springer.com/chapter/10.1007/978-3-031-26438-2_6), 2023
