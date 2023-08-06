@@ -62,7 +62,7 @@ This repo follows the Neural Query Engine taxonomy proposed in the paper (Figure
   38. [QTO](https://arxiv.org/pdf/2212.09567.pdf), arxiv 2023
   39. [Var2Vec](https://ora.ox.ac.uk/objects/uuid:27c9b239-20d0-449f-b425-b5065eb128fe/download_file?file_format=application%2Fpdf&safe_filename=Wang_et_al_2022_Efficient_Embeddings_ofAM.pdf&type_of_work=Conference+item), AAAI 2023
   40. [CQD A](https://arxiv.org/pdf/2301.12313.pdf), arxiv 2023
-  41. [SQE](https://arxiv.org/pdf/2302.13114.pdf), arxiv 2023
+  41. [SQE](https://openreview.net/pdf?id=ERqGqZzSu5), TMLR 2023
 
 
   </details> 
@@ -131,7 +131,7 @@ This repo follows the Neural Query Engine taxonomy proposed in the paper (Figure
   40. [Var2Vec](https://ora.ox.ac.uk/objects/uuid:27c9b239-20d0-449f-b425-b5065eb128fe/download_file?file_format=application%2Fpdf&safe_filename=Wang_et_al_2022_Efficient_Embeddings_ofAM.pdf&type_of_work=Conference+item), AAAI 2023
   41. [NQE](https://arxiv.org/pdf/2211.13469.pdf), AAAI 2023
   42. [CQD A](https://arxiv.org/pdf/2301.12313.pdf), arxiv 2023
-  43. [SQE](https://arxiv.org/pdf/2302.13114.pdf), arxiv 2023
+  43. [SQE](https://openreview.net/pdf?id=ERqGqZzSu5), TMLR 2023
 
 </details>
   
@@ -194,7 +194,7 @@ This repo follows the Neural Query Engine taxonomy proposed in the paper (Figure
   36. [Var2Vec](https://ora.ox.ac.uk/objects/uuid:27c9b239-20d0-449f-b425-b5065eb128fe/download_file?file_format=application%2Fpdf&safe_filename=Wang_et_al_2022_Efficient_Embeddings_ofAM.pdf&type_of_work=Conference+item), AAAI 2023
   37. [NQE](https://arxiv.org/pdf/2211.13469.pdf), AAAI 2023
   38. [CQD A](https://arxiv.org/pdf/2301.12313.pdf), arxiv 2023
-  39. [SQE](https://arxiv.org/pdf/2302.13114.pdf), arxiv 2023
+  39. [SQE](https://arxiv.org/pdf/2302.13114.pdf), TMLR 2023
 </details>
 
 <details>
@@ -262,7 +262,7 @@ This repo follows the Neural Query Engine taxonomy proposed in the paper (Figure
   6.  [ENeSy](https://arxiv.org/pdf/2209.08779.pdf) NeurIPS 2022
   7.  [LMPNN](https://openreview.net/pdf?id=SoyOsp7i_l) ICLR 2023
   8.  [NQE](https://arxiv.org/pdf/2211.13469.pdf), AAAI 2023
-  9.  [SQE](https://arxiv.org/pdf/2302.13114.pdf), arxiv 2023
+  9.  [SQE](https://arxiv.org/pdf/2302.13114.pdf), TMLR 2023
 </details>
 
 <details>
@@ -426,7 +426,7 @@ Progressive scale of supported operators. That is, all models listed under the "
   18. [NQE](https://arxiv.org/pdf/2211.13469.pdf), AAAI 2023
   19. [Var2Vec](https://ora.ox.ac.uk/objects/uuid:27c9b239-20d0-449f-b425-b5065eb128fe/download_file?file_format=application%2Fpdf&safe_filename=Wang_et_al_2022_Efficient_Embeddings_ofAM.pdf&type_of_work=Conference+item), AAAI 2023
   20. [CQD A](https://arxiv.org/pdf/2301.12313.pdf), arxiv 2023
-  21. [SQE](https://arxiv.org/pdf/2302.13114.pdf), arxiv 2023
+  21. [SQE](https://arxiv.org/pdf/2302.13114.pdf), TMLR 2023
 
 </details>
 
@@ -803,7 +803,7 @@ Introduced in [LitCQD: Multi-Hop Reasoning in Incomplete Knowledge Graphs with N
 
 Existential First-Order queries aimed at evaluating compositional generalization to OOD query patterns (29 in-distribution types, 29 out-of-distribution). In contrast to BetaE datasets, does **not** have restrictions on the number of answers per query, long tails are possible.  
 
-Introduced in [Sequential Query Encoding For Complex Query Answering on Knowledge Graphs](https://arxiv.org/abs/2302.13114)
+Introduced in [Sequential Query Encoding For Complex Query Answering on Knowledge Graphs](https://openreview.net/pdf?id=ERqGqZzSu5)
 
 <details>
   <summary> Graphs </summary>
@@ -1180,7 +1180,7 @@ Based on FOL operators, the dataset focuses on temporal reasoning, which include
   43. (Var2Vec) [Efficient Embeddings of Logical Variables for Query Answering over Incomplete Knowledge Graphs](https://ora.ox.ac.uk/objects/uuid:27c9b239-20d0-449f-b425-b5065eb128fe/download_file?file_format=application%2Fpdf&safe_filename=Wang_et_al_2022_Efficient_Embeddings_ofAM.pdf&type_of_work=Conference+item), AAAI'23
   44. (CQD-A) [Adapting Neural Link Predictors for Complex Query Answering](https://arxiv.org/pdf/2301.12313.pdf)
   45. (Query2Geom) [Analysis of Attention Mechanisms in Box-Embedding Systems](https://link.springer.com/chapter/10.1007/978-3-031-26438-2_6), 2023
-  46. (SQE) [Sequential Query Encoding For Complex Query Answering on Knowledge Graphs](https://arxiv.org/pdf/2302.13114.pdf), arxiv 2023  
+  46. (SQE) [Sequential Query Encoding For Complex Query Answering on Knowledge Graphs](https://openreview.net/pdf?id=ERqGqZzSu5), TMLR 2023  
   47. (CylE) [CylE: Cylinder Embeddings for Multi-hop Reasoning over Knowledge Graphs](https://aclanthology.org/2023.eacl-main.127.pdf), EACL 2023  
   48. (RoConE) [Modeling Relational Patterns for Logical Query Answering over Knowledge Graphs](https://arxiv.org/pdf/2303.11858.pdf)  
   49. (FIT) [On Existential First Order Queries Inference on Knowledge Graphs](https://arxiv.org/pdf/2304.07063.pdf), arxiv 2023  
