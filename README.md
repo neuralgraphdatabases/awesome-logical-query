@@ -145,9 +145,9 @@ This repo follows the Neural Query Engine taxonomy proposed in the paper (Figure
 </details>
 
 <details>
-  <summary>Discrete + Continuous (Entities + numerical value) (1)</summary>
+ <summary>Discrete + Continuous (Entities + string/numerical Literals) (0)</summary>
 
-1. [NRN: Knowledge Graph Reasoning over Entities and Numerical Values](https://arxiv.org/abs/2306.01399) KDD 2023
+  0. None as of March 2023
   
 </details>
 
