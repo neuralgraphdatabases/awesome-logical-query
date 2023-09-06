@@ -20,7 +20,7 @@ This repo follows the Neural Query Engine taxonomy proposed in the paper (Figure
 
 
 <details>
-  <summary>Triple-based KGs (42)</summary>
+  <summary>Triple-based KGs (43)</summary>
 
   1. [GQE](https://proceedings.neurips.cc/paper/2018/file/ef50c335cca9f340bde656363ebd02fd-Paper.pdf), NeurIPS 2018  
   2. [GQE+hashing](https://ieeexplore.ieee.org/abstract/document/8970688/?casa_token=gLHFmr7V2ekAAAAA:wwDbUufdkwHTQo68pansuhJsJ2XQAF0P21_mQSu75KVRUkgqARmXBs_VEmFOkFgz_Lq-FXP8OA), ICDM 2019
