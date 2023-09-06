@@ -527,7 +527,7 @@ Progressive scale of supported operators. That is, all models listed under the "
   - Used in [GNN-QE](https://arxiv.org/abs/2205.10128), [QTO](https://arxiv.org/pdf/2212.09567.pdf)
 - Predicting easy answers before hard answers (ROC-AUC)
   - Used in [NodePiece-QE](https://arxiv.org/abs/2210.08008)
-- Multiple variable queries, (joint, marginal, and multiple) x (MRR/ HITs@k)
+- Multiple variable queries, (multiply / marginal / joint) x (MRR/ HITs@k)
   - Proposed in [EFOk-CQA](https://arxiv.org/abs/2307.13701) arxiv 2023
 
 
