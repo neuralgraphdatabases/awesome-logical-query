@@ -252,7 +252,7 @@ This repo follows the Neural Query Engine taxonomy proposed in the paper (Figure
   26. [SignalE](https://link.springer.com/content/pdf/10.1007/978-3-031-10983-6_20.pdf?pdf=inline%20link), KSEM 2022
   27. [Query2Geom](https://link.springer.com/chapter/10.1007/978-3-031-26438-2_6), AICS 2022
   28. [QTO](https://arxiv.org/pdf/2212.09567.pdf), arxiv 2023
-  39. [Var2Vec](https://ora.ox.ac.uk/objects/uuid:27c9b239-20d0-449f-b425-b5065eb128fe/download_file?file_format=application%2Fpdf&safe_filename=Wang_et_al_2022_Efficient_Embeddings_ofAM.pdf&type_of_work=Conference+item), AAAI 2023
+  29. [Var2Vec](https://ora.ox.ac.uk/objects/uuid:27c9b239-20d0-449f-b425-b5065eb128fe/download_file?file_format=application%2Fpdf&safe_filename=Wang_et_al_2022_Efficient_Embeddings_ofAM.pdf&type_of_work=Conference+item), AAAI 2023
   30. [CQD A](https://arxiv.org/pdf/2301.12313.pdf), arxiv 2023
   31. [FIT](https://arxiv.org/pdf/2304.07063.pdf), arxiv 2023  
   32. [WFRE](https://arxiv.org/pdf/2305.04034.pdf), ACL 2023
@@ -474,14 +474,14 @@ Progressive scale of supported operators. That is, all models listed under the "
 </details>
 
 <details>
-  <summary>Arbitrary DAGs (2) </summary>
+  <summary>Arbitrary DAGs (1) </summary>
 
   1. [FIT](https://arxiv.org/pdf/2304.07063.pdf), arxiv 2023
 
 </details>
 
 <details>
-  <summary>Cyclic Queries (2) </summary>
+  <summary>Cyclic Queries (1) </summary>
 
   1. [FIT](https://arxiv.org/pdf/2304.07063.pdf), arxiv 2023
 
@@ -505,9 +505,9 @@ Progressive scale of supported operators. That is, all models listed under the "
 </details>
 
 <details>
-  <summary> Multiple Projected Variables (0) </summary>
+  <summary> Multiple Projected Variables (1) </summary>
  
-  0. None as of March 2023 
+  1. (EFOk-CQA) [EFOk-CQA: Towards Knowledge Graph Complex Query Answering beyond Set Operation](https://arxiv.org/abs/2307.13701) arxiv 2023
 
 </details>
 
