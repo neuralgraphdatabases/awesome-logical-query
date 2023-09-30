@@ -20,7 +20,7 @@ This repo follows the Neural Query Engine taxonomy proposed in the paper (Figure
 
 
 <details>
-  <summary>Triple-based KGs (41)</summary>
+  <summary>Triple-based KGs (42)</summary>
 
   1. [GQE](https://proceedings.neurips.cc/paper/2018/file/ef50c335cca9f340bde656363ebd02fd-Paper.pdf), NeurIPS 2018  
   2. [GQE+hashing](https://ieeexplore.ieee.org/abstract/document/8970688/?casa_token=gLHFmr7V2ekAAAAA:wwDbUufdkwHTQo68pansuhJsJ2XQAF0P21_mQSu75KVRUkgqARmXBs_VEmFOkFgz_Lq-FXP8OA), ICDM 2019
@@ -62,7 +62,8 @@ This repo follows the Neural Query Engine taxonomy proposed in the paper (Figure
   38. [QTO](https://arxiv.org/pdf/2212.09567.pdf), arxiv 2023
   39. [Var2Vec](https://ora.ox.ac.uk/objects/uuid:27c9b239-20d0-449f-b425-b5065eb128fe/download_file?file_format=application%2Fpdf&safe_filename=Wang_et_al_2022_Efficient_Embeddings_ofAM.pdf&type_of_work=Conference+item), AAAI 2023
   40. [CQD A](https://arxiv.org/pdf/2301.12313.pdf), arxiv 2023
-  41. [SQE](https://arxiv.org/pdf/2302.13114.pdf), arxiv 2023
+  41. [SQE](https://openreview.net/pdf?id=ERqGqZzSu5), TMLR 2023
+  42. [NRN](https://arxiv.org/abs/2306.01399) KDD 2023
 
 
   </details> 
@@ -131,7 +132,8 @@ This repo follows the Neural Query Engine taxonomy proposed in the paper (Figure
   40. [Var2Vec](https://ora.ox.ac.uk/objects/uuid:27c9b239-20d0-449f-b425-b5065eb128fe/download_file?file_format=application%2Fpdf&safe_filename=Wang_et_al_2022_Efficient_Embeddings_ofAM.pdf&type_of_work=Conference+item), AAAI 2023
   41. [NQE](https://arxiv.org/pdf/2211.13469.pdf), AAAI 2023
   42. [CQD A](https://arxiv.org/pdf/2301.12313.pdf), arxiv 2023
-  43. [SQE](https://arxiv.org/pdf/2302.13114.pdf), arxiv 2023
+  43. [SQE](https://openreview.net/pdf?id=ERqGqZzSu5), TMLR 2023
+
 
 </details>
   
@@ -143,7 +145,7 @@ This repo follows the Neural Query Engine taxonomy proposed in the paper (Figure
 </details>
 
 <details>
-  <summary>Discrete + Continuous (Entities + string/numerical Literals) (0)</summary>
+ <summary>Discrete + Continuous (Entities + string/numerical Literals) (0)</summary>
 
   0. None as of March 2023
   
@@ -154,7 +156,7 @@ This repo follows the Neural Query Engine taxonomy proposed in the paper (Figure
 ### Graphs | Background Semantics
 
 <details>
-  <summary>Facts-only (ABOX) (39) </summary>
+  <summary>Facts-only (ABOX) (40) </summary>
 
   1. [GQE](https://proceedings.neurips.cc/paper/2018/file/ef50c335cca9f340bde656363ebd02fd-Paper.pdf), NeurIPS 2018  
   2. [GQE+hashing](https://ieeexplore.ieee.org/abstract/document/8970688/?casa_token=gLHFmr7V2ekAAAAA:wwDbUufdkwHTQo68pansuhJsJ2XQAF0P21_mQSu75KVRUkgqARmXBs_VEmFOkFgz_Lq-FXP8OA), ICDM 2019
@@ -194,7 +196,8 @@ This repo follows the Neural Query Engine taxonomy proposed in the paper (Figure
   36. [Var2Vec](https://ora.ox.ac.uk/objects/uuid:27c9b239-20d0-449f-b425-b5065eb128fe/download_file?file_format=application%2Fpdf&safe_filename=Wang_et_al_2022_Efficient_Embeddings_ofAM.pdf&type_of_work=Conference+item), AAAI 2023
   37. [NQE](https://arxiv.org/pdf/2211.13469.pdf), AAAI 2023
   38. [CQD A](https://arxiv.org/pdf/2301.12313.pdf), arxiv 2023
-  39. [SQE](https://arxiv.org/pdf/2302.13114.pdf), arxiv 2023
+  39. [SQE](https://arxiv.org/pdf/2302.13114.pdf), TMLR 2023
+  40. [NRN](https://arxiv.org/abs/2306.01399) KDD 2023
 </details>
 
 <details>
@@ -262,7 +265,7 @@ This repo follows the Neural Query Engine taxonomy proposed in the paper (Figure
   6.  [ENeSy](https://arxiv.org/pdf/2209.08779.pdf) NeurIPS 2022
   7.  [LMPNN](https://openreview.net/pdf?id=SoyOsp7i_l) ICLR 2023
   8.  [NQE](https://arxiv.org/pdf/2211.13469.pdf), AAAI 2023
-  9.  [SQE](https://arxiv.org/pdf/2302.13114.pdf), arxiv 2023
+  9.  [SQE](https://arxiv.org/pdf/2302.13114.pdf), TMLR 2023
 </details>
 
 <details>
@@ -302,7 +305,8 @@ This repo follows the Neural Query Engine taxonomy proposed in the paper (Figure
   11. [GNNQ](https://scholar.archive.org/work/sswyx3mbc5danaxosfnyr45cw4/access/wayback/https://s3-eu-west-1.amazonaws.com/pstorage-oxford-0703704596/36647646/GNNQ_full.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3OGA3B5WHKHW6LWV/20220814/eu-west-1/s3/aws4_request&X-Amz-Date=20220814T213541Z&X-Amz-Expires=10&X-Amz-SignedHeaders=host&X-Amz-Signature=1bf627735fbce377c2478f514fbac1dfcf49423980d372cc71e2bed732d6ae2c), ISWC 2022
   12. [SignalE](https://link.springer.com/content/pdf/10.1007/978-3-031-10983-6_20.pdf?pdf=inline%20link), KSEM 2022
   13. [LMPNN](https://openreview.net/pdf?id=SoyOsp7i_l) ICLR 2023
-  14. [SQE](https://arxiv.org/pdf/2302.13114.pdf), arxiv 2023
+  14. [SQE](https://arxiv.org/pdf/2302.13114.pdf), TMLR 2023
+
 
 </details>
 
@@ -426,7 +430,7 @@ Progressive scale of supported operators. That is, all models listed under the "
   18. [NQE](https://arxiv.org/pdf/2211.13469.pdf), AAAI 2023
   19. [Var2Vec](https://ora.ox.ac.uk/objects/uuid:27c9b239-20d0-449f-b425-b5065eb128fe/download_file?file_format=application%2Fpdf&safe_filename=Wang_et_al_2022_Efficient_Embeddings_ofAM.pdf&type_of_work=Conference+item), AAAI 2023
   20. [CQD A](https://arxiv.org/pdf/2301.12313.pdf), arxiv 2023
-  21. [SQE](https://arxiv.org/pdf/2302.13114.pdf), arxiv 2023
+  21. [SQE](https://arxiv.org/pdf/2302.13114.pdf), TMLR 2023
 
 </details>
 
@@ -521,7 +525,7 @@ Progressive scale of supported operators. That is, all models listed under the "
 ### Inference (datasets)
 
 <details>
-  <summary>Transductive datasets (12) </summary>
+  <summary>Transductive datasets (13) </summary>
 
   1. (GQE datasets) [GQE](https://proceedings.neurips.cc/paper/2018/file/ef50c335cca9f340bde656363ebd02fd-Paper.pdf), NeurIPS 2018
   2. (Query2Box datasets) [Query2Box](https://openreview.net/pdf?id=BJgr4kSFDS), ICLR 2020  
@@ -534,7 +538,8 @@ Progressive scale of supported operators. That is, all models listed under the "
   9. (StarQE dataset) [Query Embedding on Hyper-relational Knowledge Graphs](https://arxiv.org/abs/2106.08166) ICLR 2022,
   10. (TFLEX dataset) [TFLEX: Temporal Feature-Logic Embedding Framework for Complex Reasoning over Temporal Knowledge Graph](https://arxiv.org/pdf/2205.14307.pdf), arxiv 2022
   11. (WD50K-NFOL dataset) [NQE: N-ary Query Embedding for Complex Query Answering over Hyper-relational Knowledge Graphs](https://arxiv.org/pdf/2211.13469.pdf), AAAI 2023
-  12. (SQE dataset) [Sequential Query Encoding For Complex Query Answering on Knowledge Graphs](https://arxiv.org/pdf/2302.13114.pdf)
+  12. (SQE dataset) [Sequential Query Encoding For Complex Query Answering on Knowledge Graphs](https://arxiv.org/pdf/2302.13114.pdf) TMLR 2023
+  13. (Numerical CQA dataset) [Knowledge Graph Reasoning over Entities and Numerical Values](https://arxiv.org/abs/2306.01399) KDD 2023
 
 </details>
 
@@ -803,7 +808,7 @@ Introduced in [LitCQD: Multi-Hop Reasoning in Incomplete Knowledge Graphs with N
 
 Existential First-Order queries aimed at evaluating compositional generalization to OOD query patterns (29 in-distribution types, 29 out-of-distribution). In contrast to BetaE datasets, does **not** have restrictions on the number of answers per query, long tails are possible.  
 
-Introduced in [Sequential Query Encoding For Complex Query Answering on Knowledge Graphs](https://arxiv.org/abs/2302.13114)
+Introduced in [Sequential Query Encoding For Complex Query Answering on Knowledge Graphs](https://openreview.net/pdf?id=ERqGqZzSu5)
 
 <details>
   <summary> Graphs </summary>
@@ -821,6 +826,29 @@ Introduced in [Sequential Query Encoding For Complex Query Answering on Knowledg
   <summary> Queries </summary>
 
 58 query types, refer to Appendix A in the paper for the full list of patterns.
+
+</details>
+
+### Numerical CQA Queries
+
+The Numerical CQA queries both include entities and typed numerical attribute values. 
+
+Introduced by [Knowledge Graph Reasoning over Entities and Numerical Values](https://arxiv.org/abs/2306.01399)
+
+<details>
+  <summary> Graphs </summary>
+  
+|  Graphs | Data Split |    1p   |    2p   |    2i   |    3i   |    pi   |    ip   |    2u   |    up   |    All    |
+|:-------:|:----------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:---------:|
+|  FB15K  |  Training  | 304,633 | 138,192 | 226,729 | 288,874 | 260,057 | 233,834 | 284,301 | 284,931 | 2,021,551 |
+|         | Validation |  8,271  |  15,860 |  23,359 |  28,836 |  25,081 |  22,930 |  29,187 |  29,210 |  182,734  |
+|         |   Testing  |  7,969  |  15,431 |  23,346 |  28,865 |  24,810 |  22,232 |  29,212 |  29,274 |  181,139  |
+|  DB15K  |  Training  | 124,851 |  99,698 | 140,427 | 190,413 | 171,353 | 163,687 | 190,364 | 194,244 | 1,275,037 |
+|         | Validation |  3,529  |  10,388 |  9,792  |  13,817 |  14,594 |  16,651 |  19,512 |  19,792 |  108,075  |
+|         |   Testing  |  3,387  |  10,047 |  9,914  |  14,603 |  14,642 |  15,897 |  19,504 |  19,773 |  107,767  |
+| YAGO15K |  Training  |  84,014 |  76,238 | 136,282 | 183,850 | 162,712 | 145,994 | 183,963 | 183,459 | 1,156,512 |
+|         | Validation |  2,833  |  7,986  |  10,757 |  16,884 |  13,485 |  13,899 |  18,444 |  19,105 |  103,393  |
+|         |   Testing  |  2,713  |  7,949  |  10,935 |  17,171 |  13,481 |  13,526 |  18,433 |  18,997 |  103,205  |
 
 </details>
 
@@ -1128,9 +1156,10 @@ Based on FOL operators, the dataset focuses on temporal reasoning, which include
 - [LARK](https://github.com/Akirato/LLM-KG-Reasoning/): LARK (uses Huggingface LLMs)
 - [WFRE](https://github.com/HKUST-KnowComp/WFRE): WFRE
 - [FIT](https://github.com/HKUST-KnowComp/FIT): FIT
+- [SQE](https://github.com/HKUST-KnowComp/SQE): SQE with Transformer/LSTM/GRU/TCN, Tree-LSTM, Tree-RNN, BetaE, BiQE, ConE, FuzzQE, GQE, HypE, NerualMLP (Mixer), Query2Box, Query2Particles
+- [NRN](https://github.com/HKUST-KnowComp/NRN): NRN with GQE, Query2Box, Query2Particles
 
-
-## All Papers on Complex Logical Query Answering (52)
+## All Papers on Complex Logical Query Answering (53)
 
 <details>
   <summary>Click to expand </summary>
@@ -1180,13 +1209,14 @@ Based on FOL operators, the dataset focuses on temporal reasoning, which include
   43. (Var2Vec) [Efficient Embeddings of Logical Variables for Query Answering over Incomplete Knowledge Graphs](https://ora.ox.ac.uk/objects/uuid:27c9b239-20d0-449f-b425-b5065eb128fe/download_file?file_format=application%2Fpdf&safe_filename=Wang_et_al_2022_Efficient_Embeddings_ofAM.pdf&type_of_work=Conference+item), AAAI'23
   44. (CQD-A) [Adapting Neural Link Predictors for Complex Query Answering](https://arxiv.org/pdf/2301.12313.pdf)
   45. (Query2Geom) [Analysis of Attention Mechanisms in Box-Embedding Systems](https://link.springer.com/chapter/10.1007/978-3-031-26438-2_6), 2023
-  46. (SQE) [Sequential Query Encoding For Complex Query Answering on Knowledge Graphs](https://arxiv.org/pdf/2302.13114.pdf), arxiv 2023  
+  46. (SQE) [Sequential Query Encoding For Complex Query Answering on Knowledge Graphs](https://openreview.net/pdf?id=ERqGqZzSu5), TMLR 2023  
   47. (CylE) [CylE: Cylinder Embeddings for Multi-hop Reasoning over Knowledge Graphs](https://aclanthology.org/2023.eacl-main.127.pdf), EACL 2023  
   48. (RoConE) [Modeling Relational Patterns for Logical Query Answering over Knowledge Graphs](https://arxiv.org/pdf/2303.11858.pdf)  
   49. (FIT) [On Existential First Order Queries Inference on Knowledge Graphs](https://arxiv.org/pdf/2304.07063.pdf), arxiv 2023  
   50. (LitCQD) [LitCQD: Multi-Hop Reasoning in Incomplete Knowledge Graphs with Numeric Literals](https://arxiv.org/pdf/2304.14742.pdf), arxiv 2023  
   51. (LARK) [Complex Logical Reasoning over Knowledge Graphs using Large Language Models](https://arxiv.org/pdf/2305.01157.pdf), arxiv 2023  
   52. (WFRE) [Wasserstein-Fisher-Rao Embedding: Logical Query Embeddings with Local Comparison and Global Transport](https://arxiv.org/pdf/2305.04034.pdf), arxiv 2023
+  53. (NRN) [Knowledge Graph Reasoning over Entities and Numerical Values](https://arxiv.org/abs/2306.01399) KDD 2023
 </details>
 
 ## Application Papers (7)
